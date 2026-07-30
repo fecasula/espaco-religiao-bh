@@ -6,11 +6,12 @@ project:
     - "es/*.qmd"
   resources:
     - assets/publication/**
+    - assets/img/**
 
 website:
   title: "Religião, mobilidade e cobertura urbana"
-  site-url: "https://fecasula.github.io/religiao-mobilidade-bh/"
-  repo-url: "https://github.com/fecasula/religiao-mobilidade-bh"
+  site-url: "https://fecasula.github.io/espa-o-religiao-bh/"
+  repo-url: "https://github.com/fecasula/espa-o-religiao-bh"
   page-navigation: true
   reader-mode: true
   navbar:
@@ -18,35 +19,27 @@ website:
     left:
       - href: index.qmd
         text: Início
-      - text: Estudo
-        menu:
-          - href: resumo.qmd
-            text: Resumo
-          - href: introducao.qmd
-            text: Introdução
-          - href: metodos.qmd
-            text: Métodos
-      - text: Resultados
-        menu:
-          - href: resultados-deslocamentos.qmd
-            text: Deslocamentos
-          - href: resultados-filiacao.qmd
-            text: Filiação
-          - href: resultados-equipamentos.qmd
-            text: Equipamentos
+      - href: estudo.qmd
+        text: Estudo
+      - href: resultados.qmd
+        text: Resultados
       - href: indice-cobertura.qmd
         text: ICR interativo
       - href: reprodutibilidade.qmd
         text: Reproduzir
       - href: apresentacao-pt.qmd
         text: Apresentação
+      - href: es/presentacion-es.qmd
+        text: Presentación ES
       - href: referencias.qmd
         text: Referências
     right:
+      - href: index.qmd
+        text: PT
       - href: es/index.qmd
         text: ES
       - icon: github
-        href: "https://github.com/fecasula/religiao-mobilidade-bh"
+        href: "https://github.com/fecasula/espa-o-religiao-bh"
         aria-label: "Repositório no GitHub"
   page-footer:
     left: "© 2026 Pereira e Prado — código sob licença MIT."

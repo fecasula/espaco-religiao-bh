@@ -2,53 +2,31 @@
 title: "Resultados: equipamentos religiosos"
 ---
 
-```{r}
-#| label: setup-equipment
-library(readr); library(dplyr); library(scales)
-pub <- read_csv("data/derived/estabelecimentos_publicacao.csv", show_col_types=FALSE)
-cur <- read_csv("data/derived/estabelecimentos_classificacao_atual.csv", show_col_types=FALSE)
-icr <- read_csv("data/derived/icr_publicacao.csv", show_col_types=FALSE)
-```
+## Origem dos dados e classificação
 
-## Distribuição por confissão
+Os estabelecimentos religiosos foram identificados no **Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE/IBGE)**. A classificação em grupos confessionais não estava pronta na base original e, por isso, exigiu um **trabalho prévio de categorização manual** dos registros.
 
-A tabela congelada da apresentação atribui 86,4% dos estabelecimentos à categoria Protestante/Evangélica. A atualização da base categorizada mantém o mesmo universo total de 3.848 pontos, mas redistribui parte das observações entre as confissões. Por transparência, os dois estados são preservados.
-
-```{r}
-#| label: tbl-classification
-#| tbl-cap: "Distribuição dos estabelecimentos: versão da publicação e classificação atual."
-full_join(pub |> select(confissao, publicacao_n=estabelecimentos), cur |> select(confissao, atual_n=estabelecimentos), by="confissao") |>
-  mutate(diferenca=atual_n-publicacao_n) |>
-  knitr::kable()
-```
+Essa etapa foi essencial para diferenciar categorias como **Católica**, **Protestante/Evangélica**, **Espírita** e **Afro-brasileira** antes do cálculo do Índice de Cobertura Religiosa.
 
 ## Cobertura publicada
 
-```{r}
-#| label: tbl-icr-published
-#| tbl-cap: "Cobertura populacional e ICR apresentados no trabalho original."
-icr |>
-  transmute(Confissão=confissao, `População coberta`=format(populacao_coberta_publicacao,big.mark=".",decimal.mark=","), ICR=percent(icr_publicacao,accuracy=.1)) |>
-  knitr::kable(align=c("l","r","r"))
-```
+| Confissão | Estabelecimentos | ICR publicado |
+|---|---:|---:|
+| Protestante/Evangélica | 3.326 | 98,4% |
+| Católica | 296 | 77,5% |
+| Espírita | 154 | 42,1% |
+| Afro-brasileira | 17 | 8,5% |
 
-A categoria Católica apresenta cobertura muito superior ao que seria sugerido apenas por sua participação no número de estabelecimentos. Isso evidencia que distribuição territorial e quantidade absoluta não são medidas intercambiáveis.
+## Concentração espacial (kernel)
 
-## Cartografia original
+![](assets/img/maps/mapa_kernel_confissoes_bh.png){fig-alt="Mapa de kernel por confissão religiosa em Belo Horizonte"}
 
-A publicação reúne mapas de cobertura e de concentração por kernel. No projeto reprodutível, esses produtos são tratados como resultados históricos, enquanto a página interativa recalcula a cobertura com parâmetros explícitos.
+## Grau de cobertura por confissão
 
-::: {.columns}
-::: {.column width="50%"}
-![](assets/img/maps/pagina-13.png){fig-alt="Mapa original das áreas de cobertura por confissão"}
-:::
-::: {.column width="50%"}
-![](assets/img/maps/pagina-14.png){fig-alt="Mapa de calor original dos estabelecimentos por confissão"}
-:::
+![](assets/img/maps/mapa_cobertura_confissoes_bh.png){fig-alt="Mapa do grau de cobertura por confissão religiosa em Belo Horizonte"}
+
+::: {.callout-note}
+O mapa de kernel destaca áreas de concentração dos estabelecimentos. O mapa de cobertura, por sua vez, traduz o alcance potencial da rede religiosa sob o cenário pedonal adotado. Eles respondem a perguntas diferentes e devem ser lidos em conjunto.
 :::
 
 [Consultar a publicação completa](assets/publication/TrabalhoALAS_merged.pdf){.btn .btn-outline-primary}
-
-::: {.audit-note}
-**Versão dos dados.** A classificação atual do CSV fornecido não reproduz exatamente a distribuição por confissão da tabela do manuscrito, embora reproduza o total de 3.848 pontos após a exclusão da descrição genérica “IGREJA”. A divergência foi documentada em `data/validation/reconciliacao_metodologica.csv`.
-:::

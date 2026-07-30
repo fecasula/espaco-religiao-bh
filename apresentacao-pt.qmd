@@ -19,6 +19,10 @@ bibliography: bibliography/references.bib
 csl: bibliography/abnt.csl
 ---
 
+[Voltar ao site](index.qmd){.btn .btn-primary}
+[Versão em espanhol](es/presentacion-es.qmd){.btn .btn-outline-primary}
+[Abrir o painel do ICR](https://fecasula.shinyapps.io/religiao-mobilidade-bh/){.btn .btn-outline-primary target="_blank"}
+
 ## Pergunta
 
 Como práticas de mobilidade religiosa da população idosa podem informar uma análise espacial da cobertura dos equipamentos de culto?
@@ -84,6 +88,18 @@ ICR_c=\frac{\sum_s P_s(A_{sc}/A_s)}{\sum_s P_s}
 - população proporcional à área coberta;
 - sem dupla contagem intraconfessional.
 
+## Concentração dos equipamentos (kernel)
+
+O mapa de kernel explicita onde os estabelecimentos se concentram por confissão. Ele informa intensidade espacial, não cobertura populacional.
+
+![](assets/img/maps/mapa_kernel_confissoes_bh.png){fig-alt="Mapa de kernel por confissão religiosa em Belo Horizonte" height=700}
+
+## Grau de cobertura por confissão
+
+O mapa de cobertura traduz o alcance potencial da rede religiosa, articulando localização dos estabelecimentos, raio de acesso e população por setor censitário.
+
+![](assets/img/maps/mapa_cobertura_confissoes_bh.png){fig-alt="Mapa do grau de cobertura por confissão religiosa em Belo Horizonte" height=700}
+
 ## Resultados publicados
 
 | Confissão | Estabelecimentos | ICR |
@@ -111,12 +127,11 @@ O painel permite alterar velocidade e tempo de caminhada, recalculando raio, pop
 Site bilíngue · apresentação Reveal.js · painel Shiny · código R · pipeline · testes · guia de replicação · citação e licença.
 
 **Painel:** <https://fecasula.shinyapps.io/religiao-mobilidade-bh/>  
-**Site:** <https://fecasula.github.io/religiao-mobilidade-bh/>  
-**Código:** <https://github.com/fecasula/religiao-mobilidade-bh>
+**Site:** <https://fecasula.github.io/espa-o-religiao-bh/>  
+**Código:** <https://github.com/fecasula/espa-o-religiao-bh>
 
-## Obrigado
+## Navegação rápida
 
-**Felipe Baeta Casula Pereira**  
-**Daniel Pimenta de Prado**
-
-[Referências completas](referencias.qmd)
+[Voltar ao site](index.qmd){.btn .btn-primary}
+[Versão em espanhol](es/presentacion-es.qmd){.btn .btn-outline-primary}
+[Resultados no site](resultados.qmd){.btn .btn-outline-primary}

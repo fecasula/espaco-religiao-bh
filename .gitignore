@@ -17,8 +17,8 @@ data/private/*
 !data/private/.gitkeep
 
 # Website Quarto publicado pelo GitHub Pages
-!/docs/
-!/docs/**
+!docs/
+!docs/**
 
 # Fontes censitárias grandes e temporários de download
 data/raw/census/**/*.gpkg

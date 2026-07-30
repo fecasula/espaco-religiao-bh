@@ -10,7 +10,9 @@ toc: false
 
 El proyecto integra la movilidad de personas mayores, la afiliación religiosa y la distribución espacial de lugares de culto en Belo Horizonte. Ofrece documentación bilingüe, código abierto, una presentación y un tablero interactivo.
 
-[Leer el resumen](resumen.qmd){.btn .btn-light .btn-lg} [Português](../index.qmd){.btn .btn-outline-light .btn-lg}
+[Leer el estudio](estudio.qmd){.btn .btn-light .btn-lg}
+[Ver resultados](resultados.qmd){.btn .btn-outline-light .btn-lg}
+[Português](../index.qmd){.btn .btn-outline-light .btn-lg}
 :::
 
 <div class="kpi-grid">
@@ -26,6 +28,9 @@ El proyecto integra la movilidad de personas mayores, la afiliación religiosa y
 El cálculo del Índice de Cobertura Religiosa y el panel cartográfico funcionan solamente para **Belo Horizonte (MG)**. La adaptación validada a otros municipios está en desarrollo.
 :::
 
-## Navegación
+## Navegación recomendada
 
-[Resumen](resumen.qmd) · [Introducción](introduccion.qmd) · [Métodos](metodos.qmd) · [Desplazamientos](resultados-desplazamientos.qmd) · [Afiliación](resultados-afiliacion.qmd) · [Equipamientos](resultados-equipamientos.qmd) · [Reproducibilidad](reproducibilidad.qmd)
+- **Estudio**: contexto, problema, métodos y principales decisiones analíticas.
+- **Resultados**: desplazamientos, afiliación religiosa, mapas de kernel y mapas de cobertura.
+- **ICR interactivo**: tablero Shiny para recalcular escenarios de cobertura.
+- **Presentaciones**: versiones Reveal.js en portugués y español.

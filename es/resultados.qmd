@@ -1,0 +1,64 @@
+---
+title: "Resultados"
+---
+
+## Desplazamientos religiosos
+
+Los desplazamientos religiosos muestran un ritmo semanal propio, con fuerte concentración dominical, predominio de viajes a pie y marcada escala barrial.
+
+- 51,16% de los desplazamientos ocurrieron los domingos;
+- 66,28% se realizaron a pie;
+- el tiempo medio de caminata fue de aproximadamente 9,7 minutos;
+- 76% tuvieron destino en el propio barrio de residencia.
+
+::: {.columns}
+::: {.column width="33%"}
+![](../assets/img/figura1_modos_transporte.png){fig-alt="Distribución por modo de transporte"}
+:::
+::: {.column width="33%"}
+![](../assets/img/figura3_companhia.png){fig-alt="Compañía en los desplazamientos religiosos"}
+:::
+::: {.column width="33%"}
+![](../assets/img/figura4_bairro.png){fig-alt="Desplazamientos dentro y fuera del barrio"}
+:::
+:::
+
+## Afiliación religiosa y modelos
+
+En los modelos generales de Belo Horizonte, el sexo femenino se asoció positivamente con la realización de desplazamientos religiosos, mientras que la dificultad para caminar presentó asociación negativa.
+
+![](../assets/img/evolucao_reli.png){fig-alt="Evolución de la composición religiosa de la población mayor" height=460}
+
+## Equipamientos religiosos: origen de los datos
+
+Los resultados espaciales se basan en establecimientos identificados en el **CNEFE 2022** y clasificados manualmente por confesión. Esa categorización previa fue necesaria porque la fuente original no trae una denominación religiosa totalmente normalizada.
+
+| Confesión | Establecimientos | ICR publicado |
+|---|---:|---:|
+| Protestante/Evangélica | 3.326 | 98,4% |
+| Católica | 296 | 77,5% |
+| Espírita | 154 | 42,1% |
+| Afro-brasileña | 17 | 8,5% |
+
+## Concentración espacial de los establecimientos (kernel)
+
+El mapa de kernel evidencia la concentración diferencial de los establecimientos por confesión. Muestra dónde la presencia relativa de los equipamientos es más intensa, sin traducir directamente cobertura poblacional.
+
+![](../assets/img/maps/mapa_kernel_confissoes_bh.png){fig-alt="Mapa de kernel por confesión religiosa en Belo Horizonte"}
+
+## Grado de cobertura por confesión
+
+El mapa de cobertura representa el resultado de la parametrización peatonal del ICR, articulando localización de los establecimientos, radio de acceso y población residente por sector censal.
+
+![](../assets/img/maps/mapa_cobertura_confissoes_bh.png){fig-alt="Mapa del grado de cobertura por confesión religiosa en Belo Horizonte"}
+
+::: {.callout-note}
+## Lectura conjunta de los mapas
+
+El contraste entre el mapa de kernel y el mapa de cobertura es central: **concentración espacial** y **cobertura potencial** son dimensiones relacionadas, pero no equivalentes.
+:::
+
+## Próximos pasos
+
+[Abrir el ICR interactivo](../indice-cobertura.qmd){.btn .btn-primary}
+[Ver presentación en español](presentacion-es.qmd){.btn .btn-outline-primary}

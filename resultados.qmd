@@ -1,0 +1,64 @@
+---
+title: "Resultados"
+---
+
+## Deslocamentos religiosos
+
+Os deslocamentos religiosos apresentam um ritmo semanal próprio, concentrado aos domingos, com forte peso das viagens a pé e da escala do bairro.
+
+- 51,16% dos deslocamentos ocorreram aos domingos;
+- 66,28% foram realizados a pé;
+- o tempo médio de caminhada foi de cerca de 9,7 minutos;
+- 76% tiveram destino no próprio bairro de residência.
+
+::: {.columns}
+::: {.column width="33%"}
+![](assets/img/figura1_modos_transporte.png){fig-alt="Distribuição por modo de transporte"}
+:::
+::: {.column width="33%"}
+![](assets/img/figura3_companhia.png){fig-alt="Companhia nos deslocamentos religiosos"}
+:::
+::: {.column width="33%"}
+![](assets/img/figura4_bairro.png){fig-alt="Deslocamentos religiosos dentro e fora do bairro"}
+:::
+:::
+
+## Filiação religiosa e modelos
+
+Nos modelos gerais de Belo Horizonte, o sexo feminino associou-se positivamente à realização de deslocamentos religiosos, enquanto a dificuldade para andar apresentou associação negativa. Esses resultados devem ser interpretados como associações condicionais, não como efeitos causais.
+
+![](assets/img/evolucao_reli.png){fig-alt="Evolução da composição religiosa da população idosa" height=460}
+
+## Equipamentos religiosos: origem dos dados
+
+Os resultados espaciais baseiam-se em estabelecimentos identificados no **CNEFE 2022** e classificados manualmente por confissão. Essa categorização prévia foi necessária porque a denominação religiosa não está pronta de forma padronizada na fonte original.
+
+| Confissão | Estabelecimentos | ICR publicado |
+|---|---:|---:|
+| Protestante/Evangélica | 3.326 | 98,4% |
+| Católica | 296 | 77,5% |
+| Espírita | 154 | 42,1% |
+| Afro-brasileira | 17 | 8,5% |
+
+## Concentração espacial dos estabelecimentos (kernel)
+
+O mapa de kernel evidencia a concentração diferencial dos estabelecimentos por confissão. Em termos substantivos, ele mostra onde a presença relativa dos equipamentos é mais intensa, sem traduzir diretamente cobertura populacional.
+
+![](assets/img/maps/mapa_kernel_confissoes_bh.png){fig-alt="Mapa de kernel por confissão religiosa em Belo Horizonte"}
+
+## Grau de cobertura por confissão
+
+Já o mapa de cobertura representa o resultado da parametrização pedonal do ICR, articulando localização dos estabelecimentos, raio de acesso e população residente por setor censitário. Aqui, a comparação entre confissões deixa de refletir apenas quantidade de pontos e passa a incorporar sua distribuição territorial.
+
+![](assets/img/maps/mapa_cobertura_confissoes_bh.png){fig-alt="Mapa do grau de cobertura por confissão religiosa em Belo Horizonte"}
+
+::: {.callout-note}
+## Leitura conjunta dos mapas
+
+O contraste entre o mapa de kernel e o mapa de cobertura é central para a interpretação do estudo: **concentração espacial** e **cobertura potencial** são dimensões relacionadas, mas não equivalentes. Um grupo pode ter muitos estabelecimentos concentrados em poucos trechos da cidade e, ainda assim, oferecer cobertura menos capilar que outro grupo territorialmente mais disperso.
+:::
+
+## Próximos passos
+
+[Abrir o ICR interativo](indice-cobertura.qmd){.btn .btn-primary}
+[Ver apresentação em português](apresentacao-pt.qmd){.btn .btn-outline-primary}

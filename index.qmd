@@ -10,7 +10,9 @@ toc: false
 
 Este projeto integra **mobilidade de pessoas idosas**, **filiação religiosa** e **distribuição espacial de equipamentos religiosos** em Belo Horizonte. O objetivo é transformar uma apresentação acadêmica em um produto científico aberto, auditável e bilíngue, além de criar a base metodológica para uma futura generalização municipal.
 
-[Explorar o estudo](resumo.qmd){.btn .btn-light .btn-lg} [Abrir o ICR interativo](indice-cobertura.qmd){.btn .btn-outline-light .btn-lg}
+[Explorar o estudo](estudo.qmd){.btn .btn-light .btn-lg}
+[Abrir resultados](resultados.qmd){.btn .btn-outline-light .btn-lg}
+[Abrir o ICR interativo](indice-cobertura.qmd){.btn .btn-outline-light .btn-lg}
 :::
 
 <div class="kpi-grid">
@@ -30,31 +32,17 @@ O cálculo do Índice de Cobertura Religiosa e o painel cartográfico funcionam 
 
 Como as práticas de deslocamento religioso da população idosa podem informar uma medida espacial de acesso aos equipamentos religiosos urbanos?
 
-## Três camadas analíticas
+## Navegação recomendada
 
-::: {.columns}
-::: {.column width="33%"}
-### Práticas
-Dias, companhia, modo, duração e localização dos deslocamentos.
-:::
-::: {.column width="33%"}
-### Filiação
-Mudanças na composição religiosa e modelos logísticos sobre frequência de deslocamentos.
-:::
-::: {.column width="33%"}
-### Equipamentos
-Classificação, concentração e cobertura populacional dos locais de culto.
-:::
-:::
-
-::: {.method-note}
-**Ciência aberta com proteção de participantes.** O repositório publica somente dados agregados ou desidentificados. As bases individuais originais permanecem fora do versionamento.
-:::
+- **Estudo**: contexto, problema, métodos e principais decisões analíticas.
+- **Resultados**: deslocamentos, filiação religiosa, mapas de kernel e mapas de cobertura.
+- **ICR interativo**: painel Shiny para recalcular cenários de cobertura.
+- **Apresentações**: versões Reveal.js em português e espanhol.
 
 ## Produtos
 
 - site científico em português e espanhol;
-- apresentação em Reveal.js;
+- apresentações Reveal.js nos dois idiomas;
 - painel Shiny para recalcular o raio e o Índice de Cobertura Religiosa;
 - pipeline `{targets}` e testes automatizados;
 - documentação da arquitetura prevista para futura replicação municipal;

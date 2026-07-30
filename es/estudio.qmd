@@ -1,0 +1,51 @@
+---
+title: "Estudio"
+---
+
+## Resumen
+
+El estudio articula dos objetivos: describir y modelar las movilidades por motivos religiosos de la población de 60 años o más residente en Belo Horizonte y proponer un **Índice de Cobertura Religiosa (ICR)** como aproximación de la accesibilidad peatonal a los equipamientos religiosos.
+
+## Contexto
+
+El envejecimiento poblacional y la transición religiosa reconfiguran las necesidades de movilidad, las redes de apoyo y la geografía urbana [@alves2017; @verona2015]. El proyecto dialoga también con la discusión sobre espacialidad del envejecimiento urbano presentada por Ardila-Pinto y colaboradores [@ardila_pinto2025].
+
+## Estrategia metodológica
+
+### 1. Desplazamientos
+
+Para Belo Horizonte se analizaron 202 participantes, 2.164 desplazamientos y 86 viajes por motivos religiosos.
+
+### 2. Modelos logísticos
+
+Se estiman dos desenlaces acumulativos: al menos un desplazamiento religioso y más de un desplazamiento religioso en la semana.
+
+### 3. Equipamientos religiosos
+
+Los establecimientos fueron identificados en el **CNEFE 2022** a partir de descripciones textuales de los registros [@ibge_cnefe2022].
+
+::: {.callout-note}
+## Origen y clasificación de los establecimientos
+
+La base de establecimientos religiosos proviene del **Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE/IBGE)**. La clasificación en categorías como **Católica**, **Protestante/Evangélica**, **Espírita** y **Afro-brasileña** requirió un **trabajo previo de categorización manual**, realizado a partir de los nombres y descripciones de cada registro. Esa etapa forma parte central de la metodología.
+:::
+
+### 4. Base poblacional y cartográfica
+
+La geometría y la población provienen de la malla con atributos definitiva del Censo 2022 del IBGE, validada en 5.166 sectores distintos y 2.315.560 habitantes.
+
+### 5. Índice de Cobertura Religiosa
+
+\[
+ICR_c=\frac{\sum_s \widehat{P}_{sc}}{\sum_s P_s}
+\]
+
+El índice estima cobertura potencial por confesión sin doble conteo intraconfesional.
+
+## Auditoría metodológica
+
+Con 4 km/h y 9,7 minutos, el radio consistente es **646,67 m**. El proyecto conserva los perfiles históricos para comparación, pero adopta el cálculo consistente como predeterminado.
+
+## Siguiente paso
+
+[Ver resultados consolidados](resultados.qmd){.btn .btn-primary}

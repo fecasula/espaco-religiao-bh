@@ -1,0 +1,72 @@
+---
+title: "Estudo"
+---
+
+## Resumo
+
+O estudo possui dois objetivos articulados. O primeiro é descrever e modelar as práticas de mobilidade com motivação religiosa da população com 60 anos ou mais residente em Belo Horizonte. O segundo é propor um **Índice de Cobertura Religiosa (ICR)**, entendido como uma aproximação da acessibilidade pedonal aos equipamentos de diferentes confissões.
+
+## Contexto
+
+O envelhecimento populacional altera as necessidades de deslocamento, a demanda por serviços e a relação cotidiana com o território. Ao mesmo tempo, a transição religiosa brasileira modifica a composição das filiações, a organização institucional e a geografia dos locais de culto [@alves2017; @verona2015].
+
+A literatura associa religiosidade a atributos demográficos e sociais, com destaque para idade e sexo, além do papel das comunidades religiosas como espaços de suporte, pertencimento e construção de vínculos [@machado2005; @moreira_almeida2010]. O trabalho também dialoga com a discussão sobre espacialidade do envelhecimento urbano apresentada por Ardila-Pinto e colaboradores [@ardila_pinto2025].
+
+## Problema de pesquisa
+
+O projeto investiga a interseção entre três fenômenos:
+
+1. a capacidade individual de realizar deslocamentos;
+2. a frequência e a localização das práticas religiosas;
+3. a disposição territorial dos equipamentos de culto.
+
+A proposta não reduz acessibilidade à proximidade geométrica. O ICR é apresentado como **proxy exploratória**, dependente de hipóteses sobre velocidade, tempo, distribuição intrassetorial da população e qualidade cadastral.
+
+## Estratégia metodológica
+
+### 1. Deslocamentos
+
+A base de origem-destino da pesquisa *Mobilidade de Idosos*, conduzida pelo CEURB/UFMG, registra os deslocamentos realizados na semana anterior à entrevista. Para Belo Horizonte, a análise utiliza 202 participantes e 2.164 deslocamentos, dos quais 86 foram classificados com motivação religiosa.
+
+### 2. Modelos logísticos
+
+Dois desfechos binários cumulativos são analisados:
+
+- realização de pelo menos um deslocamento com motivação religiosa na semana;
+- realização de mais de um deslocamento com motivação religiosa na semana.
+
+### 3. Equipamentos religiosos
+
+Os estabelecimentos foram identificados no **CNEFE 2022** por descrições como *capela*, *igreja*, *templo*, *terreiro*, *casa de oração*, *centro espírita*, *salão do reino*, *catedral*, *mesquita* e *sinagoga* [@ibge_cnefe2022].
+
+::: {.callout-note}
+## Origem e classificação dos estabelecimentos
+
+A base de estabelecimentos religiosos deriva do **Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE/IBGE)**. A atribuição às categorias **Católica**, **Protestante/Evangélica**, **Espírita**, **Afro-brasileira** e demais grupos demandou um **trabalho prévio de categorização manual**, baseado nos nomes e descrições dos registros. Essa etapa é substantiva da metodologia e antecede o cálculo do ICR.
+:::
+
+### 4. Base populacional e cartográfica
+
+A população e a geometria dos setores são obtidas da **malha com atributos definitiva do Censo 2022 do IBGE**. Para Belo Horizonte, o produto é validado em 5.166 códigos de setor distintos e população total de 2.315.560 habitantes.
+
+### 5. Índice de Cobertura Religiosa
+
+Para uma confissão \(c\), os buffers dos estabelecimentos são dissolvidos para evitar dupla contagem. A superfície resultante é intersectada com os setores censitários. Sob a hipótese de distribuição uniforme da população dentro de cada setor:
+
+\[
+\widehat{P}_{sc}=P_s\frac{A_{sc}}{A_s}
+\]
+
+em que \(P_s\) é a população do setor, \(A_s\) é sua área e \(A_{sc}\) é a área coberta pela confissão. O índice é:
+
+\[
+ICR_c=\frac{\sum_s \widehat{P}_{sc}}{\sum_s P_s}.
+\]
+
+## Auditoria metodológica
+
+A fórmula com 4 km/h e 9,7 minutos produz **646,67 m**. O manuscrito registrou 853,33 m e a legenda cartográfica original utiliza aproximadamente 649,33 m. O projeto preserva esses perfis históricos para auditoria, mas adota o cálculo consistente como padrão.
+
+## Próximo passo
+
+[Ver resultados consolidados](resultados.qmd){.btn .btn-primary}

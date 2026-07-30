@@ -1,19 +1,53 @@
 # Religião, mobilidade e cobertura urbana em Belo Horizonte
 
-
 Projeto científico reprodutível associado ao trabalho **“Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte (MG): uma proposta metodológica para a análise espacial das religiões nas cidades”**, de Felipe Baeta Casula Pereira e Daniel Pimenta de Prado.
 
-> **Escopo espacial da versão atual:** a preparação censitária, o cálculo do Índice de Cobertura Religiosa e o painel cartográfico estão homologados somente para **Belo Horizonte (MG), código IBGE 3106200**. Uma versão aplicável a outros municípios está em desenvolvimento. Informar outro município produz uma interrupção controlada.
+> **Escopo espacial da versão atual:** a preparação censitária, o cálculo do Índice de Cobertura Religiosa e o painel cartográfico estão homologados somente para **Belo Horizonte (MG), código IBGE 3106200**.
 
-## Componentes
+## O que o projeto entrega
 
 - website Quarto em português e espanhol;
 - apresentações Reveal.js nos dois idiomas;
 - painel Shiny do Índice de Cobertura Religiosa;
 - funções R modulares e pipeline `{targets}`;
 - dados públicos mínimos e resultados derivados;
-- testes, GitHub Actions, licença e arquivo de citação;
-- referências autor-data com formatação orientada à ABNT.
+- testes, GitHub Actions, licença e arquivo de citação.
+
+## Estrutura principal do repositório
+
+```text
+.
+├── _quarto.yml                 # configuração do site
+├── index.qmd                   # página inicial em português
+├── estudo.qmd                  # página consolidada do estudo
+├── resultados.qmd              # página consolidada de resultados
+├── apresentacao-pt.qmd         # apresentação Reveal.js em português
+├── es/                         # páginas e apresentação em espanhol
+├── assets/                     # imagens, mapas, CSS e PDF da publicação
+├── bibliography/               # .bib, CSL e notas de citação
+├── config/                     # parâmetros do censo e do deploy
+├── R/                          # funções modulares do projeto
+├── scripts/                    # instalação, pipeline, renderização e deploy
+├── shiny/                      # aplicativo Shiny do ICR
+├── docs/                       # saída renderizada para GitHub Pages
+└── tests/                      # testes automatizados
+```
+
+## Origem dos dados
+
+### 1. Deslocamentos religiosos
+
+A análise de deslocamentos parte da pesquisa **Mobilidade de Idosos**, conduzida pelo CEURB/UFMG. O repositório público trabalha apenas com resultados agregados ou bases desidentificadas.
+
+### 2. Estabelecimentos religiosos
+
+Os estabelecimentos religiosos foram identificados a partir do **Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE 2022/IBGE)**.
+
+> **Ponto metodológico importante:** a classificação dos estabelecimentos em categorias como **Católica**, **Protestante/Evangélica**, **Espírita** e **Afro-brasileira** foi feita **manualmente** a partir dos nomes e descrições dos registros. Essa etapa é parte central do trabalho e antecede qualquer cálculo de cobertura.
+
+### 3. Base censitária espacial
+
+A população e a geometria dos setores vêm da **malha com atributos definitiva do Censo 2022 do IBGE**. Para Belo Horizonte, a base validada possui 5.166 setores distintos e 2.315.560 habitantes.
 
 ## Início rápido
 
@@ -23,99 +57,49 @@ Na raiz de uma cópia local do projeto:
 Rscript scripts/00_install.R
 Rscript scripts/02_prepare_census.R
 Rscript scripts/03_run_pipeline.R
-quarto preview
+Rscript scripts/04_render_site.R
 ```
 
-O endereço do repositório deve ser incluído somente depois de um remoto Git ser configurado.
+Para abrir localmente:
 
-## Base censitária espacial
-
-A versão atual utiliza como fonte padrão a **malha com atributos definitiva do IBGE para o Censo 2022**. O GeoPackage estadual reúne geometria e população no mesmo produto, evitando a incompatibilidade observada quando malhas e agregados de versões diferentes eram combinados.
-
-A configuração fica em `config/censo.yml`:
-
-```yaml
-municipio:
-  codigo_ibge: "3106200"
-  nome: "Belo Horizonte"
-  uf: "MG"
-
-fonte:
-  tipo: "ibge_definitivo"
-  arquivo_uf: "data/raw/census/ibge_definitivo/MG_setores_CD2022.gpkg"
-
-saida:
-  arquivo_municipal: "data/derived/setores_3106200_2022_definitivo.gpkg"
-  arquivo_shiny: "shiny/data/setores_ativos.gpkg"
+```r
+quarto::quarto_preview()
+shiny::runApp("shiny")
 ```
 
-Na primeira execução, o script baixa aproximadamente 177 MB. No Windows, `download.metodo: auto` tenta `wininet` primeiro e `libcurl` depois, favorecendo redes institucionais que utilizam proxy ou autenticação integrada ao sistema. Também é possível baixar o arquivo manualmente e colocá-lo no caminho configurado.
+## Publicação
 
-A base homologada possui:
+### Site e apresentações (GitHub Pages)
 
-- 5.166 códigos de setor após a consolidação de um setor multipartido;
-- população total de 2.315.560 habitantes;
-- códigos de 15 dígitos sem duplicidades;
-- geometrias válidas e população não ausente.
+O site é renderizado para `docs/`. Depois da renderização, faça commit e push dessa pasta para o GitHub.
 
-Os relatórios de auditoria são gerados em `data/derived/auditoria/`. O produto espacial oficial permanece em GeoPackage.
+Endereços atuais do projeto:
 
-## Setor multipartido
+- repositório: <https://github.com/fecasula/espa-o-religiao-bh>
+- site: <https://fecasula.github.io/espa-o-religiao-bh/>
+- apresentação em português: <https://fecasula.github.io/espa-o-religiao-bh/apresentacao-pt.html>
+- apresentação em espanhol: <https://fecasula.github.io/espa-o-religiao-bh/es/presentacion-es.html>
 
-O código `310620005670833` aparece em duas feições no produto estadual, ambas com população 171. O pipeline une as geometrias e mantém a população uma única vez. A decisão fica registrada em `detalhe_setores_multipartidos.csv`.
+### Painel Shiny (shinyapps.io)
 
-## Arquitetura de publicação
+O painel é publicado separadamente em:
 
-O website e as apresentações são estáticos e podem ser publicados no GitHub Pages. O painel Shiny é publicado separadamente no shinyapps.io.
+<https://fecasula.shinyapps.io/religiao-mobilidade-bh/>
 
-A configuração fica em `config/deployment.yml`; a conta local é indicada por `SHINYAPPS_ACCOUNT` no `.Renviron`, sem armazenar token ou secret no projeto. O pacote `{terra}` é fixado em um commit GitHub compatível com o GDAL do servidor. Para auditar e publicar:
+O deploy deve ser iniciado pela raiz do projeto com:
 
 ```r
 source("scripts/08_prepare_shiny_lockfile.R")
 source("scripts/05_deploy_shiny.R")
 ```
 
-O script de deploy valida a base censitária, os dois lockfiles, a versão local de `{terra}`, os arquivos enviados e as dependências detectadas. O `{rsconnect}` gera internamente o manifesto com `appMode = "shiny"`, evitando a manutenção manual de `manifest.json`. O endereço público é <https://fecasula.shinyapps.io/religiao-mobilidade-bh/>.
-
-
-
-## Publicação do website e da apresentação
-
-O painel Shiny está publicado em:
-
-<https://fecasula.shinyapps.io/religiao-mobilidade-bh/>
-
-O website e as apresentações Quarto são renderizados localmente para a pasta `docs/` e podem ser publicados no GitHub Pages usando apenas GitHub Desktop e a interface web do GitHub.
-
-Sequência recomendada:
-
-```r
-source("scripts/04_render_site.R")
-```
-
-Depois, pelo GitHub Desktop, faça commit e push das alterações, incluindo a pasta `docs/`. No GitHub Web, configure **Settings → Pages → Deploy from a branch → main → /docs**.
-
-Endereços esperados quando o repositório se chamar `religiao-mobilidade-bh` e o usuário GitHub for `fecasula`:
-
-- site: <https://fecasula.github.io/religiao-mobilidade-bh/>
-- apresentação: <https://fecasula.github.io/religiao-mobilidade-bh/apresentacao-pt.html>
-- painel: <https://fecasula.shinyapps.io/religiao-mobilidade-bh/>
-
-Se o repositório for publicado com outro nome, atualize `site-url` e `repo-url` em `_quarto.yml` antes de renderizar.
-
-## Dados e ética
-
-A base pública de deslocamentos foi desidentificada e não contém identificadores ou nomes de bairros. Microdados individuais originais devem permanecer em `data/private/`, diretório ignorado pelo Git. O GeoPackage estadual do IBGE e os produtos espaciais gerados também são ignorados por tamanho e devem ser reconstruídos pelo script.
-
 ## Auditoria metodológica central
 
 A fórmula com 4 km/h e 9,7 minutos produz 646,67 m; o texto do manuscrito registra 853,33 m e o mapa aproximadamente 649,33 m. O aplicativo adota o cálculo consistente e mantém os valores históricos como perfis de auditoria.
 
-Também foi registrada divergência entre a distribuição por confissão da tabela publicada e a classificação do CSV atual, embora ambos resultem em 3.848 pontos após a censura de “IGREJA”. Consulte `data/validation/reconciliacao_metodologica.csv`.
+## Dados e ética
 
-## ABNT
-
-O CSL local padroniza citações autor-data e referências, mas a versão final deve passar por revisão humana segundo a norma e o manual institucional vigentes. Consulte `bibliography/LEIA-ME_ABNT.md`.
+Microdados individuais originais devem permanecer em `data/private/`, diretório ignorado pelo Git. O GeoPackage estadual do IBGE e outros produtos espaciais pesados também ficam fora do versionamento por tamanho e por possibilidade de reconstrução.
 
 ## Citação e licença
 

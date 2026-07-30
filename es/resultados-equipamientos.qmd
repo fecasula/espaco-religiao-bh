@@ -1,7 +1,26 @@
 ---
-title: "Resultados: equipamientos"
+title: "Resultados: equipamientos religiosos"
 ---
 
-El universo espacial contiene 3.848 establecimientos después de excluir los registros cuya descripción era únicamente “IGREJA”. La tabla de la publicación y la clasificación actual presentan la misma cantidad total, pero distribuciones confesionales diferentes; ambas versiones se conservan y documentan.
+## Origen de los datos y clasificación
+
+Los establecimientos religiosos fueron identificados en el **CNEFE/IBGE**. La clasificación por grupos confesionales no estaba lista en la base original y, por ello, requirió un **trabajo previo de categorización manual** de los registros.
+
+## Cobertura publicada
+
+| Confesión | Establecimientos | ICR publicado |
+|---|---:|---:|
+| Protestante/Evangélica | 3.326 | 98,4% |
+| Católica | 296 | 77,5% |
+| Espírita | 154 | 42,1% |
+| Afro-brasileña | 17 | 8,5% |
+
+## Concentración espacial (kernel)
+
+![](../assets/img/maps/mapa_kernel_confissoes_bh.png){fig-alt="Mapa de kernel por confesión religiosa en Belo Horizonte"}
+
+## Grado de cobertura por confesión
+
+![](../assets/img/maps/mapa_cobertura_confissoes_bh.png){fig-alt="Mapa del grado de cobertura por confesión religiosa en Belo Horizonte"}
 
 [Publicación completa](../assets/publication/TrabalhoALAS_merged.pdf){.btn .btn-outline-primary}
