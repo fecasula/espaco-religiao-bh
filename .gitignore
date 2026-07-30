@@ -8,7 +8,6 @@ renv/staging/
 _site/
 _freeze/
 _targets/
-*.html
 *.log
 .DS_Store
 Thumbs.db
@@ -16,6 +15,10 @@ Thumbs.db
 # Microdados confidenciais
 data/private/*
 !data/private/.gitkeep
+
+# Website Quarto publicado pelo GitHub Pages
+!/docs/
+!/docs/**
 
 # Fontes censitárias grandes e temporários de download
 data/raw/census/**/*.gpkg
@@ -40,9 +43,9 @@ data/derived/setores_bh_2022.gpkg
 
 /.quarto/
 **/*.quarto_ipynb
+
 # Estados e backups locais do RStudio
 .Rproj.user*
 .Rhistory*
 _backup_inicio_rstudio_*/
 startup_problematico_*/
-
