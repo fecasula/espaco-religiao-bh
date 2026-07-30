@@ -1,0 +1,5 @@
+item,publicacao,reprocessamento,status,acao
+Universo de estabelecimentos após censura de “IGREJA”,3.848,3.848,consistente,Manter teste automatizado.
+"Raio para 4 km/h e 9,7 min","853,33 m no texto; 649,33 m no mapa","646,67 m",inconsistência documentada,"Usar 646,67 m como padrão e disponibilizar perfis históricos."
+Distribuição por confissão,3326; 296; 154; 17; 55,Protestante/Evangélica: 3196; Católica: 339; Espírita: 159; Outra: 120; Afro-brasileira: 34,versão de classificação divergente,Separar resultados congelados da publicação e classificação atual.
+População no denominador do ICR,População total residente por setor,Configuração explícita no pipeline,hipótese metodológica,Declarar proxy e permitir futura substituição por população 60+ quando disponível em escala compatível.

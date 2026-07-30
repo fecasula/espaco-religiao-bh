@@ -1,0 +1,731 @@
+{
+  "project": "religiao_mobilidade_bh",
+  "version": "0.1.12",
+  "files": [
+    {
+      "path": ".Rbuildignore",
+      "size": 77,
+      "sha256": "48028965e33a62807fad576f397437a7cc786addb1d741ec13aaa3365e0c2d1d"
+    },
+    {
+      "path": ".Renviron.example",
+      "size": 896,
+      "sha256": "6ca9893542a010e6ddb90ae95f0cb465f641c1a9721168b1c8c73e74024aaa89"
+    },
+    {
+      "path": ".Rprofile",
+      "size": 596,
+      "sha256": "4e404acf31fa49191e26f0285bc1273b246795fe157715f836af0d9ad26e5a14"
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 525,
+      "sha256": "683fe7d55c0750713c7b398424beba2a24eb7ca3439a7ac4dfdb1a34b78daa6f"
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 701,
+      "sha256": "7b93e92a419aa411798cf659fa76a961f69adbd2194b7029d6bbf8feb3d6ef71"
+    },
+    {
+      "path": ".gitignore",
+      "size": 884,
+      "sha256": "b1b2dde2bbc892b372d5b72ec24a2f94b7ffc7d7f4506a8e35fc0f1bf981178c"
+    },
+    {
+      "path": ".renvignore",
+      "size": 249,
+      "sha256": "4323f42c61f10576380689f3739189c4535d6d2bdfb89473b21d0cf5bf18986a"
+    },
+    {
+      "path": "ARQUIVOS_REMOVIDOS.txt",
+      "size": 133,
+      "sha256": "9293dc7c5f6fec542a3df297c6a3e63a18e2b2c55bfdc2e77166927b974a1512"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 6187,
+      "sha256": "c1a55f6bb8896c49702e1a294a8c77498b18b3ac1bbf7fae086d93a78398f69a"
+    },
+    {
+      "path": "CITATION.cff",
+      "size": 852,
+      "sha256": "5a0a9fbd35f489dc2b9208bd566f8615a9a508110ee19dcce9c1a47ae9b319e8"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size": 502,
+      "sha256": "36ba1cf877887cc3415f483ea9dedaa0985958d56be947ab399e4815e846f7a7"
+    },
+    {
+      "path": "DESCRIPTION",
+      "size": 1009,
+      "sha256": "668c63284623cffca45e01d1ff2fe24a1f8ac1d40eaa0be0236a94a3f4a75045"
+    },
+    {
+      "path": "ESCOPO_ESPACIAL.md",
+      "size": 3004,
+      "sha256": "0a1d78dcb0ce83798b43054e892691833f65e6bf0c27219563a7972f903eebb4"
+    },
+    {
+      "path": "INSTRUCOES_DE_ATUALIZACAO_v0.1.10.md",
+      "size": 1099,
+      "sha256": "9971b0a62265239dd887b5552334bcec63d5e4ba1f9bbb7d1920fa6a08483c7f"
+    },
+    {
+      "path": "INSTRUCOES_DE_ATUALIZACAO_v0.1.11.md",
+      "size": 1121,
+      "sha256": "641026d8d7b3d226e404f214db93baccc8004aec8271f28e4507dc9d7119a934"
+    },
+    {
+      "path": "INSTRUCOES_DE_ATUALIZACAO_v0.1.12.md",
+      "size": 839,
+      "sha256": "b231074c9bcafc490cb2d337363e7cc93e65efb0e423c4d7db0ade717a438444"
+    },
+    {
+      "path": "INSTRUCOES_DE_ATUALIZACAO_v0.1.4.md",
+      "size": 2173,
+      "sha256": "252971d1219f596f360f2d2dd5f3ae359a37116f149529fddba96727a6c57808"
+    },
+    {
+      "path": "INSTRUCOES_DE_ATUALIZACAO_v0.1.5.md",
+      "size": 1731,
+      "sha256": "5e6da3a7748cb0d3e55c4b5eb63538d8390e775f26a4f84f9aece50a6ba85841"
+    },
+    {
+      "path": "INSTRUCOES_DE_ATUALIZACAO_v0.1.7.md",
+      "size": 876,
+      "sha256": "e2c021ac650dd3056774884fb11b0229d236158b49a62d4f587b3f6527100d97"
+    },
+    {
+      "path": "INSTRUCOES_DE_ATUALIZACAO_v0.1.9.md",
+      "size": 929,
+      "sha256": "77a6ddd36a269758fc6cd3543b282d43db32f64ac63e4106d112105fe91cea0b"
+    },
+    {
+      "path": "LEIA_PRIMEIRO.md",
+      "size": 329,
+      "sha256": "4ac27aa6bcac3bf98ddd08d795eed1141dcd3ef7876a005b39174ec2d246710e"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1112,
+      "sha256": "2ef956d162c7d70bc3308a55a406dba7d7f1659ce7d2c4533a0778edfc15c3a8"
+    },
+    {
+      "path": "METODOLOGIA_DECISOES.md",
+      "size": 3222,
+      "sha256": "336eb45dbc40eeb27b2a754953a284cdca6aeea0f32f714b2e7d57a8d52b55d8"
+    },
+    {
+      "path": "R/clean_survey.R",
+      "size": 3202,
+      "sha256": "bd7896575777fbf8098540a23f73da503a602c07a92d324aefecef9f4b95030c"
+    },
+    {
+      "path": "R/config.R",
+      "size": 9752,
+      "sha256": "cb37bc753f0a00cd9766ed41339ce885f3eca75a98b26bebd10445d9d34621b5"
+    },
+    {
+      "path": "R/coverage.R",
+      "size": 2551,
+      "sha256": "47550c611cf076963d7bda4e97dae55de22a8f6d2d336eaaf161cb44b74929a2"
+    },
+    {
+      "path": "R/deployment.R",
+      "size": 20451,
+      "sha256": "3508c4f4808523aa32578ca41d7bf1f1f589f9673cafaf6c785a38bc28081bf8"
+    },
+    {
+      "path": "R/descriptive.R",
+      "size": 1555,
+      "sha256": "caa6772f65892886b1c4e5b25c1229bb2eb0754f001c85416062741a7fd720f9"
+    },
+    {
+      "path": "R/io.R",
+      "size": 880,
+      "sha256": "bcc27b1fd341254282094b2b5f1f0acc7731ee4d6e03bdf589f96ec1c908aaa7"
+    },
+    {
+      "path": "R/models.R",
+      "size": 1464,
+      "sha256": "4bf59092832ae0cf208c9c97d021cd3a19a23e241c85b174f85219c60d9b2eb9"
+    },
+    {
+      "path": "R/plots.R",
+      "size": 1006,
+      "sha256": "1faa71a7cad8ca21c18c6331e21ce630650e1736ad7e96ff5d9f0dfafc478256"
+    },
+    {
+      "path": "R/spatial_points.R",
+      "size": 1250,
+      "sha256": "55df3e1741679efff6a4dbcbe809ee6e05a5cec4789b9fd94f126b5aab289c73"
+    },
+    {
+      "path": "R/spatial_population.R",
+      "size": 20952,
+      "sha256": "925e74d85b859065fcb406e9289e611c1822a2c5270f3252317fe372dfa71a60"
+    },
+    {
+      "path": "R/validation.R",
+      "size": 568,
+      "sha256": "8c6b24f250e03460746422770bf0553bc098701dd65b662bf145bc48a6e04e4b"
+    },
+    {
+      "path": "README.md",
+      "size": 5220,
+      "sha256": "058140dd1568676b931d16f5761dad7907eddf6f25fa5f6b3f9ed29091df84de"
+    },
+    {
+      "path": "RELATORIO_DE_ENTREGA.md",
+      "size": 3618,
+      "sha256": "9e0131188c62e91f1a62770fda255393c8da183b88c4b2b7293288fa4514b408"
+    },
+    {
+      "path": "RELATORIO_DE_VALIDACAO_v0.1.5.md",
+      "size": 1580,
+      "sha256": "56e5467b24a0251c57e97e46af1ed49c5f8a63493bdfecaedee74888fb71d205"
+    },
+    {
+      "path": "_quarto.yml",
+      "size": 1861,
+      "sha256": "6baf9bbd4f173c6dbfa0660449bf1b62c44ff7741a193a46873fd7e2fed41a60"
+    },
+    {
+      "path": "_targets.R",
+      "size": 2031,
+      "sha256": "90be7b5b6bee86cac53fc6d129424d57b1653272356289962cf124edeea623d4"
+    },
+    {
+      "path": "apresentacao-pt.qmd",
+      "size": 2798,
+      "sha256": "4485b40ad0c208b43bd6551d458b60a6ad0e7c486df0caea9cba1352f4c1085c"
+    },
+    {
+      "path": "archive/brief_original.txt",
+      "size": 4830,
+      "sha256": "73708f39c716831ee91670c1ef4fbcaa7bd945b227c107e4de799c0e327b4029"
+    },
+    {
+      "path": "archive/original_scripts/README.md",
+      "size": 266,
+      "sha256": "9e39ba52fa8f6bc9ce7f1530d521a1fbb6524591c76b17dbdf8158809906a919"
+    },
+    {
+      "path": "archive/original_scripts/analise_descritiva_deslocamentos.R",
+      "size": 16956,
+      "sha256": "b773685b0a5b0600189c4ac1e714738d30829fa4dd6a4c49756051eecf0043ce"
+    },
+    {
+      "path": "archive/original_scripts/analise_regressao_religiao.R",
+      "size": 4943,
+      "sha256": "a38a3a58148ce95f726e9568d97e73249550dbde049aa783c12164b799c61c9f"
+    },
+    {
+      "path": "archive/original_scripts/analise_regressao_religiao_rmbh.R",
+      "size": 4949,
+      "sha256": "aa87f2b78100262df6e2b9a53d04d8f22413b2c37ff036961ff59f1ae5898166"
+    },
+    {
+      "path": "archive/original_scripts/plot_evolucao_por_relig_bh_br.R",
+      "size": 4641,
+      "sha256": "25309b3556867a2a0d0e0b4bf71d35282e706fa2bfff09d3e94adbf904ab6937"
+    },
+    {
+      "path": "archive/original_scripts/teste_modelos_regressao.R",
+      "size": 4032,
+      "sha256": "dfb6bd038c32ed22d499d4f62f7e64aaad3e774deb6ddaa3f0d1af6bbf98c746"
+    },
+    {
+      "path": "archive/original_scripts/tratamento_dados.R",
+      "size": 3917,
+      "sha256": "0cf053e3b4ec4f9757dae3d9c12ffe9ab108bdc52aa89a3d3bbef10f9448d89f"
+    },
+    {
+      "path": "archive/original_scripts/tratamento_dados_rmbh.R",
+      "size": 3690,
+      "sha256": "c5b35ceaa1b2a67235fa2fd6cb03a0fdaa7930b97628d77ee9d4db94e29d87ba"
+    },
+    {
+      "path": "assets/css/site.scss",
+      "size": 1696,
+      "sha256": "dceb9e07ffc4f7d0850cdbce67a3683c6565b5b261b2b0c2e9db42cf93f68c0d"
+    },
+    {
+      "path": "assets/css/slides.scss",
+      "size": 377,
+      "sha256": "d6fd6fb8e8fe221172b0be00b0a374a7e53b1c23b8cf6fdb27dfedcec3d014d1"
+    },
+    {
+      "path": "assets/img/evolucao_reli.png",
+      "size": 328051,
+      "sha256": "9a32ed7ab24e2781918ebe3e246ec9d92e64ac58e79d4d84ba1b0f771aef8c40"
+    },
+    {
+      "path": "assets/img/figura1_modos_transporte.png",
+      "size": 98954,
+      "sha256": "4f126a42cb5fb4e940de87fcaeb5365211e563b19679df74b94eac5355542dfc"
+    },
+    {
+      "path": "assets/img/figura2_dias_semana.png",
+      "size": 97956,
+      "sha256": "129fd93591a0502c2276da6420361370db9df405a3dd33ededb99a6ee7936abf"
+    },
+    {
+      "path": "assets/img/figura3_companhia.png",
+      "size": 93421,
+      "sha256": "025c3ede999f630ab303045c7b859b03787828312a3a36e1eb1066d46bf95135"
+    },
+    {
+      "path": "assets/img/figura4_bairro.png",
+      "size": 89176,
+      "sha256": "9c1ccae1117b60c1b5d94dfd46105a0f7750a2af7a6564b8b9ddfc9b8e1d9e53"
+    },
+    {
+      "path": "assets/img/maps/pagina-13.png",
+      "size": 680869,
+      "sha256": "cff91e255a8572215c48ee5ba8255f702909f275af7442294a27df672645d17d"
+    },
+    {
+      "path": "assets/img/maps/pagina-14.png",
+      "size": 669543,
+      "sha256": "2098682348b7376c2d678f329ba0c9155a5e9a5bbe9788a4acd6f43090a5d4e0"
+    },
+    {
+      "path": "assets/publication/TrabalhoALAS_merged.pdf",
+      "size": 2283046,
+      "sha256": "590de88aeb7e9af554783fb0f142aaa1cbf45ac0bc7e2873358b7938e8b9b096"
+    },
+    {
+      "path": "bibliography/LEIA-ME_ABNT.md",
+      "size": 656,
+      "sha256": "2150fa7f5a06cb1169ce949dd36f2489e269447f5ecf5f89393cbf5b222601eb"
+    },
+    {
+      "path": "bibliography/abnt.csl",
+      "size": 4150,
+      "sha256": "442fdfc40419bf659074f7260b1ef94d0637d24147d4b202cde946d32e19ee8c"
+    },
+    {
+      "path": "bibliography/references.bib",
+      "size": 3759,
+      "sha256": "83e143299adc307799d59a3dc07e0191c0149a0387334dc1d8d59656f039d7d7"
+    },
+    {
+      "path": "config/censo.yml",
+      "size": 1839,
+      "sha256": "16886f880928b423dbdc7979786ef8290cfb9616eb92578b6bc4e481654332ee"
+    },
+    {
+      "path": "config/deployment.yml",
+      "size": 515,
+      "sha256": "e04638c85740ad5ee432b6e2d3188b576493183f892247fb01a8cea77351ef17"
+    },
+    {
+      "path": "config/perfis_metodologicos.csv",
+      "size": 513,
+      "sha256": "49bfc941065c2bf1594ed420ace12894c4101e9db5877155a78bf7f4fca12114"
+    },
+    {
+      "path": "data/CODEBOOK.md",
+      "size": 1562,
+      "sha256": "783e1fbbacca5d839b2adf2fcb2189e9c841dfd777dc171ae0584735ef399103"
+    },
+    {
+      "path": "data/README.md",
+      "size": 751,
+      "sha256": "aa9ade69e2e4820262788934ede8814f43504d625d8c1d021f2c36e21722b053"
+    },
+    {
+      "path": "data/derived/auditoria/.gitkeep",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/derived/base_bh_regressao.csv",
+      "size": 15094,
+      "sha256": "971bc3408923e6f56c54be5fb911809643caca5bb7a1584e5bd53b38acf10924"
+    },
+    {
+      "path": "data/derived/base_rmbh_regressao.csv",
+      "size": 27912,
+      "sha256": "6c1e86cab45ebd250f61846515ee4738b4ec71668fe42c55510a25fd2168c70d"
+    },
+    {
+      "path": "data/derived/deslocamentos_bairro.csv",
+      "size": 332,
+      "sha256": "2772c60c6af73e8fcc7433595009699bc3f7638f2648f5e352af61467a987ef2"
+    },
+    {
+      "path": "data/derived/deslocamentos_companhia.csv",
+      "size": 549,
+      "sha256": "ca237d59d938b0bdd4f9077583eebbf71a0909bc5c06803b28a4b3d83b3cf7f2"
+    },
+    {
+      "path": "data/derived/deslocamentos_dia.csv",
+      "size": 857,
+      "sha256": "c7819451dbb5d7517ce082b796dd5edf241f40855ee8d7cf235a29533ae0f316"
+    },
+    {
+      "path": "data/derived/deslocamentos_modo.csv",
+      "size": 871,
+      "sha256": "6b7a3c132b348e6d0f04118d4031d0147d15c7b424f31fba827512441a1d6745"
+    },
+    {
+      "path": "data/derived/estabelecimentos_classificacao_atual.csv",
+      "size": 224,
+      "sha256": "328748b46cf7b1157c1d04e6dd9ab7e7f65a7c7af6a08962a9588b317443cfd2"
+    },
+    {
+      "path": "data/derived/estabelecimentos_publicacao.csv",
+      "size": 152,
+      "sha256": "eeb04c25ac17004359eaaf5378fc86f1ebc0f8b28e6f2733c39c66c2566bcf20"
+    },
+    {
+      "path": "data/derived/icr_publicacao.csv",
+      "size": 168,
+      "sha256": "218c8be69381d283d8c7cfceb543d6568bbe257d8dadadca504a07e372d71c34"
+    },
+    {
+      "path": "data/derived/modelos_logisticos_ajuste.csv",
+      "size": 1206,
+      "sha256": "6ff401431d19087dcfb36e20941596e2ffe7c1ee19801a15fb33150ed5f68696"
+    },
+    {
+      "path": "data/derived/modelos_logisticos_estimativas.csv",
+      "size": 17416,
+      "sha256": "d6d9bbc2c189ece3c37be573562cc5ab1333494f713155766f51aa7dbdad27cb"
+    },
+    {
+      "path": "data/derived/perfil_religioso_idosos.csv",
+      "size": 2021,
+      "sha256": "8fdca5a7eb931cbfde3160104319269f18ad86dc545a1a4900181099f175b032"
+    },
+    {
+      "path": "data/private/.gitkeep",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/public/od_religiao_public.csv",
+      "size": 5260,
+      "sha256": "af1e19b1769052ec8105e8d7fb7c544954388964e2eeb8b4c47a2ad7d97aef86"
+    },
+    {
+      "path": "data/public/pontos_religiosos_bh.csv",
+      "size": 448041,
+      "sha256": "4a315411acdcee082863502f2a2eefe7615599f4c5c1606505b113d003a28f73"
+    },
+    {
+      "path": "data/raw/census/README.md",
+      "size": 1215,
+      "sha256": "2dc8c94dec5cf98c50b90e6320216c63205b87405758855c9c630c85a7ebed1d"
+    },
+    {
+      "path": "data/raw/census/censobr/data_release_v0.6.0/.gitkeep",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/census/geobr/.gitkeep",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/census/ibge_definitivo/.gitkeep",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/validation/reconciliacao_metodologica.csv",
+      "size": 827,
+      "sha256": "f71e8d558a663839e3feb1e761d34cdaa7b9eb7c61e32ea18aa403b5223ef48a"
+    },
+    {
+      "path": "es/index.qmd",
+      "size": 1685,
+      "sha256": "fb6f91444e5c32b3c92e7b381be6226c7e815078666db934bd20b96c2e3005e4"
+    },
+    {
+      "path": "es/introduccion.qmd",
+      "size": 441,
+      "sha256": "ab77a9490fce883b2ba378290c36a83c19dd8c625254a1163b491f34b6b25cc9"
+    },
+    {
+      "path": "es/metodos.qmd",
+      "size": 932,
+      "sha256": "d2b0e44956131acdca493cef07dd3e4b9c55e88e272d1437abf55799836fd24c"
+    },
+    {
+      "path": "es/presentacion-es.qmd",
+      "size": 1314,
+      "sha256": "a5fadebc534c966d53b7a16cddb100b1b748ba281ad61ee1454097f39d85c6b1"
+    },
+    {
+      "path": "es/reproducibilidad.qmd",
+      "size": 2624,
+      "sha256": "838a387ec32e4380d2a69eaa5aa9a79c925a0f8bed3707f8c817eac24461b50f"
+    },
+    {
+      "path": "es/resultados-afiliacion.qmd",
+      "size": 524,
+      "sha256": "a38ce1e8514378d569b760b3fc97907b0dbb5d34d3d8097b34efc410231639a3"
+    },
+    {
+      "path": "es/resultados-desplazamientos.qmd",
+      "size": 339,
+      "sha256": "ab5e53eee4b1de6b17d27174111e0c57455b9d9db1b793b3677a7a96bc74993b"
+    },
+    {
+      "path": "es/resultados-equipamientos.qmd",
+      "size": 457,
+      "sha256": "a6212881848bb084daf57cd0cd617279b58a605ed012f5fa328b73bd96afef27"
+    },
+    {
+      "path": "es/resumen.qmd",
+      "size": 692,
+      "sha256": "771240a5695e2c411d7cc413ce2afa68b6224a1f5b4cd56e4cda26aa5e3dc9eb"
+    },
+    {
+      "path": "index.qmd",
+      "size": 2863,
+      "sha256": "b3ee452e72779d1353b6b8d6f47bc45c9465f0ed1407017fd620dc5c14627364"
+    },
+    {
+      "path": "indice-cobertura.qmd",
+      "size": 1959,
+      "sha256": "9af8a580a244590407ded3ba3ab3c5237db19e945bc613e3e0175cfd5e2ce8fe"
+    },
+    {
+      "path": "introducao.qmd",
+      "size": 1660,
+      "sha256": "9a7d971170ce7d09dc06a62d9f8321b94a66dcec671dbcb05e03ea8c5b74a5f4"
+    },
+    {
+      "path": "metodos.qmd",
+      "size": 4038,
+      "sha256": "cb2e41690234faf5114129262a67da8fed96da24dfdcde5ef19916438e7e95ed"
+    },
+    {
+      "path": "referencias.qmd",
+      "size": 62,
+      "sha256": "bdb3dfa674d12f436c37232595b06c79615cf726414f14ce68b9acd265eb6aad"
+    },
+    {
+      "path": "religiao_mobilidade_bh.Rproj",
+      "size": 345,
+      "sha256": "18a59773e9a5740c285d0817876b72592a987435b74ca299daf9d426383dc795"
+    },
+    {
+      "path": "renv/.gitignore",
+      "size": 63,
+      "sha256": "9b21f810728401a29675d989e533d4ed4626be7e18479cbce7e48f1cfe91747b"
+    },
+    {
+      "path": "renv/activate.R",
+      "size": 41384,
+      "sha256": "e45d8312de2bf1981cdadb4cb0d62b93d64bc2fcb07b710d09dd21d77cad4a69"
+    },
+    {
+      "path": "renv/settings.json",
+      "size": 487,
+      "sha256": "e9a3f038fdc32dd9827c335410a1f9b32831dc35bf36c92ce7863546b5ecb7d9"
+    },
+    {
+      "path": "renv.lock",
+      "size": 395559,
+      "sha256": "f4abb64013f02dabd0e979f020e1ce20c29e5a0dbfb726ef0b59f6f3a5dd3945"
+    },
+    {
+      "path": "reprodutibilidade.qmd",
+      "size": 4374,
+      "sha256": "f4880cbd83d07e60293d316641e4b76371fccc7f2252d14ef930e311db992ddf"
+    },
+    {
+      "path": "resultados-deslocamentos.qmd",
+      "size": 2417,
+      "sha256": "e307abf1bf7b6bc259d9eb86c9c7a9fdaf2a6870aeedbccedbf54012ae1f39fe"
+    },
+    {
+      "path": "resultados-equipamentos.qmd",
+      "size": 2686,
+      "sha256": "c40b31bf4360a49abf1b2f8edb48716ae3984d19edbd3dd2059e32a9a99c4b38"
+    },
+    {
+      "path": "resultados-filiacao.qmd",
+      "size": 2724,
+      "sha256": "954b373bd1171233b83c49529ea11f623f6a7d6a56d7c81d59f34c3085860880"
+    },
+    {
+      "path": "resumo.qmd",
+      "size": 2127,
+      "sha256": "9427a7d10006a81c756a9b57450e985fdf8c570a774982f845902a8e1df95f64"
+    },
+    {
+      "path": "scripts/00_install.R",
+      "size": 5796,
+      "sha256": "e546466b2cf1156ee5ff4993d301c6d1a8abf8705a6408d4b92578de4087349e"
+    },
+    {
+      "path": "scripts/01_prepare_public_data.R",
+      "size": 592,
+      "sha256": "5fc085741ed8b69aaff40bf1ac6c6b26096587a6e7f1e12a9b6a879fbd16b8c7"
+    },
+    {
+      "path": "scripts/01b_prepare_survey.R",
+      "size": 829,
+      "sha256": "c3a238f136f579631cac7c98043a0901710192ab8c3eb93e01a14478d3a07cca"
+    },
+    {
+      "path": "scripts/02_prepare_census.R",
+      "size": 4364,
+      "sha256": "9d412d453e166fa3963d89aaa806fe4d41e0c4350586f58bbf1672618945da55"
+    },
+    {
+      "path": "scripts/03_run_pipeline.R",
+      "size": 938,
+      "sha256": "c4132a94366f4001397151f8f3e12452e00dd3dea3b3c93e4e2ed950062eafd1"
+    },
+    {
+      "path": "scripts/04_render_site.R",
+      "size": 119,
+      "sha256": "15746717fc8c99adf526340973be445745e3b15aac3e7b10a5ffc0f539cb0da7"
+    },
+    {
+      "path": "scripts/05_deploy_shiny.R",
+      "size": 3362,
+      "sha256": "b02f141bb3bc2a6e07b7bd4e0773b2e48e248ad1c22d63f1e16d2bc1f40d7a3e"
+    },
+    {
+      "path": "scripts/06_reproduce_publication.R",
+      "size": 533,
+      "sha256": "987f80bc7879c72a3105e3e89464d12629355fd3277d061bc9b207ce2e3cf4db"
+    },
+    {
+      "path": "scripts/07_run_tests.R",
+      "size": 994,
+      "sha256": "faa04c08ee25632f7c668f9459098e0b50418fc9e3ef678b36924013ec377fb6"
+    },
+    {
+      "path": "scripts/08_prepare_shiny_lockfile.R",
+      "size": 2151,
+      "sha256": "0004901e27bb01aad34ed4e59fd8f174477652cdf39908954f12591da9d74274"
+    },
+    {
+      "path": "shiny/R/config.R",
+      "size": 9752,
+      "sha256": "cb37bc753f0a00cd9766ed41339ce885f3eca75a98b26bebd10445d9d34621b5"
+    },
+    {
+      "path": "shiny/R/coverage.R",
+      "size": 2551,
+      "sha256": "47550c611cf076963d7bda4e97dae55de22a8f6d2d336eaaf161cb44b74929a2"
+    },
+    {
+      "path": "shiny/R/io.R",
+      "size": 880,
+      "sha256": "bcc27b1fd341254282094b2b5f1f0acc7731ee4d6e03bdf589f96ec1c908aaa7"
+    },
+    {
+      "path": "shiny/R/spatial_points.R",
+      "size": 1250,
+      "sha256": "55df3e1741679efff6a4dbcbe809ee6e05a5cec4789b9fd94f126b5aab289c73"
+    },
+    {
+      "path": "shiny/R/validation.R",
+      "size": 568,
+      "sha256": "8c6b24f250e03460746422770bf0553bc098701dd65b662bf145bc48a6e04e4b"
+    },
+    {
+      "path": "shiny/README.md",
+      "size": 1380,
+      "sha256": "8e461e0c00a1fe7632b1041634968e2fdb7b197672795095ad2f3cca3d96ed36"
+    },
+    {
+      "path": "shiny/app.R",
+      "size": 6883,
+      "sha256": "7752348f2fa3b25b4a1a0e21435caca7df8501d237fbc3a385d72beceb8f89f8"
+    },
+    {
+      "path": "shiny/data/icr_publicacao.csv",
+      "size": 168,
+      "sha256": "218c8be69381d283d8c7cfceb543d6568bbe257d8dadadca504a07e372d71c34"
+    },
+    {
+      "path": "shiny/data/perfis_metodologicos.csv",
+      "size": 513,
+      "sha256": "49bfc941065c2bf1594ed420ace12894c4101e9db5877155a78bf7f4fca12114"
+    },
+    {
+      "path": "shiny/data/pontos_religiosos_bh.csv",
+      "size": 447895,
+      "sha256": "de4bc2f88bf983aeb335f2619c3b3ed0f0e7fa88a6b7f8ec86e6281629b43303"
+    },
+    {
+      "path": "shiny/data/setores_ativos.gpkg",
+      "size": 3579904,
+      "sha256": "d2c04496acba1d90247b4c8872bc06b1dc6bef8ee1a4f833ab6d760c602a1cf0"
+    },
+    {
+      "path": "shiny/renv.lock",
+      "size": 209489,
+      "sha256": "d9e97db9fc226250a5da912427d51674051f9890483c606f24e99c8c8d2ba877"
+    },
+    {
+      "path": "shiny/rsconnect/shinyapps.io/fecasula/religiao-mobilidade-bh.dcf",
+      "size": 296,
+      "sha256": "7de357f5a2bfbf87b06756ae5bca63db9a09602ad6e9e9891c7703f8cb95a36b"
+    },
+    {
+      "path": "shiny/www/app.css",
+      "size": 316,
+      "sha256": "83f6ddec39af415ab2830eb0f160e3a6f208ef6802364b9cad9574144948ed0a"
+    },
+    {
+      "path": "tests/testthat/helper-source.R",
+      "size": 1098,
+      "sha256": "25569fcba1e913b6aee3321ea510f12812aba1f031d4fb73089a2bb158769e5b"
+    },
+    {
+      "path": "tests/testthat/test-census-config.R",
+      "size": 1498,
+      "sha256": "fc8e1ced391bfcae0d5de11a8132da0fb2ef517340c505b6d2e8099614476adb"
+    },
+    {
+      "path": "tests/testthat/test-cleaning.R",
+      "size": 849,
+      "sha256": "dddbbf0c269139beb332f8f678ef7b52f8e1e4366e1225ebbe2f98035552a783"
+    },
+    {
+      "path": "tests/testthat/test-coverage.R",
+      "size": 1118,
+      "sha256": "e0dcfd09c976cf62dbeb2af634e90eabb78eea8242b0bd71a56d253803ccc422"
+    },
+    {
+      "path": "tests/testthat/test-deployment.R",
+      "size": 4711,
+      "sha256": "4f7b81a9851a471c2c221e870dca05a9bd76f64ba3fb430e36175aae914fd0ff"
+    },
+    {
+      "path": "tests/testthat/test-public-data.R",
+      "size": 1002,
+      "sha256": "9e98320f15f0b9c96f2973a218cab77a8f71938bc046abedef55d73b070cd2c6"
+    },
+    {
+      "path": "tests/testthat/test-radius.R",
+      "size": 294,
+      "sha256": "c0271f11cd348329d7d88fa15b2f2a2110e713868333c2ec8aec43b241641901"
+    },
+    {
+      "path": "tests/testthat/test-spatial-population.R",
+      "size": 1664,
+      "sha256": "d94435c849edfc82496e5503457598971b812f2cca3c948b1b7f80332acef804"
+    },
+    {
+      "path": "tests/testthat.R",
+      "size": 686,
+      "sha256": "533cce6ad12a8175632c01acdc2ef7b782d807efd292490d0e652fc5e5c560e1"
+    }
+  ]
+}

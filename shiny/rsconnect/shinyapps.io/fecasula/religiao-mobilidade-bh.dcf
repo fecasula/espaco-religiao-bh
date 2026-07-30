@@ -1,0 +1,10 @@
+name: religiao-mobilidade-bh
+title: Índice de Cobertura Religiosa — Belo Horizonte
+username: fecasula
+account: fecasula
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17652607
+bundleId: 12340092
+url: https://fecasula.shinyapps.io/religiao-mobilidade-bh/
+version: 1

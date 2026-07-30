@@ -1,0 +1,5 @@
+:root { --ink:#173f5f; --teal:#2f7d62; }
+.navbar-brand { font-weight: 750; }
+.value-box { min-height: 125px; }
+.map-card { border: 1px solid #d8dee3; border-radius: .8rem; padding: .6rem; background: white; }
+.methodology { border-left: 4px solid var(--teal); padding: .8rem 1rem; background: rgba(47,125,98,.08); }

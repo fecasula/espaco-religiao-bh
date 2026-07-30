@@ -1,0 +1,20 @@
+=== AMBIENTE ===
+R: R version 4.6.0 (2026-04-24 ucrt) 
+rsconnect: 1.10.1 
+renv: 1.2.3 
+jsonlite: 2.0.0 
+terra: 1.9.41 
+
+=== ARQUIVOS ===
+manifest existe: FALSE 
+manifest original existe: TRUE 
+
+=== METADATA ATUAL ===
+# A tibble: 2 × 4
+  local caminho                             existe tamanho
+  <chr> <chr>                               <lgl>    <dbl>
+1 raiz  C:/Users/felipe.casula/Documents/G… TRUE     23990
+2 shiny C:/Users/felipe.casula/Documents/G… FALSE       NA
+NULL
+[1] TRUE
+[1] FALSE

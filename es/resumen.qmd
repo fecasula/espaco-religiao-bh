@@ -1,0 +1,7 @@
+---
+title: "Resumen"
+---
+
+El trabajo describe y modela las movilidades por motivos religiosos de la población de 60 años o más residente en Belo Horizonte y propone un **Índice de Cobertura Religiosa (ICR)** como aproximación de la accesibilidad peatonal a los lugares de culto. Combina estadísticas descriptivas, regresiones logísticas y análisis espacial con datos del CNEFE y del Censo 2022 [@ibge_cnefe2022; @ibge_censo2022].
+
+Los resultados muestran concentración dominical, predominio de los desplazamientos a pie y fuerte inserción en el barrio de residencia. El análisis espacial distingue entre cantidad de establecimientos, capilaridad territorial y cobertura potencial.

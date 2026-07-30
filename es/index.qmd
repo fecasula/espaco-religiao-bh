@@ -1,0 +1,31 @@
+---
+title: "Religión, movilidad y cobertura urbana"
+subtitle: "Infraestructura reproducible para analizar prácticas religiosas y equipamientos urbanos"
+page-layout: full
+toc: false
+---
+
+::: {.hero-academic}
+# De las prácticas a los equipamientos
+
+El proyecto integra la movilidad de personas mayores, la afiliación religiosa y la distribución espacial de lugares de culto en Belo Horizonte. Ofrece documentación bilingüe, código abierto, una presentación y un tablero interactivo.
+
+[Leer el resumen](resumen.qmd){.btn .btn-light .btn-lg} [Português](../index.qmd){.btn .btn-outline-light .btn-lg}
+:::
+
+<div class="kpi-grid">
+<div class="kpi"><div class="value">202</div><div class="label">participantes residentes en Belo Horizonte</div></div>
+<div class="kpi"><div class="value">86</div><div class="label">desplazamientos por motivos religiosos</div></div>
+<div class="kpi"><div class="value">66,3%</div><div class="label">desplazamientos realizados a pie</div></div>
+<div class="kpi"><div class="value">3.848</div><div class="label">establecimientos del universo espacial</div></div>
+</div>
+
+::: {.callout-warning}
+## Alcance espacial de la versión actual
+
+El cálculo del Índice de Cobertura Religiosa y el panel cartográfico funcionan solamente para **Belo Horizonte (MG)**. La adaptación validada a otros municipios está en desarrollo.
+:::
+
+## Navegación
+
+[Resumen](resumen.qmd) · [Introducción](introduccion.qmd) · [Métodos](metodos.qmd) · [Desplazamientos](resultados-desplazamientos.qmd) · [Afiliación](resultados-afiliacion.qmd) · [Equipamientos](resultados-equipamientos.qmd) · [Reproducibilidad](reproducibilidad.qmd)

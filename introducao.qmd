@@ -1,0 +1,23 @@
+---
+title: "Introdução"
+---
+
+## Envelhecimento, religião e cidade
+
+O envelhecimento populacional altera as necessidades de deslocamento, a demanda por serviços e a relação cotidiana com o território. Ao mesmo tempo, a transição religiosa brasileira modifica a composição das filiações, a organização institucional e a geografia dos locais de culto [@alves2017; @verona2015].
+
+A literatura associa religiosidade a atributos demográficos e sociais, com destaque para idade e sexo, além do papel das comunidades religiosas como espaços de suporte, pertencimento e construção de vínculos [@machado2005; @moreira_almeida2010]. Entretanto, a mobilidade motivada por religião permanece menos explorada como prática espacial específica, especialmente entre pessoas idosas.
+
+## Problema de pesquisa
+
+O projeto investiga a interseção entre três fenômenos:
+
+1. a capacidade individual de realizar deslocamentos;
+2. a frequência e a localização das práticas religiosas;
+3. a disposição territorial dos equipamentos de culto.
+
+A proposta não reduz acessibilidade à proximidade geométrica. O ICR é apresentado como **proxy exploratória**, dependente de hipóteses sobre velocidade, tempo, rede viária, distribuição intrassetorial da população e qualidade cadastral.
+
+## Contribuições
+
+O trabalho oferece uma ponte entre sociologia urbana, demografia, estudos da religião e ciência de dados espaciais. Sua contribuição metodológica reside em usar padrões de mobilidade observados para parametrizar uma análise de cobertura, mantendo separadas as evidências empíricas, as escolhas normativas e as limitações dos dados.

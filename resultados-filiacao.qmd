@@ -1,0 +1,54 @@
+---
+title: "Resultados: filiação e modelos"
+---
+
+```{r}
+#| label: setup-affiliation
+library(readr); library(dplyr); library(tidyr); library(ggplot2); library(scales)
+profile <- read_csv("data/derived/perfil_religioso_idosos.csv", show_col_types=FALSE)
+est <- read_csv("data/derived/modelos_logisticos_estimativas.csv", show_col_types=FALSE)
+fit <- read_csv("data/derived/modelos_logisticos_ajuste.csv", show_col_types=FALSE)
+source("R/plots.R")
+```
+
+## Composição religiosa da população idosa
+
+A série comparativa entre Brasil e Belo Horizonte mostra diferenças por faixa etária e mudanças não lineares entre 2000, 2010 e 2022. A leitura deve considerar mudanças demográficas, classificatórias e amostrais entre os censos.
+
+```{r}
+#| label: fig-profile
+#| fig-cap: "Composição religiosa da população idosa: Brasil e Belo Horizonte, 2000–2022."
+long <- profile |> pivot_longer(c(catolico,evangelico,espirita,outras), names_to="religiao", values_to="proporcao")
+ggplot(long,aes(ano,proporcao,group=religiao,linetype=religiao,shape=religiao)) +
+  geom_line(linewidth=.8) + geom_point(size=2.2) +
+  facet_grid(regiao~grupo_idade) +
+  scale_y_continuous(labels=label_percent(accuracy=1)) +
+  scale_x_continuous(breaks=c(2000,2010,2022)) +
+  labs(x="Ano",y="Proporção",linetype="Religião",shape="Religião",caption="Fonte: Censos Demográficos de 2000, 2010 e 2022; elaboração própria.") +
+  academic_theme(10)
+```
+
+## Regressões logísticas
+
+No modelo geral de Belo Horizonte para pelo menos um deslocamento, mulheres apresentaram razão de chances próxima de 3,9 em relação aos homens. Pessoas com mobilidade reduzida apresentaram razão de chances próxima de 0,26 em relação à categoria de referência. As estimativas devem ser interpretadas como associações condicionais, não como efeitos causais.
+
+```{r}
+#| label: tbl-key-models
+#| tbl-cap: "Estimativas selecionadas dos modelos gerais para Belo Horizonte."
+est |>
+  filter(geografia=="Belo Horizonte", modelo=="Geral", grepl("sexo|dif_andar",termo)) |>
+  transmute(Desfecho=desfecho, Termo=termo, OR=round(or,3), `IC 95%`=sprintf("%.3f–%.3f",ic95_inf,ic95_sup), `p`=format.pval(p_valor,digits=3,eps=.001), Sig=significancia) |>
+  knitr::kable(align=c("l","l","r","c","r","c"))
+```
+
+```{r}
+#| label: tbl-fit
+#| tbl-cap: "Indicadores de ajuste dos modelos de Belo Horizonte."
+fit |> filter(geografia=="Belo Horizonte") |>
+  mutate(across(c(aic,log_lik,pseudo_r2_mcfadden),~round(.x,3))) |>
+  knitr::kable()
+```
+
+::: {.method-note}
+Os modelos usam análise de casos completos. O projeto preserva o conjunto tratado usado na publicação apenas como resultados derivados; a base individual original não é distribuída publicamente.
+:::

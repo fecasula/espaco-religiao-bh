@@ -1,0 +1,52 @@
+Package: religiaoMobilidadeBH
+Title: Religião, Mobilidade e Cobertura Urbana em Belo Horizonte
+Version: 0.1.12
+Authors@R: c(
+    person("Felipe Baeta Casula", "Pereira", role = c("aut", "cre")),
+    person("Daniel Pimenta de", "Prado", role = "aut")
+  )
+Description: Projeto Quarto e Shiny reprodutível para análise de deslocamentos
+    com motivação religiosa, filiação religiosa e cobertura espacial de
+    equipamentos religiosos em Belo Horizonte.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    bslib,
+    broom,
+    cachem,
+    dplyr,
+    DT,
+    fs,
+    ggplot2,
+    glue,
+    gt,
+    here,
+    htmltools,
+    janitor,
+    jsonlite,
+    knitr,
+    leaflet,
+    memoise,
+    modelsummary,
+    pscl,
+    purrr,
+    readr,
+    readxl,
+    rlang,
+    scales,
+    sf,
+    shiny,
+    stringr,
+    targets,
+    tarchetypes,
+    tibble,
+    yaml,
+    tidyr
+Suggests:
+    quarto,
+    renv,
+    rsconnect,
+    testthat
+Config/testthat/edition: 3

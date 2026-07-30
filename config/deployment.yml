@@ -1,0 +1,17 @@
+shinyapps:
+  account_env: "SHINYAPPS_ACCOUNT"
+  server_env: "SHINYAPPS_SERVER"
+  app_name_env: "SHINYAPPS_APP_NAME"
+  app_title_env: "SHINYAPPS_APP_TITLE"
+  default_server: "shinyapps.io"
+  default_app_name: "religiao-mobilidade-bh"
+  default_app_title: "Índice de Cobertura Religiosa — Belo Horizonte"
+
+dependencies:
+  terra:
+    version: "1.9-41"
+    source: "GitHub"
+    github_username: "rspatial"
+    github_repo: "terra"
+    github_ref: "master"
+    github_sha1: "afe97b775cc963a5c8b1b70459eeabbd287012d4"

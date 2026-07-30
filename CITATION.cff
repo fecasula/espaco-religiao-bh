@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Ao utilizar este repositório, cite o trabalho e a versão do software."
+title: "Religião, mobilidade e cobertura urbana em Belo Horizonte"
+type: software
+authors:
+  - family-names: "Pereira"
+    given-names: "Felipe Baeta Casula"
+  - family-names: "Prado"
+    given-names: "Daniel Pimenta de"
+version: 0.1.12
+date-released: 2026-07-29
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte (MG): uma proposta metodológica para a análise espacial das religiões nas cidades"
+  authors:
+    - family-names: "Pereira"
+      given-names: "Felipe Baeta Casula"
+    - family-names: "Prado"
+      given-names: "Daniel Pimenta de"
+  year: 2026
+  conference:
+    name: "XXXV Congresso da Associação Latino-americana de Sociologia"

@@ -1,0 +1,3 @@
+Remova do projeto o arquivo abaixo, pois foi substituído pela documentação da versão 0.1.5:
+
+INSTRUCOES_DE_ATUALIZACAO_v0.1.4.md

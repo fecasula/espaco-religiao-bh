@@ -1,0 +1,52 @@
+---
+title: "Resultados: deslocamentos"
+---
+
+```{r}
+#| label: setup-trips
+library(readr); library(dplyr); library(ggplot2); library(scales)
+days <- read_csv("data/derived/deslocamentos_dia.csv", show_col_types=FALSE)
+company <- read_csv("data/derived/deslocamentos_companhia.csv", show_col_types=FALSE)
+location <- read_csv("data/derived/deslocamentos_bairro.csv", show_col_types=FALSE)
+modes <- read_csv("data/derived/deslocamentos_modo.csv", show_col_types=FALSE)
+source("R/plots.R")
+```
+
+## Ritmo semanal
+
+Mais da metade dos deslocamentos ocorreu aos domingos. O sábado aparece em segundo lugar, mas com intervalo de confiança amplo. A concentração temporal reforça que a mobilidade religiosa possui um ritmo semanal próprio.
+
+```{r}
+#| label: fig-days
+#| fig-cap: "Distribuição dos deslocamentos religiosos por dia da semana, com intervalo de Wilson de 95%."
+#| fig-width: 9
+#| fig-height: 5.5
+plot_proportion(days, categoria, "Distribuição por dia da semana", "Dia") +
+  scale_x_discrete(limits=c("Segunda-feira","Terça-feira","Quarta-feira","Quinta-feira","Sexta-feira","Sábado","Domingo")) +
+  theme(axis.text.x=element_text(angle=30,hjust=1))
+```
+
+## Modo e duração
+
+A caminhada respondeu por 66,28% dos deslocamentos, com tempo médio próximo de 9,7 minutos. O resultado sustenta o uso da mobilidade pedonal como cenário principal do ICR, mas não implica que todas as pessoas ou todos os equipamentos sejam acessíveis a pé.
+
+```{r}
+#| label: tbl-modes
+#| tbl-cap: "Modo de transporte e tempo médio dos deslocamentos religiosos."
+modes |>
+  transmute(`Modo`=modo_transporte, n, `%`=percent(proporcao,accuracy=.1), `Tempo médio (min)`=round(tempo_medio_min,1), `IC 95% do tempo`=if_else(is.na(tempo_ic95_inf),"—",sprintf("%.1f–%.1f",tempo_ic95_inf,tempo_ic95_sup))) |>
+  knitr::kable(align=c("l","r","r","r","c"))
+```
+
+## Companhia e escala de bairro
+
+54,65% dos deslocamentos foram realizados sozinho e 25,58% com familiar corresidente. Além disso, 76% tiveram como destino um equipamento no bairro de residência. Esses resultados associam autonomia individual, apoio doméstico e proximidade territorial.
+
+::: {.columns}
+::: {.column width="50%"}
+![](assets/img/figura3_companhia.png){fig-alt="Gráfico da companhia nos deslocamentos religiosos"}
+:::
+::: {.column width="50%"}
+![](assets/img/figura4_bairro.png){fig-alt="Gráfico dos deslocamentos dentro e fora do bairro"}
+:::
+:::

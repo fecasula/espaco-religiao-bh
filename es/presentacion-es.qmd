@@ -1,0 +1,68 @@
+---
+title: "De las prácticas al análisis de los equipamientos religiosos de Belo Horizonte"
+author:
+  - "Felipe Baeta Casula Pereira — FAFICH/UFMG"
+  - "Daniel Pimenta de Prado — IGC/UFMG"
+date: "XXXV Congreso de ALAS · 26–31 jul. 2026"
+format:
+  revealjs:
+    theme: [simple, ../assets/css/slides.scss]
+    slide-number: true
+    progress: true
+    transition: fade
+    width: 1600
+    height: 900
+    preview-links: auto
+bibliography: ../bibliography/references.bib
+csl: ../bibliography/abnt.csl
+---
+
+## Pregunta
+
+¿Cómo pueden las movilidades religiosas de las personas mayores informar el análisis espacial de la cobertura de los lugares de culto?
+
+## Estrategia metodológica
+
+1. Descripción de 86 desplazamientos religiosos.
+2. Modelos logísticos acumulativos.
+3. Clasificación de 3.848 establecimientos religiosos.
+4. Estimación de cobertura y publicación de un tablero interactivo.
+
+## Hallazgos
+
+- 51,16% de los desplazamientos los domingos;
+- 66,28% a pie;
+- 9,7 minutos de caminata media;
+- 76% dentro del barrio de residencia.
+
+## Modos de transporte
+
+![](../assets/img/figura1_modos_transporte.png){fig-alt="Distribución por modo de transporte" height=580}
+
+## Compañía
+
+![](../assets/img/figura3_companhia.png){fig-alt="Distribución por compañía" height=580}
+
+## Índice
+
+\[
+ICR_c=\frac{\sum_s P_s(A_{sc}/A_s)}{\sum_s P_s}
+\]
+
+El índice estima cobertura potencial por confesión, sin doble conteo dentro de la misma confesión.
+
+## Auditoría
+
+Con 4 km/h y 9,7 minutos, el radio consistente es 646,67 m. El proyecto conserva los valores históricos para comparación y adopta el cálculo consistente como predeterminado.
+
+## Tablero interactivo
+
+[Abrir el tablero del ICR](https://fecasula.shinyapps.io/religiao-mobilidade-bh/){.btn .btn-primary .btn-lg target="_blank"}
+
+## Producto abierto
+
+Sitio bilingüe · presentación Reveal.js · tablero Shiny · código R · pipeline · pruebas · guía de réplica.
+
+**Tablero:** <https://fecasula.shinyapps.io/religiao-mobilidade-bh/>  
+**Sitio:** <https://fecasula.github.io/religiao-mobilidade-bh/>  
+**Código:** <https://github.com/fecasula/religiao-mobilidade-bh>

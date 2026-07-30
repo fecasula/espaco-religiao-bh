@@ -1,0 +1,11 @@
+---
+title: "Métodos"
+---
+
+La investigación se organiza en tres etapas: descripción de desplazamientos, modelos logísticos y análisis espacial. Para Belo Horizonte se analizaron 202 participantes, 2.164 desplazamientos y 86 viajes por motivos religiosos. La geometría y la población provienen de la malla con atributos definitiva del Censo 2022 del IBGE, validada en 5.166 sectores distintos y 2.315.560 habitantes.
+
+El radio se calcula como \(d=v	imes1000	imes t/60\). Para cada confesión se disuelven los buffers, se intersectan con los sectores censales y se estima la población cubierta en proporción al área. El perfil recomendado usa 4 km/h y 9,7 minutos, equivalentes a 646,67 m.
+
+::: {.audit-note}
+El manuscrito registra también 853,33 m y el mapa original aproximadamente 649,33 m. Los tres perfiles se conservan para auditoría, pero solo el primero es algebraicamente consistente con 4 km/h y 9,7 minutos.
+:::

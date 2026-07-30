@@ -1,0 +1,18 @@
+source("renv/activate.R")
+options(
+  repos = c(CRAN = "https://cloud.r-project.org"),
+  encoding = "UTF-8",
+  scipen = 999,
+  dplyr.summarise.inform = FALSE
+)
+
+# O método wininet é usado somente pelo instalador de pacotes
+# (scripts/00_install.R). Não o force globalmente: downloads grandes de
+# dados espaciais devem usar libcurl, configurado pelo script censitário.
+if (identical(.Platform$OS.type, "windows")) {
+  options(pkgType = "binary")
+}
+
+if (requireNamespace("renv", quietly = TRUE) && file.exists("renv/activate.R")) {
+  source("renv/activate.R", local = TRUE)
+}

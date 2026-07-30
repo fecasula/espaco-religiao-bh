@@ -1,0 +1,25 @@
+# ============================================================
+# Projeto: Religião e Mobilidade em Belo Horizonte
+# Copie para .Renviron na raiz do projeto e reinicie o R.
+# Nunca versione o arquivo .Renviron real.
+# ============================================================
+
+# Base censitária homologada
+CENSUS_MUNICIPALITY_CODE=3106200
+CENSUS_MUNICIPALITY_NAME="Belo Horizonte"
+CENSUS_STATE=MG
+CENSUS_YEAR=2022
+CENSUS_SOURCE_FILE="data/raw/census/ibge_definitivo/MG_setores_CD2022.gpkg"
+CENSUS_DOWNLOAD_METHOD=auto
+CENSUS_FORCE=false
+
+# targets
+TAR_ASK=false
+
+# Publicação Shiny
+# Token e secret NÃO pertencem a este arquivo. Registre a conta com
+# rsconnect::setAccountInfo() e confirme com rsconnect::accounts().
+SHINYAPPS_ACCOUNT=fecasula
+SHINYAPPS_SERVER=shinyapps.io
+SHINYAPPS_APP_NAME=religiao-mobilidade-bh
+SHINYAPPS_APP_TITLE="Índice de Cobertura Religiosa — Belo Horizonte"

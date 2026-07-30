@@ -1,0 +1,72 @@
+---
+title: "Métodos"
+---
+
+## Desenho analítico
+
+A investigação é organizada em três etapas: análise descritiva dos deslocamentos, análise explicativa por regressão logística e análise espacial dos equipamentos religiosos.
+
+## 1. Deslocamentos
+
+A base de origem-destino da pesquisa *Mobilidade de Idosos*, conduzida pelo CEURB/UFMG, registra os deslocamentos realizados na semana anterior à entrevista. Para Belo Horizonte, a análise utiliza 202 participantes e 2.164 deslocamentos, dos quais 86 foram classificados com motivação religiosa.
+
+As proporções são apresentadas com intervalos de 95%. Para equivalência com a apresentação original, o repositório preserva intervalos de Wald; como padrão analítico atualizado, disponibiliza também o intervalo de Wilson, mais estável em categorias pouco frequentes.
+
+## 2. Modelos logísticos
+
+Dois desfechos binários cumulativos são analisados:
+
+- realização de pelo menos um deslocamento com motivação religiosa na semana;
+- realização de mais de um deslocamento com motivação religiosa na semana.
+
+Os modelos são estimados em três blocos:
+
+\[
+\operatorname{logit}[P(Y_i=1)] = \beta_0 + \text{idade}_i + \text{sexo}_i + \text{raça}_i + \text{estado civil}_i
+\]
+
+O bloco sociodemográfico acrescenta renda, e o bloco geral acrescenta dificuldade para andar. Os resultados são comunicados como razões de chances, intervalos de confiança de 95%, valores de *p*, AIC, log-verossimilhança e pseudo-\(R^2\) de McFadden. O pseudo-\(R^2\) é tratado como medida comparativa de ajuste, não como equivalente ao \(R^2\) da regressão linear.
+
+## 3. Equipamentos religiosos
+
+Os estabelecimentos foram identificados no CNEFE 2022 por descrições como *capela*, *igreja*, *templo*, *terreiro*, *casa de oração*, *centro espírita*, *salão do reino*, *catedral*, *mesquita* e *sinagoga* [@ibge_cnefe2022]. Após a classificação e a censura dos registros cuja descrição era apenas “IGREJA”, o universo espacial utilizado contém 3.848 pontos.
+
+A população e a geometria dos setores são obtidas da **malha com atributos definitiva do Censo 2022 do IBGE**. Para Belo Horizonte, o produto é validado em 5.166 códigos de setor distintos e população total de 2.315.560 habitantes. Um setor multipartido é dissolvido sem duplicar sua população.
+
+## 4. Índice de Cobertura Religiosa
+
+Para uma confissão \(c\), os buffers dos estabelecimentos são dissolvidos para evitar dupla contagem. A superfície resultante é intersectada com os setores censitários. Sob a hipótese de distribuição uniforme da população dentro de cada setor:
+
+\[
+\widehat{P}_{sc}=P_s\frac{A_{sc}}{A_s}
+\]
+
+em que \(P_s\) é a população do setor, \(A_s\) é sua área e \(A_{sc}\) é a área coberta pela confissão. O índice é:
+
+\[
+ICR_c=\frac{\sum_s \widehat{P}_{sc}}{\sum_s P_s}.
+\]
+
+A distância pedonal em linha reta é calculada por:
+
+\[
+d = v \times 1000 \times \frac{t}{60},
+\]
+
+com velocidade \(v\) em km/h e tempo \(t\) em minutos.
+
+::: {.audit-note}
+### Auditoria do raio
+
+O texto da versão apresentada registra 853,33 m para 4 km/h e 9,7 minutos, enquanto a aplicação direta da fórmula produz **646,67 m**. A legenda cartográfica original usa aproximadamente 649,33 m para 9,74 minutos. O painel mantém três perfis: cálculo consistente (padrão), mapa original e valor textual histórico, este último apenas para comparação.
+:::
+
+## Hipóteses e limites
+
+- a distância euclidiana não representa barreiras, declividade, travessias ou conectividade da rede;
+- a população é distribuída proporcionalmente à área dentro do setor;
+- o CNEFE pode incluir estabelecimentos inativos ou omitir mudanças recentes;
+- a descrição cadastral não informa necessariamente denominação, capacidade ou frequência de uso;
+- o ICR mede cobertura potencial, não utilização efetiva nem qualidade do acesso.
+
+Uma extensão prevista usa isócronas de caminhada em rede, condicionada à disponibilidade de dados viários e infraestrutura de roteamento.

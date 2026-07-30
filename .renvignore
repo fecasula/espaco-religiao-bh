@@ -1,0 +1,12 @@
+# Materiais históricos preservados apenas para auditoria.
+archive/
+
+# Saídas e arquivos temporários que não definem dependências do projeto.
+_site/
+_freeze/
+.quarto/
+.Rproj.user/
+
+# Metadados locais de publicação.
+rsconnect/
+shiny/rsconnect/

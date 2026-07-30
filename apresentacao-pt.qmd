@@ -1,0 +1,122 @@
+---
+title: "Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte"
+author:
+  - "Felipe Baeta Casula Pereira — FAFICH/UFMG"
+  - "Daniel Pimenta de Prado — IGC/UFMG"
+date: "XXXV Congresso da ALAS · 26–31 jul. 2026"
+format:
+  revealjs:
+    theme: [simple, assets/css/slides.scss]
+    slide-number: true
+    progress: true
+    transition: fade
+    footer: "GT 02 · Sociología Urbana, Ciudades y Periferias"
+    width: 1600
+    height: 900
+    chalkboard: false
+    preview-links: auto
+bibliography: bibliography/references.bib
+csl: bibliography/abnt.csl
+---
+
+## Pergunta
+
+Como práticas de mobilidade religiosa da população idosa podem informar uma análise espacial da cobertura dos equipamentos de culto?
+
+## Estratégia metodológica
+
+::: {.incremental}
+1. Descrever 86 deslocamentos religiosos entre 2.164 viagens de residentes em Belo Horizonte.
+2. Modelar dois desfechos cumulativos por regressão logística.
+3. Classificar 3.848 equipamentos religiosos e estimar cobertura populacional por confissão.
+4. Publicar um painel interativo para auditar os parâmetros espaciais.
+:::
+
+## Um padrão territorialmente próximo
+
+- 51,16% dos deslocamentos aos domingos;
+- 66,28% a pé;
+- 9,7 minutos de caminhada média;
+- 76% dentro do bairro de residência.
+
+## Modos de transporte
+
+![](assets/img/figura1_modos_transporte.png){fig-alt="Distribuição por modo de transporte" height=580}
+
+## Dia da semana
+
+![](assets/img/figura2_dias_semana.png){fig-alt="Distribuição dos deslocamentos religiosos por dia da semana" height=580}
+
+## Companhia
+
+![](assets/img/figura3_companhia.png){fig-alt="Distribuição por companhia" height=580}
+
+## Bairro de residência
+
+![](assets/img/figura4_bairro.png){fig-alt="Proporção dos deslocamentos realizados dentro do bairro de residência" height=580}
+
+## Modelos
+
+- Mulheres: OR ≈ 3,9 para pelo menos um deslocamento no modelo geral de BH.
+- Mobilidade reduzida: OR ≈ 0,26.
+- Interpretação associativa, não causal.
+
+## Da prática ao parâmetro
+
+\[
+d=v\times1000\times\frac{t}{60}
+\]
+
+Com 4 km/h e 9,7 minutos, \(d=646{,}67\) m.
+
+## Auditoria metodológica
+
+O texto registrou 853,33 m; o mapa, cerca de 649,33 m. A versão reprodutível preserva os perfis históricos, mas adota o cálculo consistente como padrão.
+
+## ICR
+
+\[
+ICR_c=\frac{\sum_s P_s(A_{sc}/A_s)}{\sum_s P_s}
+\]
+
+- união dos buffers por confissão;
+- interseção com setores;
+- população proporcional à área coberta;
+- sem dupla contagem intraconfessional.
+
+## Resultados publicados
+
+| Confissão | Estabelecimentos | ICR |
+|---|---:|---:|
+| Protestante/Evangélica | 3.326 | 98,4% |
+| Católica | 296 | 77,5% |
+| Espírita | 154 | 42,1% |
+| Afro-brasileira | 17 | 8,5% |
+
+## Painel interativo
+
+O painel permite alterar velocidade e tempo de caminhada, recalculando raio, população coberta e ICR por confissão.
+
+[Abrir o painel do ICR](https://fecasula.shinyapps.io/religiao-mobilidade-bh/){.btn .btn-primary .btn-lg target="_blank"}
+
+## Contribuições e limites
+
+- integra sociologia urbana, mobilidade e religião;
+- torna hipóteses paramétricas manipuláveis;
+- preserva rastreabilidade e versões;
+- não substitui análise de rede, capacidade, qualidade ou uso efetivo.
+
+## Produto aberto
+
+Site bilíngue · apresentação Reveal.js · painel Shiny · código R · pipeline · testes · guia de replicação · citação e licença.
+
+**Painel:** <https://fecasula.shinyapps.io/religiao-mobilidade-bh/>  
+**Site:** <https://fecasula.github.io/religiao-mobilidade-bh/>  
+**Código:** <https://github.com/fecasula/religiao-mobilidade-bh>
+
+## Obrigado
+
+**Felipe Baeta Casula Pereira**  
+**Daniel Pimenta de Prado**
+
+[Referências completas](referencias.qmd)

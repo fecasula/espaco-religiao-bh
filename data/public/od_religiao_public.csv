@@ -1,0 +1,87 @@
+id_deslocamento,dia_codigo,mesmo_bairro,tempo_minutos,modo_transporte,companhia_original,companhia,dia
+1,sab,1,5.0,A pé,Outra,Outro,Sábado
+2,quar,1,15.0,A pé,Sozinho,Sozinho,Quarta-feira
+3,quar,1,15.0,A pé,Sozinho,Sozinho,Quarta-feira
+4,sab,1,15.0,A pé,Outra,Outro,Sábado
+5,sab,1,15.0,A pé,Outra,Outro,Sábado
+6,dom,1,15.0,A pé,Familiar residente não pago,Familiar corresidente,Domingo
+7,dom,1,15.0,A pé,Familiar residente não pago,Familiar corresidente,Domingo
+8,dom,0,20.0,Carro próprio,Sozinho,Sozinho,Domingo
+9,dom,0,15.0,Carro próprio,Familiar residente não pago,Familiar corresidente,Domingo
+10,dom,1,20.0,A pé,Sozinho,Sozinho,Domingo
+11,ter,1,15.0,A pé,Sozinho,Sozinho,Terça-feira
+12,quin,1,15.0,A pé,Sozinho,Sozinho,Quinta-feira
+13,ter,1,15.0,A pé,Sozinho,Sozinho,Terça-feira
+14,dom,1,15.0,A pé,Sozinho,Sozinho,Domingo
+15,quar,0,10.0,Carro de carona,Familiar externo não pago,Familiar não corresidente,Quarta-feira
+16,sab,1,10.0,A pé,Outra,Outro,Sábado
+17,dom,1,10.0,A pé,Sozinho,Sozinho,Domingo
+18,dom,1,10.0,Carro de carona,Familiar residente não pago,Familiar corresidente,Domingo
+19,dom,0,15.0,Carro de carona,Familiar residente não pago,Familiar corresidente,Domingo
+20,dom,0,10.0,Carro de carona,Outra pessoa não remunerada,Outro,Domingo
+21,dom,1,10.0,A pé,Familiar residente não pago,Familiar corresidente,Domingo
+22,dom,1,3.0,A pé,Sozinho,Sozinho,Domingo
+23,dom,1,5.0,A pé,Sozinho,Sozinho,Domingo
+24,quar,1,5.0,Carro próprio,Sozinho,Sozinho,Quarta-feira
+25,dom,1,5.0,Carro próprio,Sozinho,Sozinho,Domingo
+26,dom,1,5.0,Carro próprio,Sozinho,Sozinho,Domingo
+27,seg,0,20.0,Transporte de aplicativo,Sozinho,Sozinho,Segunda-feira
+28,sex,1,2.0,A pé,Sozinho,Sozinho,Sexta-feira
+29,dom,1,10.0,Carro próprio,Sozinho,Sozinho,Domingo
+30,quar,1,7.0,A pé,Sozinho,Sozinho,Quarta-feira
+31,dom,1,6.0,A pé,Familiar externo não pago,Familiar não corresidente,Domingo
+32,dom,1,10.0,A pé,Familiar residente não pago,Familiar corresidente,Domingo
+33,dom,1,20.0,A pé,Sozinho,Sozinho,Domingo
+34,quin,1,10.0,A pé,Sozinho,Sozinho,Quinta-feira
+35,sab,1,10.0,A pé,Familiar externo pago,Familiar não corresidente,Sábado
+36,dom,1,10.0,A pé,Sozinho,Sozinho,Domingo
+37,quar,0,10.0,Carro próprio,Familiar residente não pago,Familiar corresidente,Quarta-feira
+38,sab,0,10.0,Carro próprio,Familiar residente não pago,Familiar corresidente,Sábado
+39,dom,0,10.0,Carro próprio,Familiar residente não pago,Familiar corresidente,Domingo
+40,sab,1,15.0,Carro de carona,Familiar residente remunerado,Familiar corresidente,Sábado
+41,ter,1,3.0,A pé,Familiar residente não pago,Familiar corresidente,Terça-feira
+42,ter,1,25.0,A pé,Familiar externo não pago,Familiar não corresidente,Terça-feira
+43,dom,1,25.0,A pé,Familiar externo não pago,Familiar não corresidente,Domingo
+44,dom,1,5.0,A pé,Familiar residente não pago,Familiar corresidente,Domingo
+45,dom,1,10.0,A pé,Sozinho,Sozinho,Domingo
+46,dom,0,20.0,A pé,Outra pessoa não remunerada,Outro,Domingo
+47,ter,1,15.0,A pé,Sozinho,Sozinho,Terça-feira
+48,sab,1,15.0,A pé,Outra,Outro,Sábado
+49,dom,1,15.0,A pé,Sozinho,Sozinho,Domingo
+50,dom,1,15.0,A pé,Sozinho,Sozinho,Domingo
+51,seg,1,5.0,A pé,Familiar residente não pago,Familiar corresidente,Segunda-feira
+52,dom,1,5.0,A pé,Familiar residente não pago,Familiar corresidente,Domingo
+53,dom,1,5.0,Carro de carona,Familiar residente não pago,Familiar corresidente,Domingo
+54,sex,1,2.0,A pé,Sozinho,Sozinho,Sexta-feira
+55,ter,1,5.0,A pé,Sozinho,Sozinho,Terça-feira
+56,quin,1,10.0,A pé,Sozinho,Sozinho,Quinta-feira
+57,dom,0,10.0,Carro de carona,Familiar residente não pago,Familiar corresidente,Domingo
+58,dom,1,3.0,A pé,Familiar residente não pago,Familiar corresidente,Domingo
+59,sab,1,1.0,A pé,Outra,Outro,Sábado
+60,dom,1,1.0,A pé,Sozinho,Sozinho,Domingo
+61,dom,1,4.0,A pé,Sozinho,Sozinho,Domingo
+62,dom,1,2.0,Carro próprio,Sozinho,Sozinho,Domingo
+63,ter,1,5.0,A pé,Sozinho,Sozinho,Terça-feira
+64,quar,1,5.0,A pé,Sozinho,Sozinho,Quarta-feira
+65,quin,1,5.0,A pé,Sozinho,Sozinho,Quinta-feira
+66,sex,1,5.0,A pé,Sozinho,Sozinho,Sexta-feira
+67,sab,1,5.0,A pé,Outra,Outro,Sábado
+68,dom,1,5.0,A pé,Sozinho,Sozinho,Domingo
+69,dom,1,5.0,A pé,Sozinho,Sozinho,Domingo
+70,dom,1,5.0,A pé,Sozinho,Sozinho,Domingo
+71,dom,1,8.0,A pé,Familiar residente não pago,Familiar corresidente,Domingo
+72,seg,0,40.0,BRT/Ônibus,Sozinho,Sozinho,Segunda-feira
+73,ter,0,40.0,BRT/Ônibus,Sozinho,Sozinho,Terça-feira
+74,quar,0,40.0,BRT/Ônibus,Sozinho,Sozinho,Quarta-feira
+75,quin,0,40.0,BRT/Ônibus,Sozinho,Sozinho,Quinta-feira
+76,sex,0,40.0,BRT/Ônibus,Sozinho,Sozinho,Sexta-feira
+77,sab,0,40.0,BRT/Ônibus,Outra,Outro,Sábado
+78,dom,0,40.0,BRT/Ônibus,Sozinho,Sozinho,Domingo
+79,dom,1,5.0,Carro próprio,Familiar residente não pago,Familiar corresidente,Domingo
+80,ter,0,5.0,Carro próprio,Familiar residente não pago,Familiar corresidente,Terça-feira
+81,dom,0,10.0,Carro próprio,Familiar residente não pago,Familiar corresidente,Domingo
+82,dom,1,10.0,A pé,Sozinho,Sozinho,Domingo
+83,sab,1,10.0,A pé,Outra,Outro,Sábado
+84,dom,1,10.0,A pé,Sozinho,Sozinho,Domingo
+85,sex,0,60.0,Carro de carona,Familiar externo não pago,Familiar não corresidente,Sexta-feira
+86,dom,1,5.0,A pé,Sozinho,Sozinho,Domingo

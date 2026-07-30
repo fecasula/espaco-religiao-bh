@@ -1,0 +1,11 @@
+/*-- scss:defaults --*/
+$presentation-heading-color: #173f5f;
+$presentation-font-size-root: 34px;
+$link-color: #2f7d62;
+/*-- scss:rules --*/
+.reveal .slides { text-align: left; }
+.reveal h1, .reveal h2 { letter-spacing: -.02em; }
+.reveal .slide-number { font-size: .45em; }
+.reveal table { font-size: .62em; }
+.reveal .footer { font-size: .38em; }
+.small { font-size: .68em; }

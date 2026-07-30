@@ -1,49 +1,48 @@
-# History files
+.Rproj.user
 .Rhistory
-.Rapp.history
-
-# Session Data files
 .RData
-.RDataTmp
-
-# User-specific files
 .Ruserdata
-
-# Example code in package build process
-*-Ex.R
-
-# Output files from R CMD build
-/*.tar.gz
-
-# Output files from R CMD check
-/*.Rcheck/
-
-# RStudio files
-.Rproj.user/
-
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
-
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
-
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
-
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
-
-# R Environment Variables
 .Renviron
+renv/library/
+renv/staging/
+_site/
+_freeze/
+_targets/
+*.html
+*.log
+.DS_Store
+Thumbs.db
 
-# pkgdown site
-docs/
+# Microdados confidenciais
+data/private/*
+!data/private/.gitkeep
 
-# translation temp files
-po/*~
+# Fontes censitárias grandes e temporários de download
+data/raw/census/**/*.gpkg
+data/raw/census/**/*.parquet
+data/raw/census/**/*.zip
+data/raw/census/**/*.shp
+data/raw/census/**/*.shx
+data/raw/census/**/*.dbf
+data/raw/census/**/*.prj
+data/raw/census/**/*.download.*
+!data/raw/census/ibge_definitivo/.gitkeep
 
-# RStudio Connect folder
-rsconnect/
+# Produtos espaciais e auditorias reconstruídos pelo pipeline
+data/derived/setores_*.gpkg
+data/derived/auditoria/*.csv
+!data/derived/auditoria/.gitkeep
+shiny/data/setores_ativos.gpkg
+
+# Compatibilidade com versões anteriores
+shiny/data/setores_bh_2022.gpkg
+data/derived/setores_bh_2022.gpkg
+
+/.quarto/
+**/*.quarto_ipynb
+# Estados e backups locais do RStudio
+.Rproj.user*
+.Rhistory*
+_backup_inicio_rstudio_*/
+startup_problematico_*/
+

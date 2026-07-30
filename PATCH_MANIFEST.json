@@ -1,0 +1,50 @@
+{
+  "version": "0.1.9",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 4215,
+      "sha256": "c09d336028d42deae20c10b732840cee81fe96d27bc56c5c7a265b4950dfe8b9"
+    },
+    {
+      "path": "CITATION.cff",
+      "size": 851,
+      "sha256": "5305d24aebac60524463fe8eb95cb55acfe574f613179c4fc45c14c036b90796"
+    },
+    {
+      "path": "DESCRIPTION",
+      "size": 1008,
+      "sha256": "b1208767bdc36cb61b4815291c60ba118b8a072a6e98483ebcdaae3508b02afe"
+    },
+    {
+      "path": "INSTRUCOES_DE_ATUALIZACAO_v0.1.9.md",
+      "size": 929,
+      "sha256": "77a6ddd36a269758fc6cd3543b282d43db32f64ac63e4106d112105fe91cea0b"
+    },
+    {
+      "path": "LEIA_PRIMEIRO.md",
+      "size": 442,
+      "sha256": "0ac53ccc28cfea7dd469e53cff73d04feadf9ab85283fdf1672fc746c7fb2696"
+    },
+    {
+      "path": "R/deployment.R",
+      "size": 13785,
+      "sha256": "96dd3bb3d042ce6317f33ce1d43335dd2a692d0deaaa98466f52dbeb82b628b6"
+    },
+    {
+      "path": "README.md",
+      "size": 5113,
+      "sha256": "55af8a64b6f6f10e33c39f1e5172c1e613be4677afb209fc5adbd6fdca0c73b7"
+    },
+    {
+      "path": "es/reproducibilidad.qmd",
+      "size": 2430,
+      "sha256": "57ff57d4e53cf7951ef382d15b72ecf33b231943f047a5304fc443cf27d731e4"
+    },
+    {
+      "path": "tests/testthat/test-deployment.R",
+      "size": 2711,
+      "sha256": "54b10023e95ff71fb6a875015d62ea77c7968020901e360b19fa156b472b2e71"
+    }
+  ]
+}

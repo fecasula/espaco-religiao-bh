@@ -1,0 +1,7 @@
+---
+title: "Resultados: desplazamientos"
+---
+
+Los viajes se concentraron los domingos. El 66,28% se realizó a pie, con una duración media de alrededor de 9,7 minutos; 54,65% se realizó en solitario y 76% tuvo destino en el barrio de residencia.
+
+![](../assets/img/figura1_modos_transporte.png){fig-alt="Modos de transporte utilizados"}

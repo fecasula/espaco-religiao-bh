@@ -1,0 +1,34 @@
+/*-- scss:defaults --*/
+$primary: #173f5f;
+$secondary: #5b6f7d;
+$success: #2f7d62;
+$warning: #a96f17;
+$danger: #9c2f2f;
+$font-family-sans-serif: "Source Sans 3", "Segoe UI", Arial, sans-serif;
+$headings-font-family: "Source Serif 4", Georgia, serif;
+
+/*-- scss:rules --*/
+:root {
+  --academic-blue: #173f5f;
+  --academic-teal: #2f7d62;
+  --paper: #fbfaf7;
+}
+body { line-height: 1.68; }
+h1, h2, h3 { letter-spacing: -0.015em; }
+.quarto-title-banner { background: linear-gradient(120deg, #173f5f, #2f607a); }
+.hero-academic {
+  padding: 2.4rem; border-radius: 1.2rem; color: white;
+  background: linear-gradient(135deg, rgba(23,63,95,.97), rgba(47,125,98,.91));
+  box-shadow: 0 18px 45px rgba(23,63,95,.18); margin-bottom: 2rem;
+}
+.hero-academic h1 { font-size: clamp(2rem, 4vw, 3.35rem); margin-bottom: .8rem; }
+.hero-academic p { font-size: 1.15rem; max-width: 65ch; }
+.kpi-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 1rem; margin: 1.5rem 0; }
+.kpi { border: 1px solid rgba(23,63,95,.18); border-radius: .9rem; padding: 1rem 1.1rem; background: rgba(255,255,255,.76); }
+.kpi .value { font-size: 1.75rem; font-weight: 750; color: var(--academic-blue); }
+.kpi .label { font-size: .92rem; color: #4b5963; }
+.method-note { border-left: 5px solid var(--academic-teal); background: rgba(47,125,98,.08); padding: 1rem 1.2rem; border-radius: .35rem; }
+.audit-note { border-left: 5px solid #a96f17; background: rgba(169,111,23,.09); padding: 1rem 1.2rem; border-radius: .35rem; }
+.figure-frame { border: 1px solid #d8dee3; border-radius: .7rem; padding: .75rem; background: white; }
+.references p { padding-left: 0; text-indent: 0; }
+table { font-size: .94rem; }

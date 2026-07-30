@@ -1,0 +1,46 @@
+---
+title: "Índice de Cobertura Religiosa interativo"
+page-layout: full
+toc: false
+---
+
+::: {.callout-important}
+## Painel publicado
+
+O painel interativo do Índice de Cobertura Religiosa está publicado no shinyapps.io e permite alterar velocidade média e tempo de caminhada para recalcular a cobertura potencial por confissão religiosa.
+:::
+
+[Abrir o painel interativo](https://fecasula.shinyapps.io/religiao-mobilidade-bh/){.btn .btn-primary .btn-lg target="_blank"}
+
+::: {.callout-warning}
+## Escopo geográfico
+
+A versão atual do painel e do cálculo espacial funciona somente para **Belo Horizonte (MG)**. A adaptação para outros municípios está em desenvolvimento e dependerá da integração de pontos religiosos locais, população censitária compatível e sistema de coordenadas adequado.
+:::
+
+## O que o painel permite
+
+O aplicativo recalcula a distância de acesso e a cobertura das quatro confissões principais quando o usuário altera velocidade média e tempo de caminhada. Cada cenário retorna o número de estabelecimentos, a população potencialmente coberta e o ICR.
+
+::: {.callout-note}
+O painel é executado em servidor Shiny separado. O primeiro acesso após um período de inatividade pode exigir alguns segundos para iniciar a instância.
+:::
+
+## Base censitária
+
+O cálculo utiliza a malha com atributos definitiva do Censo 2022 do IBGE. Geometria e população provêm do mesmo GeoPackage, com 5.166 setores distintos e 2.315.560 habitantes após a consolidação controlada de um setor multipartido.
+
+## Definição
+
+A cobertura é obtida pela união dos buffers por confissão, interseção com os setores censitários e alocação da população proporcionalmente à área coberta. O método evita dupla contagem dentro da mesma confissão.
+
+## Parâmetros protegidos
+
+- velocidade: 2,0 a 6,5 km/h;
+- tempo: 3 a 30 minutos;
+- perfil padrão: 4 km/h e 9,7 minutos, equivalente a 646,67 m;
+- perfis históricos disponíveis para auditoria.
+
+## Interpretação responsável
+
+O ICR não mede frequência aos cultos, capacidade dos templos, qualidade das calçadas, segurança, declividade ou acessibilidade universal. Ele representa cobertura potencial sob um conjunto explícito de hipóteses.

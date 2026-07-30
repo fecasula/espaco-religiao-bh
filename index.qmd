@@ -1,0 +1,63 @@
+---
+title: "Religião, mobilidade e cobertura urbana"
+subtitle: "Uma infraestrutura reprodutível para analisar práticas religiosas e equipamentos urbanos"
+page-layout: full
+toc: false
+---
+
+::: {.hero-academic}
+# Do estudo das práticas à análise dos equipamentos
+
+Este projeto integra **mobilidade de pessoas idosas**, **filiação religiosa** e **distribuição espacial de equipamentos religiosos** em Belo Horizonte. O objetivo é transformar uma apresentação acadêmica em um produto científico aberto, auditável e bilíngue, além de criar a base metodológica para uma futura generalização municipal.
+
+[Explorar o estudo](resumo.qmd){.btn .btn-light .btn-lg} [Abrir o ICR interativo](indice-cobertura.qmd){.btn .btn-outline-light .btn-lg}
+:::
+
+<div class="kpi-grid">
+<div class="kpi"><div class="value">202</div><div class="label">participantes residentes em Belo Horizonte na análise OD</div></div>
+<div class="kpi"><div class="value">86</div><div class="label">deslocamentos com motivação religiosa</div></div>
+<div class="kpi"><div class="value">66,3%</div><div class="label">deslocamentos religiosos realizados a pé</div></div>
+<div class="kpi"><div class="value">3.848</div><div class="label">estabelecimentos no universo espacial analisado</div></div>
+</div>
+
+::: {.callout-warning}
+## Escopo espacial da versão atual
+
+O cálculo do Índice de Cobertura Religiosa e o painel cartográfico funcionam somente para **Belo Horizonte (MG)**. A adaptação validada para outros municípios está em desenvolvimento.
+:::
+
+## Pergunta central
+
+Como as práticas de deslocamento religioso da população idosa podem informar uma medida espacial de acesso aos equipamentos religiosos urbanos?
+
+## Três camadas analíticas
+
+::: {.columns}
+::: {.column width="33%"}
+### Práticas
+Dias, companhia, modo, duração e localização dos deslocamentos.
+:::
+::: {.column width="33%"}
+### Filiação
+Mudanças na composição religiosa e modelos logísticos sobre frequência de deslocamentos.
+:::
+::: {.column width="33%"}
+### Equipamentos
+Classificação, concentração e cobertura populacional dos locais de culto.
+:::
+:::
+
+::: {.method-note}
+**Ciência aberta com proteção de participantes.** O repositório publica somente dados agregados ou desidentificados. As bases individuais originais permanecem fora do versionamento.
+:::
+
+## Produtos
+
+- site científico em português e espanhol;
+- apresentação em Reveal.js;
+- painel Shiny para recalcular o raio e o Índice de Cobertura Religiosa;
+- pipeline `{targets}` e testes automatizados;
+- documentação da arquitetura prevista para futura replicação municipal;
+- trilha explícita de auditoria metodológica.
+
+O trabalho foi preparado para o XXXV Congresso da Associação Latino-americana de Sociologia [@pereira_prado_2026].

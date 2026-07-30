@@ -1,0 +1,85 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "es/*.qmd"
+  resources:
+    - assets/publication/**
+
+website:
+  title: "Religião, mobilidade e cobertura urbana"
+  site-url: "https://fecasula.github.io/religiao-mobilidade-bh/"
+  repo-url: "https://github.com/fecasula/religiao-mobilidade-bh"
+  page-navigation: true
+  reader-mode: true
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Início
+      - text: Estudo
+        menu:
+          - href: resumo.qmd
+            text: Resumo
+          - href: introducao.qmd
+            text: Introdução
+          - href: metodos.qmd
+            text: Métodos
+      - text: Resultados
+        menu:
+          - href: resultados-deslocamentos.qmd
+            text: Deslocamentos
+          - href: resultados-filiacao.qmd
+            text: Filiação
+          - href: resultados-equipamentos.qmd
+            text: Equipamentos
+      - href: indice-cobertura.qmd
+        text: ICR interativo
+      - href: reprodutibilidade.qmd
+        text: Reproduzir
+      - href: apresentacao-pt.qmd
+        text: Apresentação
+      - href: referencias.qmd
+        text: Referências
+    right:
+      - href: es/index.qmd
+        text: ES
+      - icon: github
+        href: "https://github.com/fecasula/religiao-mobilidade-bh"
+        aria-label: "Repositório no GitHub"
+  page-footer:
+    left: "© 2026 Pereira e Prado — código sob licença MIT."
+    right: "Painel interativo: <https://fecasula.shinyapps.io/religiao-mobilidade-bh/>"
+
+bibliography: bibliography/references.bib
+csl: bibliography/abnt.csl
+lang: pt-BR
+
+format:
+  html:
+    theme:
+      light: [cosmo, assets/css/site.scss]
+      dark: [darkly, assets/css/site.scss]
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    anchor-sections: true
+    code-fold: true
+    code-tools: true
+    code-copy: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    fig-align: center
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    grid:
+      sidebar-width: 260px
+      body-width: 980px
+      margin-width: 260px
+
+execute:
+  freeze: auto
+  warning: false
+  message: false
+  echo: false

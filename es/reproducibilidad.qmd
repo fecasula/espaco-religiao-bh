@@ -1,0 +1,53 @@
+---
+title: "Reproducibilidad"
+---
+
+::: {.callout-warning}
+## Limitación espacial de la versión actual
+
+La preparación censal, el Índice de Cobertura Religiosa y el panel cartográfico están homologados **solamente para Belo Horizonte (MG)**. Una versión para otros municipios está en desarrollo, pero permanece bloqueada mientras se validan la proyección, los establecimientos, la población y los parámetros locales de movilidad.
+:::
+
+El proyecto separa datos públicos, derivados y confidenciales; utiliza funciones modulares, un pipeline `{targets}`, pruebas automatizadas y flujos de GitHub Actions.
+
+```bash
+Rscript scripts/00_install.R
+Rscript scripts/02_prepare_census.R
+Rscript scripts/03_run_pipeline.R
+Rscript scripts/04_render_site.R
+```
+
+## Fuente espacial definitiva
+
+La versión 0.1.10 utiliza la malla con atributos definitiva del IBGE para el Censo 2022. El archivo estadual se guarda en:
+
+```text
+data/raw/census/ibge_definitivo/MG_setores_CD2022.gpkg
+```
+
+El script selecciona Belo Horizonte, consolida las partes geométricas con el mismo código y población, valida el producto y genera:
+
+```text
+data/derived/setores_3106200_2022_definitivo.gpkg
+shiny/data/setores_ativos.gpkg
+```
+
+La referencia validada contiene 5.166 sectores distintos y una población total de 2.315.560 habitantes. El sector `310620005670833` tiene dos partes geométricas con población 171; las partes se unen y la población se cuenta una sola vez.
+
+Los informes de auditoría se guardan en `data/derived/auditoria/` e incluyen diagnóstico, detalle de sectores multipartidos y manifiesto de la fuente.
+
+La generalización a otras ciudades está en desarrollo. No basta con cambiar el código municipal: también son necesarios establecimientos religiosos locales, clasificación revisada, población compatible, proyección métrica adecuada, parámetros de movilidad sustentados por evidencia local y pruebas específicas para cada ciudad.
+
+
+## Publicación del panel
+
+El despliegue del panel usa una configuración reproducible:
+
+```r
+source("scripts/08_prepare_shiny_lockfile.R")
+source("scripts/05_deploy_shiny.R")
+```
+
+El flujo elimina cualquier `shiny/manifest.json` residual y permite que `{rsconnect}` genere internamente un manifiesto válido con `appMode = "shiny"` y resolución estricta de dependencias.
+
+`config/deployment.yml` fija la versión y el SHA de `{terra}`. Los lockfiles conservan los campos `Remote*` de `{renv}` y añaden los campos `Github*` requeridos por el manifiesto de shinyapps.io. La cuenta se lee desde `SHINYAPPS_ACCOUNT`; el token y el secreto nunca se guardan en el repositorio.

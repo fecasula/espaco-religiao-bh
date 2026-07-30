@@ -1,0 +1,17 @@
+---
+title: "Resumo"
+---
+
+O estudo possui dois objetivos articulados. O primeiro é descrever e modelar as práticas de mobilidade com motivação religiosa da população com 60 anos ou mais residente em Belo Horizonte. O segundo é propor um **Índice de Cobertura Religiosa (ICR)**, entendido como uma aproximação da acessibilidade pedonal aos equipamentos de diferentes confissões.
+
+A dimensão comportamental combina estatísticas descritivas, intervalos de confiança e regressões logísticas. São examinados o dia da semana, a companhia, o modo de transporte, o tempo de viagem e a realização do deslocamento dentro ou fora do bairro de residência. A dimensão espacial combina estabelecimentos do CNEFE 2022 e população residente por setor censitário [@ibge_cnefe2022; @ibge_censo2022].
+
+Os resultados indicam concentração dos deslocamentos aos domingos, predominância de viagens a pé e forte inserção no próprio bairro. Nos modelos de Belo Horizonte, sexo feminino associa-se positivamente à realização de deslocamentos religiosos, enquanto a dificuldade para andar associa-se negativamente ao desfecho. Espacialmente, a análise evidencia que quantidade de estabelecimentos, capilaridade territorial e cobertura populacional são dimensões relacionadas, porém não equivalentes.
+
+**Palavras-chave:** mobilidade urbana; população idosa; religião; acessibilidade; equipamentos urbanos; análise espacial; Belo Horizonte.
+
+## Resumen
+
+El estudio articula dos objetivos: describir y modelar las movilidades por motivos religiosos de la población de 60 años o más residente en Belo Horizonte y proponer un **Índice de Cobertura Religiosa (ICR)** como aproximación de la accesibilidad peatonal a los equipamientos religiosos. Los resultados señalan una concentración dominical, predominio de desplazamientos a pie y fuerte inserción barrial. El proyecto integra análisis estadístico, cartografía, documentación bilingüe y un tablero interactivo reproducible.
+
+**Palabras clave:** movilidad urbana; personas mayores; religión; accesibilidad; equipamientos urbanos; análisis espacial.

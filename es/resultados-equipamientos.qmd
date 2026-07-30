@@ -1,0 +1,7 @@
+---
+title: "Resultados: equipamientos"
+---
+
+El universo espacial contiene 3.848 establecimientos después de excluir los registros cuya descripción era únicamente “IGREJA”. La tabla de la publicación y la clasificación actual presentan la misma cantidad total, pero distribuciones confesionales diferentes; ambas versiones se conservan y documentan.
+
+[Publicación completa](../assets/publication/TrabalhoALAS_merged.pdf){.btn .btn-outline-primary}

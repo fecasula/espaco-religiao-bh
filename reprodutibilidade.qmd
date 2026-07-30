@@ -1,0 +1,99 @@
+---
+title: "Guia de reprodução"
+---
+
+::: {.callout-warning}
+## Limitação espacial da versão atual
+
+A preparação censitária, o Índice de Cobertura Religiosa e o painel cartográfico estão homologados **somente para Belo Horizonte (MG)**. Uma versão para outros municípios está em desenvolvimento, mas permanece bloqueada enquanto são validados CRS, estabelecimentos, população e parâmetros locais de mobilidade.
+:::
+
+## Requisitos
+
+- R 4.4 ou superior;
+- Quarto CLI;
+- bibliotecas de sistema requeridas por `{sf}`;
+- acesso à internet na primeira execução, salvo quando o GeoPackage oficial já estiver disponível localmente;
+- espaço em disco para aproximadamente 177 MB da base estadual e os arquivos derivados.
+
+## Execução rápida
+
+```bash
+Rscript scripts/00_install.R
+Rscript scripts/02_prepare_census.R
+Rscript scripts/03_run_pipeline.R
+Rscript scripts/04_render_site.R
+```
+
+## Fonte espacial definitiva
+
+`config/censo.yml` aponta para a malha com atributos definitiva do IBGE:
+
+```text
+data/raw/census/ibge_definitivo/MG_setores_CD2022.gpkg
+```
+
+Na primeira execução, `scripts/02_prepare_census.R`:
+
+1. valida ou baixa o GeoPackage estadual;
+2. seleciona Belo Horizonte pelo código `3106200`;
+3. identifica `CD_SETOR`, `CD_MUN` e `v0001`;
+4. consolida geometrias multipartidas com população idêntica;
+5. valida códigos, geometrias e população;
+6. grava `data/derived/setores_3106200_2022_definitivo.gpkg`;
+7. atualiza `shiny/data/setores_ativos.gpkg`;
+8. gera os relatórios de auditoria.
+
+No Windows, o método `auto` tenta `wininet` e depois `libcurl`. O aviso de depreciação do `wininet` pode aparecer, mas a integridade do arquivo é verificada por tamanho, camada e abertura pelo GDAL.
+
+## Referências de validação
+
+A base homologada deve resultar em:
+
+```text
+Setores distintos: 5.166
+População total:    2.315.560
+Códigos duplicados: 0
+Geometrias vazias:  0
+Geometrias inválidas: 0
+Populações ausentes: 0
+```
+
+O setor `310620005670833` é composto por duas feições com população 171. O pipeline dissolve as duas partes e conta a população uma única vez.
+
+## Auditoria e proveniência
+
+São produzidos:
+
+```text
+data/derived/auditoria/diagnostico_base_ibge_definitiva.csv
+data/derived/auditoria/detalhe_setores_multipartidos.csv
+data/derived/auditoria/manifesto_fonte_censitaria.csv
+```
+
+O manifesto registra URL, caminho local, tamanho, data de modificação, MD5, camada, município, ano e CRS. O MD5 é usado para controle de reprodução, não para segurança criptográfica.
+
+## Estrutura de dados
+
+`data/public/` contém dados aptos ao versionamento. `data/private/` é ignorado pelo Git. `data/raw/census/` recebe arquivos oficiais grandes e `data/derived/` recebe os produtos reconstruídos. GeoPackages e Parquets censitários não são versionados.
+
+## Extensão futura para outro município
+
+Alterar apenas o código municipal não é suficiente. A generalização exigirá pontos religiosos locais, classificação revisada, fonte populacional compatível, CRS métrico apropriado, parâmetros locais de mobilidade e testes de consistência. Por segurança, a versão atual interrompe solicitações diferentes de `3106200`.
+
+## Publicação
+
+O site estático é preparado para GitHub Pages. O aplicativo Shiny é publicado no shinyapps.io por um fluxo validado:
+
+```r
+source("scripts/08_prepare_shiny_lockfile.R")
+source("scripts/05_deploy_shiny.R")
+```
+
+`config/deployment.yml` fixa o pacote `{terra}` por versão e SHA do GitHub. Os lockfiles preservam os campos `Remote*` utilizados pelo `{renv}` e acrescentam os campos `Github*` esperados pelo shinyapps.io. Antes do upload, o projeto valida as dependências detectadas e remove qualquer `shiny/manifest.json` residual. O `deployApp()` gera internamente um manifesto válido com `appMode = "shiny"` e `dependencyResolution = "strict"`.
+
+A conta é lida de `SHINYAPPS_ACCOUNT`; token e secret são registrados localmente por `rsconnect::setAccountInfo()` e não são salvos no repositório.
+
+## Princípios FAIR, ética e ABNT
+
+O repositório fornece metadados, licença, citação, dados públicos mínimos, código modular e histórico de decisões. Bases de participantes não devem ser publicadas. Citações e referências são automatizadas por CSL, mas a prova final deve ser revisada conforme a norma e o manual institucional vigentes.

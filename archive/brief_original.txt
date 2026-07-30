@@ -1,0 +1,44 @@
+escrevi um artigo sobre deslocamentos com motivação religiosa pela população idosa de Belo Horizonte chamado 'Do Estudo das Práticas à Análise dos Equipamentos Religiosos de Belo Horizonte
+(MG): uma Proposta Metodológica para a Análise Espacial das Religiões nas Cidades'
+
+O contexto do trabalho foi uma produção de ciências humanas na área de sociologia urbana, e apresentarei o trabalho e seus resultados em um congresso latino-americano de sociologia.
+
+Gostaria de criar um projeto usando Quarto/ possivelmente Shiny e hospedar no GitHub junto aos códigos utilizados assim como um passo a passo para a reprodução da análise em outros contextos.
+
+Método utilizado para obter os pontos dos estabelecimentos religiosos:
+
+A elaboração do mapa de densidade de estabelecimentos religiosos em Belo Horizonte
+envolveu as etapas de identificação, seleção, tratamento e análise espacial dos dados, a partir de fontes
+oficiais e do uso de Sistemas de Informação Geográfica (SIG). A base primária utilizada foi o
+Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE) do IBGE, referente ao ano de 2022,
+recortado para a Região Metropolitana de Belo Horizonte (RMBH). A identificação e seleção dos
+estabelecimentos religiosos foram realizadas por meio de busca de palavras-chave previamente
+definidas, representativas de distintas tipologias de locais de culto, abrangendo diversas tradições
+religiosas. As palavras-chave incluíram capela, igreja, templo, terreiro, casa de oração, centro espírita,
+salão do reino, catedral, mesquita e sinagoga, incluindo variações decorrentes de erros de digitação.
+No processo de tratamento e verificação da consistência dos dados, foram identificados 12.984
+estabelecimentos religiosos.
+A verificação topológica conduzida no software QGIS indicou a presença de 32 registros
+duplicados, que foram removidos, resultando em 12.952 estabelecimentos georreferenciados para
+análise. Por fim, a densidade de estabelecimentos religiosos foi calculada por bairro, mediante a razão
+entre o número de estabelecimentos georreferenciados e a área em quilômetros quadrados. O
+resultado foi representado em um mapa coroplético, no qual as tonalidades variam em função da
+densidade de estabelecimentos por km2.
+"
+
+Nesta apresentação criaremos uma página inicial Index com o resumo do trabalho (o mesmo utilizado no artigo enviado) assim como uma apresentação sobre o 'Índice de Cobertura Religiosa' apontando para uma nova página onde o usuário poderá acessar um passo a passo de como obter os dados para uma cidade específica e incorporá-los à um script R que o permitirá encontrar os resultados para uma cidade de interesse. 
+
+A página também conterá um link para uma apresentação que criaremos utilizando Quarto/Shiny, nela iremos expor os resultados nas seguintes seções: Resumo; Itrodução; Métodos; Resultados: Os deslocamentos; A Filiação; Os equipamentos religiosos. 
+
+Enviei todos os scripts utilizado de modo a possibilitar que você gere novamente os plots utilizando pacotes com interatividade Quarto/Shiny.
+
+O ponto principal do projeto é o seguinte:
+Gostaria de incluir nessa apresentação uma tela interativa estilo Dashboard para 'Area de Cobertura por confissão religiosa no município de Belo Horizonte'. Nela o usuário poderá redefinir os parâmetros de velocidade média e tempo de deslocamento para observar a mudança no Grau de Cobertura Religiosa, tanto graficamente no mapa quanto em uma tabela lateral que sumariza os resultados. O cálculo do Grau de Cobertura considera a população que está sendo coberta pelo raio de acesso considerando a população por área dentro das regiões censitárias (informação que deve ser obtida via R em plugins geo referenciados para os dados do censo). Caso exista outro pacote que calcule de modo fácil e rápido o raio de cobertura não como uma linha reta, e sim como o trajeto mais curto para acessar um estabelecimento a pé, podemos já adicionar essa melhoria. Nesta pagina/dashboard adicione os quatro mapas feitos no trabalho (referente as confissões religiosas): 'Católico', 'Protestante/Evangélico', 'Espírita' e 'Afro-Brasileiro'; dentro do quadrado do mapa adicione às informações sobre número de estabelecimentos e grau de cobertura. Mantenha os filtros de parâmetros ao lado esquerdo da tela, e adicione limites ao range de seleção (não possibilitando que valores absurdos sejam colocados para distância e velocidade)
+
+Toda a página do 'site', quanto a apresentação em si devem estar em português e em espanhol 
+
+
+Analise com calma os scripts existentes assim como o artigo que escrevemos, e me envie uma versão completa dos scripts que precisarei para gerar esse projeto
+
+
+

@@ -1,0 +1,53 @@
+version: 2
+
+# ESCOPO HOMOLOGADO
+# A análise espacial desta versão funciona somente para Belo Horizonte (MG).
+# A generalização para outros municípios está em desenvolvimento.
+municipio:
+  codigo_ibge: "3106200"
+  nome: "Belo Horizonte"
+  uf: "MG"
+
+ano: 2022
+
+# Fonte oficial utilizada no pipeline acadêmico.
+# O GeoPackage estadual contém geometria e população no mesmo produto,
+# evitando incompatibilidades entre versões distintas de malha e agregados.
+fonte:
+  tipo: "ibge_definitivo"
+  referencia: "IBGE — Censo Demográfico 2022 — Agregados por Setores Censitários — malha com atributos definitiva"
+  arquivo_uf: "data/raw/census/ibge_definitivo/MG_setores_CD2022.gpkg"
+  url_uf: "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/malha_com_atributos/setores/gpkg/UF/MG/MG_setores_CD2022.gpkg"
+  camada: "MG_setores_CD2022"
+  coluna_setor: "CD_SETOR"
+  coluna_municipio: "CD_MUN"
+  coluna_populacao: "v0001"
+
+saida:
+  formato: "GPKG"
+  arquivo_municipal: "data/derived/setores_3106200_2022_definitivo.gpkg"
+  arquivo_shiny: "shiny/data/setores_ativos.gpkg"
+  diretorio_auditoria: "data/derived/auditoria"
+  copiar_para_shiny: true
+
+download:
+  # auto: no Windows tenta wininet primeiro e libcurl depois;
+  # em outros sistemas usa libcurl.
+  metodo: "auto"
+  tentativas_por_metodo: 2
+  timeout_segundos: 7200
+  reutilizar_arquivo_validado: true
+  tamanho_minimo_bytes: 104857600
+
+validacao:
+  dissolver_codigos_multipartidos: true
+  exigir_codigo_setor_15_digitos: true
+  setores_esperados: 5166
+  populacao_esperada: 2315560
+  tolerancia_populacao: 0
+  calcular_md5_fonte: true
+
+historico:
+  # A combinação geobr + censobr preliminar é preservada apenas como registro
+  # metodológico e não é utilizada pelo pipeline acadêmico padrão.
+  permitir_base_preliminar: false

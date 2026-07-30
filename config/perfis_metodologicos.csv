@@ -1,0 +1,4 @@
+perfil,rotulo_pt,rotulo_es,velocidade_kmh,tempo_min,raio_m,observacao
+recomendado,Cálculo consistente,Cálculo consistente,4.0,9.7,646.6666666666666,Parâmetros textuais com distância calculada pela fórmula.
+mapa_original,Mapa original,Mapa original,4.0,9.74,649.3333333333334,"Reproduz a legenda cartográfica de aproximadamente 649,33 m."
+texto_manuscrito,Texto do manuscrito,Texto del manuscrito,4.0,9.7,853.33,"Mantém 853,33 m apenas para auditoria comparativa; não é consistente com 4 km/h e 9,7 min."
