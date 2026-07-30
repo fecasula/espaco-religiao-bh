@@ -1,102 +1,126 @@
-# Renderização local do website e das apresentações Quarto.
-# Método recomendado para publicar via GitHub Desktop + GitHub Pages:
-# 1. Renderizar localmente para docs/.
-# 2. Fazer commit de docs/ pelo GitHub Desktop.
-# 3. Configurar GitHub Pages no navegador para main / docs.
+# Renderização segura do site Quarto a partir da raiz do projeto ativo.
+# Este script NÃO usa dirname(rstudioapi::getActiveProject()), pois
+# getActiveProject() já retorna a pasta raiz do projeto.
 
-find_project_root <- function(path = getwd()) {
-  path <- normalizePath(path, winslash = "/", mustWork = TRUE)
+options(warn = 1)
 
-  repeat {
-    markers <- file.path(path, c("_quarto.yml", ".git", "renv.lock"))
-    if (any(file.exists(markers))) {
-      return(path)
-    }
+obter_raiz_projeto <- function() {
+  raiz <- NULL
 
-    parent <- dirname(path)
-    if (identical(parent, path)) {
-      stop("Não foi possível localizar a raiz do projeto.", call. = FALSE)
-    }
-
-    path <- parent
+  if (requireNamespace("rstudioapi", quietly = TRUE) &&
+      rstudioapi::isAvailable()) {
+    raiz <- rstudioapi::getActiveProject()
   }
+
+  if (is.null(raiz) || !nzchar(raiz) || !dir.exists(raiz)) {
+    raiz <- getwd()
+  }
+
+  normalizePath(raiz, winslash = "/", mustWork = TRUE)
 }
 
-project_root <- find_project_root()
-setwd(project_root)
+raiz_projeto <- obter_raiz_projeto()
 
-message("Projeto: ", normalizePath(project_root, winslash = "/", mustWork = TRUE))
+arquivos_obrigatorios <- c(
+  "_quarto.yml",
+  "index.qmd",
+  "estudo.qmd",
+  "resultados.qmd",
+  "apresentacao-pt.qmd",
+  "es/index.qmd",
+  "es/estudio.qmd",
+  "es/resultados.qmd",
+  "es/presentacion-es.qmd"
+)
+
+faltantes <- arquivos_obrigatorios[
+  !file.exists(file.path(raiz_projeto, arquivos_obrigatorios))
+]
+
+if (length(faltantes) > 0L) {
+  stop(
+    paste0(
+      "A pasta detectada não contém a versão atual do projeto.\n",
+      "Raiz detectada: ", raiz_projeto, "\n",
+      "Arquivos ausentes: ", paste(faltantes, collapse = ", ")
+    ),
+    call. = FALSE
+  )
+}
+
+qmd_raiz <- list.files(
+  raiz_projeto,
+  pattern = "\\.qmd$",
+  full.names = FALSE,
+  recursive = FALSE
+)
+
+qmd_es <- list.files(
+  file.path(raiz_projeto, "es"),
+  pattern = "\\.qmd$",
+  full.names = FALSE,
+  recursive = FALSE
+)
+
+cat("\n========================================\n")
+cat("RAIZ DO PROJETO:\n", raiz_projeto, "\n", sep = "")
+cat("QMD na raiz: ", length(qmd_raiz), "\n", sep = "")
+cat("QMD em es/: ", length(qmd_es), "\n", sep = "")
+cat("Total esperado nesta renderização: ",
+    length(qmd_raiz) + length(qmd_es), "\n", sep = "")
+cat("========================================\n\n")
 
 if (!requireNamespace("quarto", quietly = TRUE)) {
   stop(
-    "Instale o pacote quarto e o Quarto CLI antes de renderizar o site.",
+    "O pacote 'quarto' não está instalado nesta biblioteca do R.",
     call. = FALSE
   )
 }
 
-if (!file.exists("_quarto.yml")) {
-  stop("Arquivo _quarto.yml não encontrado na raiz do projeto.", call. = FALSE)
+pasta_anterior <- getwd()
+on.exit(setwd(pasta_anterior), add = TRUE)
+setwd(raiz_projeto)
+
+# O cache interno é reconstruível e pode conservar referências antigas.
+if (dir.exists(".quarto")) {
+  unlink(".quarto", recursive = TRUE, force = TRUE)
 }
 
-# Evita que GitHub Pages processe arquivos com Jekyll.
-writeLines(character(0), ".nojekyll")
+quarto::quarto_render(
+  input = ".",
+  quiet = FALSE
+)
 
-message("Renderizando website e apresentações para docs/...")
-quarto::quarto_render(input = project_root)
-
-if (!dir.exists("docs")) {
-  stop("A renderização não criou a pasta docs/.", call. = FALSE)
-}
-
-writeLines(character(0), file.path("docs", ".nojekyll"))
-
-required_outputs <- c(
+saidas_esperadas <- c(
   "docs/index.html",
-  "docs/indice-cobertura.html",
+  "docs/estudo.html",
+  "docs/resultados.html",
   "docs/apresentacao-pt.html",
+  "docs/es/index.html",
+  "docs/es/estudio.html",
+  "docs/es/resultados.html",
   "docs/es/presentacion-es.html"
 )
 
-missing_outputs <- required_outputs[!file.exists(required_outputs)]
+informacoes <- file.info(saidas_esperadas)
+informacoes$arquivo <- rownames(informacoes)
+rownames(informacoes) <- NULL
 
-if (length(missing_outputs)) {
-  stop(
-    "Arquivos esperados não foram gerados: ",
-    paste(missing_outputs, collapse = ", "),
-    call. = FALSE
-  )
-}
-
-text_files <- list.files(
-  c(".", "es"),
-  pattern = "\\.(qmd|yml|yaml|md)$",
-  recursive = TRUE,
-  full.names = TRUE,
-  ignore.case = TRUE
+cat("\nARQUIVOS PRINCIPAIS GERADOS:\n")
+print(
+  informacoes[, c("arquivo", "size", "mtime")],
+  row.names = FALSE
 )
 
-placeholder_hits <- unlist(lapply(text_files, function(file) {
-  lines <- readLines(file, warn = FALSE, encoding = "UTF-8")
-  hits <- grep("URL-DO-SHINY|SEU-USUARIO|SEU_USUARIO", lines, value = TRUE)
-
-  if (!length(hits)) {
-    return(NULL)
-  }
-
-  paste0(file, ": ", hits)
-}), use.names = FALSE)
-
-if (length(placeholder_hits)) {
-  warning(
-    "Ainda existem placeholders em arquivos de texto:\n",
-    paste(placeholder_hits, collapse = "\n"),
+if (any(!file.exists(saidas_esperadas))) {
+  ausentes <- saidas_esperadas[!file.exists(saidas_esperadas)]
+  stop(
+    paste(
+      "A renderização terminou, mas faltaram:",
+      paste(ausentes, collapse = ", ")
+    ),
     call. = FALSE
   )
 }
 
-message("Renderização concluída.")
-message("Arquivos principais:")
-for (file in required_outputs) {
-  message("- ", normalizePath(file, winslash = "/", mustWork = TRUE))
-}
-message("\nPróximo passo: commit e push da pasta docs/ pelo GitHub Desktop.")
+cat("\nRenderização concluída a partir da raiz correta.\n")

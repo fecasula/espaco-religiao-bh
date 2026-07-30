@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Resultados: desplazamientos – Religião, mobilidade e cobertura urbana</title>
+<title>Estudio – Religião, mobilidade e cobertura urbana</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -61,7 +61,27 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 1em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -360,8 +380,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#resumen" id="toc-resumen" class="nav-link active" data-scroll-target="#resumen"><span class="header-section-number">1</span> Resumen</a></li>
+  <li><a href="#contexto" id="toc-contexto" class="nav-link" data-scroll-target="#contexto"><span class="header-section-number">2</span> Contexto</a></li>
+  <li><a href="#estrategia-metodológica" id="toc-estrategia-metodológica" class="nav-link" data-scroll-target="#estrategia-metodológica"><span class="header-section-number">3</span> Estrategia metodológica</a>
+  <ul class="collapse">
+  <li><a href="#desplazamientos" id="toc-desplazamientos" class="nav-link" data-scroll-target="#desplazamientos"><span class="header-section-number">3.1</span> 1. Desplazamientos</a></li>
+  <li><a href="#modelos-logísticos" id="toc-modelos-logísticos" class="nav-link" data-scroll-target="#modelos-logísticos"><span class="header-section-number">3.2</span> 2. Modelos logísticos</a></li>
+  <li><a href="#equipamientos-religiosos" id="toc-equipamientos-religiosos" class="nav-link" data-scroll-target="#equipamientos-religiosos"><span class="header-section-number">3.3</span> 3. Equipamientos religiosos</a></li>
+  <li><a href="#base-poblacional-y-cartográfica" id="toc-base-poblacional-y-cartográfica" class="nav-link" data-scroll-target="#base-poblacional-y-cartográfica"><span class="header-section-number">3.4</span> 4. Base poblacional y cartográfica</a></li>
+  <li><a href="#índice-de-cobertura-religiosa" id="toc-índice-de-cobertura-religiosa" class="nav-link" data-scroll-target="#índice-de-cobertura-religiosa"><span class="header-section-number">3.5</span> 5. Índice de Cobertura Religiosa</a></li>
+  </ul></li>
+  <li><a href="#auditoría-metodológica" id="toc-auditoría-metodológica" class="nav-link" data-scroll-target="#auditoría-metodológica"><span class="header-section-number">4</span> Auditoría metodológica</a></li>
+  <li><a href="#siguiente-paso" id="toc-siguiente-paso" class="nav-link" data-scroll-target="#siguiente-paso"><span class="header-section-number">5</span> Siguiente paso</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -369,7 +406,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">Resultados: desplazamientos</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Código</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title">Estudio</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Código</button></div></div>
 </div>
 
 
@@ -386,14 +423,79 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Los viajes se concentraron los domingos. El 66,28% se realizó a pie, con una duración media de alrededor de 9,7 minutos; 54,65% se realizó en solitario y 76% tuvo destino en el barrio de residencia.</p>
-<p><img src="../assets/img/figura1_modos_transporte.png" class="img-fluid" alt="Modos de transporte utilizados"></p>
+<section id="resumen" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="resumen"><span class="header-section-number">1</span> Resumen</h2>
+<p>El estudio articula dos objetivos: describir y modelar las movilidades por motivos religiosos de la población de 60 años o más residente en Belo Horizonte y proponer un <strong>Índice de Cobertura Religiosa (ICR)</strong> como aproximación de la accesibilidad peatonal a los equipamientos religiosos.</p>
+</section>
+<section id="contexto" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="contexto"><span class="header-section-number">2</span> Contexto</h2>
+<p>El envejecimiento poblacional y la transición religiosa reconfiguran las necesidades de movilidad, las redes de apoyo y la geografía urbana <span class="citation" data-cites="alves2017 verona2015">(<a href="#ref-alves2017" role="doc-biblioref">Alves et al., 2017</a>; <a href="#ref-verona2015" role="doc-biblioref">Verona; Régnier-Loilier; e Gomes, 2015</a>)</span>. El proyecto dialoga también con la discusión sobre espacialidad del envejecimiento urbano presentada por Ardila-Pinto y colaboradores <span class="citation" data-cites="ardila_pinto2025">(<a href="#ref-ardila_pinto2025" role="doc-biblioref"><span class="nocase">Ardila-Pinto et al.</span>, 2025</a>)</span>.</p>
+</section>
+<section id="estrategia-metodológica" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="estrategia-metodológica"><span class="header-section-number">3</span> Estrategia metodológica</h2>
+<section id="desplazamientos" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="desplazamientos"><span class="header-section-number">3.1</span> 1. Desplazamientos</h3>
+<p>Para Belo Horizonte se analizaron 202 participantes, 2.164 desplazamientos y 86 viajes por motivos religiosos.</p>
+</section>
+<section id="modelos-logísticos" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="modelos-logísticos"><span class="header-section-number">3.2</span> 2. Modelos logísticos</h3>
+<p>Se estiman dos desenlaces acumulativos: al menos un desplazamiento religioso y más de un desplazamiento religioso en la semana.</p>
+</section>
+<section id="equipamientos-religiosos" class="level3" data-number="3.3">
+<h3 data-number="3.3" class="anchored" data-anchor-id="equipamientos-religiosos"><span class="header-section-number">3.3</span> 3. Equipamientos religiosos</h3>
+<p>Los establecimientos fueron identificados en el <strong>CNEFE 2022</strong> a partir de descripciones textuales de los registros <span class="citation" data-cites="ibge_cnefe2022">(<a href="#ref-ibge_cnefe2022" role="doc-biblioref">Instituto Brasileiro de Geografia e Estatística, 2024</a>)</span>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span>Origen y clasificación de los establecimientos
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>La base de establecimientos religiosos proviene del <strong>Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE/IBGE)</strong>. La clasificación en categorías como <strong>Católica</strong>, <strong>Protestante/Evangélica</strong>, <strong>Espírita</strong> y <strong>Afro-brasileña</strong> requirió un <strong>trabajo previo de categorización manual</strong>, realizado a partir de los nombres y descripciones de cada registro. Esa etapa forma parte central de la metodología.</p>
+</div>
+</div>
+</section>
+<section id="base-poblacional-y-cartográfica" class="level3" data-number="3.4">
+<h3 data-number="3.4" class="anchored" data-anchor-id="base-poblacional-y-cartográfica"><span class="header-section-number">3.4</span> 4. Base poblacional y cartográfica</h3>
+<p>La geometría y la población provienen de la malla con atributos definitiva del Censo 2022 del IBGE, validada en 5.166 sectores distintos y 2.315.560 habitantes.</p>
+</section>
+<section id="índice-de-cobertura-religiosa" class="level3" data-number="3.5">
+<h3 data-number="3.5" class="anchored" data-anchor-id="índice-de-cobertura-religiosa"><span class="header-section-number">3.5</span> 5. Índice de Cobertura Religiosa</h3>
+<p>[ ICR_c= ]</p>
+<p>El índice estima cobertura potencial por confesión sin doble conteo intraconfesional.</p>
+</section>
+</section>
+<section id="auditoría-metodológica" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="auditoría-metodológica"><span class="header-section-number">4</span> Auditoría metodológica</h2>
+<p>Con 4 km/h y 9,7 minutos, el radio consistente es <strong>646,67 m</strong>. El proyecto conserva los perfiles históricos para comparación, pero adopta el cálculo consistente como predeterminado.</p>
+</section>
+<section id="siguiente-paso" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="siguiente-paso"><span class="header-section-number">5</span> Siguiente paso</h2>
+<p><a href="../es/resultados.html" class="btn btn-primary">Ver resultados consolidados</a></p>
 
 
 <!-- -->
 
 
-</main> <!-- /main -->
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list">
+<div id="ref-alves2017" class="csl-entry" role="listitem">
+ALVES, José Eustáquio Diniz et al. Distribuição espacial da transição religiosa no Brasil. <strong>Tempo Social</strong>, v. 29, n. 2, p. 215–242, 2017. DOI: <a href="https://doi.org/10.11606/0103-2070.ts.2017.112180">10.11606/0103-2070.ts.2017.112180</a>.
+</div>
+<div id="ref-ardila_pinto2025" class="csl-entry" role="listitem">
+<span class="nocase">ARDILA-PINTO, A. M. et al.</span> Configuração espacial das práticas de movimento da população idosa de Belo Horizonte/Brasil: uma análise das centralidades urbanas. <strong>EURE</strong>, v. 51, n. 152, 2025. Disponível em: <a href="https://doi.org/10.7764/eure.51.152.09">https://doi.org/10.7764/eure.51.152.09</a>. DOI: <a href="https://doi.org/10.7764/eure.51.152.09">10.7764/eure.51.152.09</a>.
+</div>
+<div id="ref-ibge_cnefe2022" class="csl-entry" role="listitem">
+INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. Cadastro Nacional de Endereços para Fins Estatísticos: Censo Demográfico 2022. Rio de Janeiro: IBGE, 2024. Disponível em: <a href="https://www.ibge.gov.br/estatisticas/sociais/populacao/38734-cadastro-nacional-de-enderecos-para-fins-estatisticos.html">https://www.ibge.gov.br/estatisticas/sociais/populacao/38734-cadastro-nacional-de-enderecos-para-fins-estatisticos.html</a>. Acesso em: 29 jul. 2026.
+</div>
+<div id="ref-verona2015" class="csl-entry" role="listitem">
+VERONA, Ana Paula; RÉGNIER-LOILIER, Arnaud; e GOMES, Marília Miranda Forte. First conjugal union and religion: signs contrary to the Second Demographic Transition in Brazil? <strong>Demographic Research</strong>, v. 33, n. 34, p. 985–1014, 2015. DOI: <a href="https://doi.org/10.4054/DemRes.2015.33.34">10.4054/DemRes.2015.33.34</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -864,12 +966,56 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   });
   </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Código fonte</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Resultados: desplazamientos"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Estudio"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>Los viajes se concentraron los domingos. El 66,28% se realizó a pie, con una duración media de alrededor de 9,7 minutos; 54,65% se realizó en solitario y 76% tuvo destino en el barrio de residencia.</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## Resumen</span></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="al">![](../assets/img/figura1_modos_transporte.png)</span>{fig-alt="Modos de transporte utilizados"}</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>El estudio articula dos objetivos: describir y modelar las movilidades por motivos religiosos de la población de 60 años o más residente en Belo Horizonte y proponer un **Índice de Cobertura Religiosa (ICR)** como aproximación de la accesibilidad peatonal a los equipamientos religiosos.</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">## Contexto</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>El envejecimiento poblacional y la transición religiosa reconfiguran las necesidades de movilidad, las redes de apoyo y la geografía urbana <span class="co">[</span><span class="ot">@alves2017; @verona2015</span><span class="co">]</span>. El proyecto dialoga también con la discusión sobre espacialidad del envejecimiento urbano presentada por Ardila-Pinto y colaboradores <span class="co">[</span><span class="ot">@ardila_pinto2025</span><span class="co">]</span>.</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">## Estrategia metodológica</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">### 1. Desplazamientos</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>Para Belo Horizonte se analizaron 202 participantes, 2.164 desplazamientos y 86 viajes por motivos religiosos.</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2. Modelos logísticos</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>Se estiman dos desenlaces acumulativos: al menos un desplazamiento religioso y más de un desplazamiento religioso en la semana.</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3. Equipamientos religiosos</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>Los establecimientos fueron identificados en el **CNEFE 2022** a partir de descripciones textuales de los registros <span class="co">[</span><span class="ot">@ibge_cnefe2022</span><span class="co">]</span>.</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>::: {.callout-note}</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">## Origen y clasificación de los establecimientos</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>La base de establecimientos religiosos proviene del **Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE/IBGE)**. La clasificación en categorías como **Católica**, **Protestante/Evangélica**, **Espírita** y **Afro-brasileña** requirió un **trabajo previo de categorización manual**, realizado a partir de los nombres y descripciones de cada registro. Esa etapa forma parte central de la metodología.</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="fu">### 4. Base poblacional y cartográfica</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>La geometría y la población provienen de la malla con atributos definitiva del Censo 2022 del IBGE, validada en 5.166 sectores distintos y 2.315.560 habitantes.</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="fu">### 5. Índice de Cobertura Religiosa</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="sc">\[</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>ICR_c=\frac{\sum_s \widehat{P}_{sc}}{\sum_s P_s}</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="sc">\]</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>El índice estima cobertura potencial por confesión sin doble conteo intraconfesional.</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="fu">## Auditoría metodológica</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>Con 4 km/h y 9,7 minutos, el radio consistente es **646,67 m**. El proyecto conserva los perfiles históricos para comparación, pero adopta el cálculo consistente como predeterminado.</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="fu">## Siguiente paso</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Ver resultados consolidados</span><span class="co">](resultados.qmd)</span>{.btn .btn-primary}</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">

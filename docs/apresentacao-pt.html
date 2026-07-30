@@ -151,6 +151,10 @@ Daniel Pimenta de Prado — IGC/UFMG
 
   <p class="date">Invalid Date</p>
 </section>
+<section class="slide level2">
+
+<p><a href="./index.html" class="btn btn-primary">Voltar ao site</a> <a href="./es/presentacion-es.html" class="btn btn-outline-primary">Versão em espanhol</a> <a href="https://fecasula.shinyapps.io/religiao-mobilidade-bh/" class="btn btn-outline-primary" target="_blank">Abrir o painel do ICR</a></p>
+</section>
 <section id="pergunta" class="slide level2">
 <h2>Pergunta</h2>
 <p>Como práticas de mobilidade religiosa da população idosa podem informar uma análise espacial da cobertura dos equipamentos de culto?</p>
@@ -216,6 +220,16 @@ Daniel Pimenta de Prado — IGC/UFMG
 <li>sem dupla contagem intraconfessional.</li>
 </ul>
 </section>
+<section id="concentração-dos-equipamentos-kernel" class="slide level2">
+<h2>Concentração dos equipamentos (kernel)</h2>
+<p>O mapa de kernel explicita onde os estabelecimentos se concentram por confissão. Ele informa intensidade espacial, não cobertura populacional.</p>
+<p><img data-src="assets/img/maps/mapa_kernel_confissoes_bh.png" alt="Mapa de kernel por confissão religiosa em Belo Horizonte" height="700"></p>
+</section>
+<section id="grau-de-cobertura-por-confissão" class="slide level2">
+<h2>Grau de cobertura por confissão</h2>
+<p>O mapa de cobertura traduz o alcance potencial da rede religiosa, articulando localização dos estabelecimentos, raio de acesso e população por setor censitário.</p>
+<p><img data-src="assets/img/maps/mapa_cobertura_confissoes_bh.png" alt="Mapa do grau de cobertura por confissão religiosa em Belo Horizonte" height="700"></p>
+</section>
 <section id="resultados-publicados" class="slide level2">
 <h2>Resultados publicados</h2>
 <table class="caption-top">
@@ -268,14 +282,12 @@ Daniel Pimenta de Prado — IGC/UFMG
 <h2>Produto aberto</h2>
 <p>Site bilíngue · apresentação Reveal.js · painel Shiny · código R · pipeline · testes · guia de replicação · citação e licença.</p>
 <p><strong>Painel:</strong> <a href="https://fecasula.shinyapps.io/religiao-mobilidade-bh/" class="uri">https://fecasula.shinyapps.io/religiao-mobilidade-bh/</a><br>
-<strong>Site:</strong> <a href="https://fecasula.github.io/religiao-mobilidade-bh/" class="uri">https://fecasula.github.io/religiao-mobilidade-bh/</a><br>
-<strong>Código:</strong> <a href="https://github.com/fecasula/religiao-mobilidade-bh" class="uri">https://github.com/fecasula/religiao-mobilidade-bh</a></p>
+<strong>Site:</strong> <a href="https://fecasula.github.io/espa-o-religiao-bh/" class="uri">https://fecasula.github.io/espa-o-religiao-bh/</a><br>
+<strong>Código:</strong> <a href="https://github.com/fecasula/espa-o-religiao-bh" class="uri">https://github.com/fecasula/espa-o-religiao-bh</a></p>
 </section>
-<section id="obrigado" class="slide level2">
-<h2>Obrigado</h2>
-<p><strong>Felipe Baeta Casula Pereira</strong><br>
-<strong>Daniel Pimenta de Prado</strong></p>
-<p><a href="./referencias.html">Referências completas</a></p>
+<section id="navegação-rápida" class="slide level2">
+<h2>Navegação rápida</h2>
+<p><a href="./index.html" class="btn btn-primary">Voltar ao site</a> <a href="./es/presentacion-es.html" class="btn btn-outline-primary">Versão em espanhol</a> <a href="./resultados.html" class="btn btn-outline-primary">Resultados no site</a></p>
 
 
 </section>
@@ -564,7 +576,7 @@ Daniel Pimenta de Prado — IGC/UFMG
         }
           var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
           var mailtoRegex = new RegExp(/^mailto:/);
-            var filterRegex = new RegExp("https:\/\/fecasula\.github\.io\/religiao-mobilidade-bh\/");
+            var filterRegex = new RegExp("https:\/\/fecasula\.github\.io\/espa-o-religiao-bh\/");
           var isInternal = (href) => {
               return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
           }

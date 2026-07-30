@@ -1,0 +1,15 @@
+options(
+  repos = c(CRAN = "https://cloud.r-project.org"),
+  encoding = "UTF-8",
+  scipen = 999,
+  dplyr.summarise.inform = FALSE
+)
+
+if (identical(.Platform$OS.type, "windows")) {
+  options(pkgType = "binary")
+}
+
+# Ativação única do renv.
+if (file.exists("renv/activate.R")) {
+  source("renv/activate.R")
+}
