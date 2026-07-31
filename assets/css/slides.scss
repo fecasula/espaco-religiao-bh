@@ -1,11 +1,200 @@
 /*-- scss:defaults --*/
-$presentation-heading-color: #173f5f;
-$presentation-font-size-root: 34px;
-$link-color: #2f7d62;
+$presentation-heading-color: #304495;
+$presentation-font-size-root: 33px;
+$link-color: #304495;
+
 /*-- scss:rules --*/
-.reveal .slides { text-align: left; }
-.reveal h1, .reveal h2 { letter-spacing: -.02em; }
-.reveal .slide-number { font-size: .45em; }
-.reveal table { font-size: .62em; }
-.reveal .footer { font-size: .38em; }
-.small { font-size: .68em; }
+:root {
+  --slides-blue: #304495;
+  --slides-blue-dark: #21316f;
+  --slides-blue-light: #8799d0;
+  --slides-text: #454545;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal h1,
+.reveal h2 {
+  letter-spacing: -.02em;
+  color: var(--slides-blue);
+  font-weight: 500;
+}
+
+.reveal .title-slide {
+  color: #fff;
+  background: var(--slides-blue);
+}
+
+.reveal .title-slide h1,
+.reveal .title-slide .title,
+.reveal .title-slide .author,
+.reveal .title-slide .date {
+  color: #fff;
+}
+
+.reveal .title-slide .title {
+  font-weight: 700;
+  max-width: 1200px;
+  margin: 0 auto 2.3rem;
+  text-align: center;
+}
+
+.reveal .title-slide .quarto-title-authors {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.reveal .ppt-band {
+  height: 84px;
+  margin: .25rem 0 1.45rem;
+  background:
+    linear-gradient(135deg, transparent 0 47%, #fff 47% 53%, transparent 53%),
+    var(--slides-blue);
+}
+
+.reveal .ppt-question {
+  display: grid;
+  grid-template-columns: .95fr 1fr;
+  min-height: 650px;
+  margin-top: -.4rem;
+}
+
+.reveal .ppt-question .label {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  font-size: 2.25em;
+  color: var(--slides-blue);
+}
+
+.reveal .ppt-question .text {
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+  color: #fff;
+  font-size: 1.35em;
+  line-height: 1.42;
+  background: var(--slides-blue);
+}
+
+.reveal .ppt-method-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, minmax(180px, auto));
+  gap: .55rem;
+}
+
+.reveal .ppt-method-card {
+  border: 2px solid var(--slides-blue);
+  font-size: .86em;
+}
+
+.reveal .ppt-method-card h3 {
+  margin: 0;
+  padding: .5rem .8rem;
+  color: #fff;
+  background: var(--slides-blue);
+  font-size: 1.05em;
+}
+
+.reveal .ppt-method-card p {
+  margin: 0;
+  padding: .85rem;
+  color: var(--slides-text);
+}
+
+.reveal .ppt-method-card.tall {
+  grid-row: span 2;
+}
+
+.reveal .ppt-method-card.center-top {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.reveal .ppt-method-card.center-bottom {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.reveal .ppt-method-card.right {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.reveal .ppt-chart-slide img {
+  display: block;
+  max-height: 650px;
+  width: auto;
+  max-width: 86%;
+  margin: 0 auto;
+}
+
+.reveal .ppt-map-slide img {
+  display: block;
+  max-height: 760px;
+  width: auto;
+  max-width: 98%;
+  margin: 0 auto;
+}
+
+.reveal .ppt-results-table table {
+  width: 86%;
+  margin: 1.2rem auto;
+  font-size: .82em;
+}
+
+.reveal .ppt-results-table th {
+  color: var(--slides-blue-dark);
+}
+
+.reveal .ppt-contact {
+  display: grid;
+  gap: .75rem;
+  margin-top: 2rem;
+  font-size: .82em;
+}
+
+.reveal .ppt-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .7rem;
+  margin-top: 1.3rem;
+}
+
+.reveal .ppt-actions a {
+  display: inline-block;
+  padding: .45rem .75rem;
+  border: 2px solid var(--slides-blue);
+  border-radius: .25rem;
+  color: var(--slides-blue);
+  text-decoration: none;
+  font-size: .7em;
+  font-weight: 700;
+}
+
+.reveal .ppt-actions a.primary {
+  color: #fff;
+  background: var(--slides-blue);
+}
+
+.reveal .slide-number {
+  font-size: .45em;
+}
+
+.reveal table {
+  font-size: .62em;
+}
+
+.reveal .footer {
+  font-size: .38em;
+}
+
+.small {
+  font-size: .68em;
+}

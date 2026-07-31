@@ -4,23 +4,26 @@ title: "Resultados: equipamientos religiosos"
 
 ## Origen de los datos y clasificación
 
-Los establecimientos religiosos fueron identificados en el **CNEFE/IBGE**. La clasificación por grupos confesionales no estaba lista en la base original y, por ello, requirió un **trabajo previo de categorización manual** de los registros.
+Los establecimientos religiosos fueron identificados en el **Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE 2022/IBGE)**. Como la descripción original no proporciona una clasificación confesional totalmente normalizada, la preparación combinó búsqueda por palabras clave y revisión manual.
 
-## Cobertura publicada
+Después de la clasificación inicial, **622 establecimientos fueron corregidos manualmente**. La categoría genérica “IGREJA”, con 483 registros imposibles de atribuir con seguridad a una confesión, fue censurada. El universo final contiene 3.848 puntos.
 
-| Confesión | Establecimientos | ICR publicado |
-|---|---:|---:|
-| Protestante/Evangélica | 3.326 | 98,4% |
-| Católica | 296 | 77,5% |
-| Espírita | 154 | 42,1% |
-| Afro-brasileña | 17 | 8,5% |
+## Distribución y cobertura publicadas
 
-## Concentración espacial (kernel)
+| Confesión | Establecimientos | Participación | Cobertura poblacional | ICR |
+|---|---:|---:|---:|---:|
+| Protestante/Evangélica | 3.326 | 86,4% | 2.277.951 | 98,4% |
+| Católica | 296 | 7,7% | 1.793.976 | 77,5% |
+| Espírita | 154 | 4,0% | 974.622 | 42,1% |
+| Afrobrasileña | 17 | 0,4% | 198.386 | 8,5% |
+| Otra | 55 | 1,4% | — | — |
 
-![](../assets/img/maps/mapa_kernel_confissoes_bh.png){fig-alt="Mapa de kernel por confesión religiosa en Belo Horizonte"}
+## Concentración espacial — kernel
 
-## Grado de cobertura por confesión
+![](../assets/img/maps/kernel_horizontal.png){fig-alt="Mapa original en portugués: kernel por confesión religiosa"}
 
-![](../assets/img/maps/mapa_cobertura_confissoes_bh.png){fig-alt="Mapa del grado de cobertura por confesión religiosa en Belo Horizonte"}
+## Área de cobertura por confesión
+
+![](../assets/img/maps/cobertura_horizontal.png){fig-alt="Mapa original en portugués: área de cobertura por confesión religiosa"}
 
 [Publicación completa](../assets/publication/TrabalhoALAS_merged.pdf){.btn .btn-outline-primary}

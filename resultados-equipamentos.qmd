@@ -4,29 +4,30 @@ title: "Resultados: equipamentos religiosos"
 
 ## Origem dos dados e classificação
 
-Os estabelecimentos religiosos foram identificados no **Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE/IBGE)**. A classificação em grupos confessionais não estava pronta na base original e, por isso, exigiu um **trabalho prévio de categorização manual** dos registros.
+Os estabelecimentos religiosos foram identificados no **Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE 2022/IBGE)**. A descrição cadastral não fornece uma categoria confessional plenamente padronizada. Por isso, a preparação da base combinou busca por palavras-chave e revisão manual.
 
-Essa etapa foi essencial para diferenciar categorias como **Católica**, **Protestante/Evangélica**, **Espírita** e **Afro-brasileira** antes do cálculo do Índice de Cobertura Religiosa.
+Após a classificação inicial, **622 estabelecimentos foram corrigidos manualmente**. A categoria genérica “IGREJA”, com 483 registros impossíveis de atribuir com segurança a uma confissão, foi censurada. O universo final contém 3.848 pontos.
 
-## Cobertura publicada
+## Distribuição e cobertura publicadas
 
-| Confissão | Estabelecimentos | ICR publicado |
-|---|---:|---:|
-| Protestante/Evangélica | 3.326 | 98,4% |
-| Católica | 296 | 77,5% |
-| Espírita | 154 | 42,1% |
-| Afro-brasileira | 17 | 8,5% |
+| Confissão | Estabelecimentos | Participação | Cobertura populacional | ICR |
+|---|---:|---:|---:|---:|
+| Protestante/Evangélica | 3.326 | 86,4% | 2.277.951 | 98,4% |
+| Católica | 296 | 7,7% | 1.793.976 | 77,5% |
+| Espírita | 154 | 4,0% | 974.622 | 42,1% |
+| Afro-brasileira | 17 | 0,4% | 198.386 | 8,5% |
+| Outra | 55 | 1,4% | — | — |
 
-## Concentração espacial (kernel)
+## Concentração espacial — kernel
 
-![](assets/img/maps/mapa_kernel_confissoes_bh.png){fig-alt="Mapa de kernel por confissão religiosa em Belo Horizonte"}
+![](assets/img/maps/kernel_horizontal.png){fig-alt="Mapa horizontal de kernel dos estabelecimentos religiosos por confissão em Belo Horizonte"}
 
-## Grau de cobertura por confissão
+## Área de cobertura por confissão
 
-![](assets/img/maps/mapa_cobertura_confissoes_bh.png){fig-alt="Mapa do grau de cobertura por confissão religiosa em Belo Horizonte"}
+![](assets/img/maps/cobertura_horizontal.png){fig-alt="Mapa horizontal da área de cobertura por confissão religiosa em Belo Horizonte"}
 
 ::: {.callout-note}
-O mapa de kernel destaca áreas de concentração dos estabelecimentos. O mapa de cobertura, por sua vez, traduz o alcance potencial da rede religiosa sob o cenário pedonal adotado. Eles respondem a perguntas diferentes e devem ser lidos em conjunto.
+O mapa de kernel evidencia áreas de concentração dos estabelecimentos. O mapa de cobertura representa seu alcance potencial sob o cenário pedonal adotado. Os dois mapas respondem a perguntas diferentes e devem ser interpretados em conjunto.
 :::
 
 [Consultar a publicação completa](assets/publication/TrabalhoALAS_merged.pdf){.btn .btn-outline-primary}

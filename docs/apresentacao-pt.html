@@ -9,9 +9,9 @@
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.10.18">
 
-  <meta name="author" content="Felipe Baeta Casula Pereira — FAFICH/UFMG">
+  <meta name="author" content="Felipe Baeta Casula — FAFICH/UFMG">
   <meta name="author" content="Daniel Pimenta de Prado — IGC/UFMG">
-  <title>Religião, mobilidade e cobertura urbana – Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte</title>
+  <title>Espaço, religião e mobilidade em Belo Horizonte – Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -36,7 +36,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-8ed1756a912726edfcf4638b86bd1619.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-3ad272de0fe5b9e4fe4c7c7620145509.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -133,13 +133,13 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
+<section id="title-slide" data-background-color="#304495" class="quarto-title-block center">
   <h1 class="title">Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Felipe Baeta Casula Pereira — FAFICH/UFMG
+Felipe Baeta Casula — FAFICH/UFMG
 </div>
 </div>
 <div class="quarto-title-author">
@@ -151,87 +151,132 @@ Daniel Pimenta de Prado — IGC/UFMG
 
   <p class="date">Invalid Date</p>
 </section>
-<section class="slide level2">
-
-<p><a href="./index.html" class="btn btn-primary">Voltar ao site</a> <a href="./es/presentacion-es.html" class="btn btn-outline-primary">Versão em espanhol</a> <a href="https://fecasula.shinyapps.io/religiao-mobilidade-bh/" class="btn btn-outline-primary" target="_blank">Abrir o painel do ICR</a></p>
-</section>
 <section id="pergunta" class="slide level2">
 <h2>Pergunta</h2>
+<div class="ppt-question">
+<div class="label">
+<p>Pergunta</p>
+</div>
+<div class="text">
 <p>Como práticas de mobilidade religiosa da população idosa podem informar uma análise espacial da cobertura dos equipamentos de culto?</p>
+</div>
+</div>
 </section>
 <section id="estratégia-metodológica" class="slide level2">
 <h2>Estratégia metodológica</h2>
-<ol type="1">
-<li class="fragment">Descrever 86 deslocamentos religiosos entre 2.164 viagens de residentes em Belo Horizonte.</li>
-<li class="fragment">Modelar dois desfechos cumulativos por regressão logística.</li>
-<li class="fragment">Classificar 3.848 equipamentos religiosos e estimar cobertura populacional por confissão.</li>
-<li class="fragment">Publicar um painel interativo para auditar os parâmetros espaciais.</li>
-</ol>
+<div class="ppt-method-grid">
+<section id="descrever" class="ppt-method-card tall">
+<h3>1. Descrever</h3>
+<p>Descrever o padrão observado para os deslocamentos com motivação religiosa em Belo Horizonte.</p>
 </section>
-<section id="um-padrão-territorialmente-próximo" class="slide level2">
-<h2>Um padrão territorialmente próximo</h2>
+<section id="modelar" class="ppt-method-card center-top">
+<h3>2. Modelar</h3>
+<p>Aplicar modelos de regressão logística para identificar e mensurar padrões sociodemográficos.</p>
+</section>
+<section id="publicar" class="ppt-method-card center-bottom">
+<h3>4. Publicar</h3>
+<p>Publicar um painel interativo para auditar os parâmetros espaciais.</p>
+</section>
+<section id="classificar" class="ppt-method-card right">
+<h3>3. Classificar</h3>
+<p>Classificar 3.848 equipamentos religiosos e estimar a cobertura populacional por confissão.</p>
+</section>
+</div>
+</section>
+<section id="o-padrão-estudado" class="slide level2">
+<h2>O padrão estudado</h2>
+<div class="ppt-band">
+
+</div>
 <ul>
-<li>51,16% dos deslocamentos aos domingos;</li>
-<li>66,28% a pé;</li>
-<li>9,7 minutos de caminhada média;</li>
-<li>76% dentro do bairro de residência.</li>
+<li>51,16% dos deslocamentos ocorreram aos domingos;</li>
+<li>66,28% foram realizados a pé;</li>
+<li>9,7 minutos foi o tempo médio dos deslocamentos a pé;</li>
+<li>76% tiveram como destino um equipamento situado no bairro de residência.</li>
 </ul>
 </section>
-<section id="modos-de-transporte" class="slide level2">
-<h2>Modos de transporte</h2>
-<p><img data-src="assets/img/figura1_modos_transporte.png" alt="Distribuição por modo de transporte" height="580"></p>
+<section id="meios-de-transporte" class="slide level2">
+<h2>Meios de transporte</h2>
+<div class="ppt-chart-slide">
+<p><img data-src="assets/img/figura1_modos_transporte.png" alt="Distribuição dos deslocamentos por modo de transporte"></p>
+</div>
 </section>
-<section id="dia-da-semana" class="slide level2">
-<h2>Dia da semana</h2>
-<p><img data-src="assets/img/figura2_dias_semana.png" alt="Distribuição dos deslocamentos religiosos por dia da semana" height="580"></p>
+<section id="dias-da-semana" class="slide level2">
+<h2>Dias da semana</h2>
+<div class="ppt-chart-slide">
+<p><img data-src="assets/img/figura2_dias_semana.png" alt="Distribuição dos deslocamentos por dia da semana"></p>
+</div>
 </section>
 <section id="companhia" class="slide level2">
 <h2>Companhia</h2>
-<p><img data-src="assets/img/figura3_companhia.png" alt="Distribuição por companhia" height="580"></p>
+<div class="ppt-chart-slide">
+<p><img data-src="assets/img/figura3_companhia.png" alt="Distribuição dos deslocamentos por tipo de companhia"></p>
+</div>
 </section>
 <section id="bairro-de-residência" class="slide level2">
 <h2>Bairro de residência</h2>
-<p><img data-src="assets/img/figura4_bairro.png" alt="Proporção dos deslocamentos realizados dentro do bairro de residência" height="580"></p>
+<div class="ppt-chart-slide">
+<p><img data-src="assets/img/figura4_bairro.png" alt="Deslocamentos dentro e fora do bairro de residência"></p>
+</div>
 </section>
 <section id="modelos" class="slide level2">
 <h2>Modelos</h2>
+<div class="ppt-band">
+
+</div>
 <ul>
-<li>Mulheres: OR ≈ 3,9 para pelo menos um deslocamento no modelo geral de BH.</li>
-<li>Mobilidade reduzida: OR ≈ 0,26.</li>
-<li>Interpretação associativa, não causal.</li>
+<li>No modelo geral de Belo Horizonte, mulheres apresentaram razão de chances cerca de 3,9 vezes maior para realizar ao menos um deslocamento religioso na semana.</li>
+<li>Pessoas com mobilidade reduzida apresentaram razão de chances aproximadamente 74% menor para o mesmo desfecho (OR ≈ 0,26).</li>
+<li>Os resultados expressam associações condicionais aos modelos, e não efeitos causais.</li>
 </ul>
 </section>
 <section id="da-prática-ao-parâmetro" class="slide level2">
 <h2>Da prática ao parâmetro</h2>
-<p>[ d=v ]</p>
-<p>Com 4 km/h e 9,7 minutos, (d=646{,}67) m.</p>
-</section>
-<section id="auditoria-metodológica" class="slide level2">
-<h2>Auditoria metodológica</h2>
-<p>O texto registrou 853,33 m; o mapa, cerca de 649,33 m. A versão reprodutível preserva os perfis históricos, mas adota o cálculo consistente como padrão.</p>
-</section>
-<section id="icr" class="slide level2">
-<h2>ICR</h2>
-<p>[ ICR_c= ]</p>
+<div class="ppt-band">
+
+</div>
+<p>Para definir o <strong>raio de acessibilidade</strong>, adotamos o padrão pedonal mais frequente observado:</p>
 <ul>
-<li>união dos buffers por confissão;</li>
-<li>interseção com setores;</li>
-<li>população proporcional à área coberta;</li>
-<li>sem dupla contagem intraconfessional.</li>
+<li>tempo médio: <strong>9,7 minutos</strong>;</li>
+<li>velocidade média: <strong>4 km/h</strong>;</li>
+<li>raio de acessibilidade: <strong>646,67 metros</strong>.</li>
 </ul>
 </section>
-<section id="concentração-dos-equipamentos-kernel" class="slide level2">
-<h2>Concentração dos equipamentos (kernel)</h2>
-<p>O mapa de kernel explicita onde os estabelecimentos se concentram por confissão. Ele informa intensidade espacial, não cobertura populacional.</p>
-<p><img data-src="assets/img/maps/mapa_kernel_confissoes_bh.png" alt="Mapa de kernel por confissão religiosa em Belo Horizonte" height="700"></p>
+<section id="errata-e-auditoria" class="slide level2">
+<h2>Errata e auditoria</h2>
+<div class="ppt-band">
+
+</div>
+<p>O texto submetido registrou 853,33 m, enquanto a legenda cartográfica original utilizou aproximadamente 649,33 m. A versão reprodutível preserva esses perfis históricos para auditoria, mas adota como padrão o cálculo consistente de <strong>646,67 m</strong>.</p>
 </section>
-<section id="grau-de-cobertura-por-confissão" class="slide level2">
-<h2>Grau de cobertura por confissão</h2>
-<p>O mapa de cobertura traduz o alcance potencial da rede religiosa, articulando localização dos estabelecimentos, raio de acesso e população por setor censitário.</p>
-<p><img data-src="assets/img/maps/mapa_cobertura_confissoes_bh.png" alt="Mapa do grau de cobertura por confissão religiosa em Belo Horizonte" height="700"></p>
+<section id="índice-de-cobertura-religiosa-icr" class="slide level2">
+<h2>Índice de Cobertura Religiosa — ICR</h2>
+<div class="ppt-band">
+
+</div>
+<ul>
+<li>união dos buffers dos estabelecimentos por confissão;</li>
+<li>interseção com os setores censitários;</li>
+<li>estimativa da população coberta proporcionalmente à área de cada setor;</li>
+<li>ausência de dupla contagem dentro de uma mesma confissão.</li>
+</ul>
+<p>[ ICR_c= ]</p>
+</section>
+<section id="concentração-dos-equipamentos-kernel" class="slide level2">
+<h2>Concentração dos equipamentos — kernel</h2>
+<div class="ppt-map-slide">
+<p><img data-src="assets/img/maps/kernel_horizontal.png" alt="Mapa de kernel dos estabelecimentos religiosos por confissão em Belo Horizonte"></p>
+</div>
+</section>
+<section id="cobertura-por-confissão-religiosa" class="slide level2">
+<h2>Cobertura por confissão religiosa</h2>
+<div class="ppt-map-slide">
+<p><img data-src="assets/img/maps/cobertura_horizontal.png" alt="Mapa da área de cobertura por confissão religiosa em Belo Horizonte"></p>
+</div>
 </section>
 <section id="resultados-publicados" class="slide level2">
 <h2>Resultados publicados</h2>
+<div class="ppt-results-table">
 <table class="caption-top">
 <thead>
 <tr class="header">
@@ -263,31 +308,20 @@ Daniel Pimenta de Prado — IGC/UFMG
 </tr>
 </tbody>
 </table>
+</div>
+<p>A comparação indica que quantidade absoluta, concentração espacial e cobertura populacional são dimensões relacionadas, mas não equivalentes.</p>
 </section>
 <section id="painel-interativo" class="slide level2">
 <h2>Painel interativo</h2>
-<p>O painel permite alterar velocidade e tempo de caminhada, recalculando raio, população coberta e ICR por confissão.</p>
-<p><a href="https://fecasula.shinyapps.io/religiao-mobilidade-bh/" class="btn btn-primary btn-lg" target="_blank">Abrir o painel do ICR</a></p>
-</section>
-<section id="contribuições-e-limites" class="slide level2">
-<h2>Contribuições e limites</h2>
-<ul>
-<li>integra sociologia urbana, mobilidade e religião;</li>
-<li>torna hipóteses paramétricas manipuláveis;</li>
-<li>preserva rastreabilidade e versões;</li>
-<li>não substitui análise de rede, capacidade, qualidade ou uso efetivo.</li>
-</ul>
-</section>
-<section id="produto-aberto" class="slide level2">
-<h2>Produto aberto</h2>
-<p>Site bilíngue · apresentação Reveal.js · painel Shiny · código R · pipeline · testes · guia de replicação · citação e licença.</p>
-<p><strong>Painel:</strong> <a href="https://fecasula.shinyapps.io/religiao-mobilidade-bh/" class="uri">https://fecasula.shinyapps.io/religiao-mobilidade-bh/</a><br>
-<strong>Site:</strong> <a href="https://fecasula.github.io/espa-o-religiao-bh/" class="uri">https://fecasula.github.io/espa-o-religiao-bh/</a><br>
-<strong>Código:</strong> <a href="https://github.com/fecasula/espa-o-religiao-bh" class="uri">https://github.com/fecasula/espa-o-religiao-bh</a></p>
-</section>
-<section id="navegação-rápida" class="slide level2">
-<h2>Navegação rápida</h2>
-<p><a href="./index.html" class="btn btn-primary">Voltar ao site</a> <a href="./es/presentacion-es.html" class="btn btn-outline-primary">Versão em espanhol</a> <a href="./resultados.html" class="btn btn-outline-primary">Resultados no site</a></p>
+<p>O painel permite alterar o tempo e a velocidade de caminhada e recalcular o raio, a população potencialmente coberta e o ICR de cada confissão.</p>
+<div class="ppt-actions">
+<p><a href="https://fecasula.shinyapps.io/religiao-mobilidade-bh/" class="primary" target="_blank">Abrir o painel do ICR</a> <a href="./index.html">Voltar ao site</a> <a href="./es/presentacion-es.html">Versão em espanhol</a> <a href="https://github.com/fecasula/espaco-religiao-bh" target="_blank">Repositório</a></p>
+</div>
+<div class="ppt-contact">
+<p><strong>Felipe Baeta Casula</strong> — felipe.baeta.pereira@gmail.com<br>
+<strong>Daniel Pimenta de Prado</strong> — danielpimentadeprado@gmail.com<br>
+<strong>Site:</strong> <a href="https://fecasula.github.io/espaco-religiao-bh" class="uri">https://fecasula.github.io/espaco-religiao-bh</a></p>
+</div>
 
 
 </section>
@@ -576,7 +610,7 @@ Daniel Pimenta de Prado — IGC/UFMG
         }
           var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
           var mailtoRegex = new RegExp(/^mailto:/);
-            var filterRegex = new RegExp("https:\/\/fecasula\.github\.io\/espa-o-religiao-bh\/");
+            var filterRegex = new RegExp("https:\/\/fecasula\.github\.io\/espaco-religiao-bh");
           var isInternal = (href) => {
               return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
           }

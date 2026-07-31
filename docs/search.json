@@ -67,7 +67,7 @@
     "href": "referencias.html",
     "title": "Referências",
     "section": "",
-    "text": "ALVES, José Eustáquio Diniz et al. Distribuição espacial da transição religiosa no Brasil. Tempo Social, v. 29, n. 2, p. 215–242, 2017. DOI: 10.11606/0103-2070.ts.2017.112180.\n\n\nARDILA-PINTO, A. M. et al. Configuração espacial das práticas de movimento da população idosa de Belo Horizonte/Brasil: uma análise das centralidades urbanas. EURE, v. 51, n. 152, 2025. Disponível em: https://doi.org/10.7764/eure.51.152.09. DOI: 10.7764/eure.51.152.09.\n\n\nCHANG, Winston et al. Shiny: web application framework for R. 2026. Disponível em: https://shiny.posit.co/.\n\n\nINSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. Cadastro Nacional de Endereços para Fins Estatísticos: Censo Demográfico 2022. Rio de Janeiro: IBGE, 2024. Disponível em: https://www.ibge.gov.br/estatisticas/sociais/populacao/38734-cadastro-nacional-de-enderecos-para-fins-estatisticos.html. Acesso em: 29 jul. 2026.\n\n\nINSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. Censo Demográfico 2022. Rio de Janeiro: IBGE, 2025. Disponível em: https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html. Acesso em: 29 jul. 2026.\n\n\nMACHADO, Maria das Dores Campos. Representações e relações de gênero nos grupos pentecostais. Revista Estudos Feministas, v. 13, n. 2, p. 387–396, 2005. DOI: 10.1590/S0104-026X2005000200011.\n\n\nMOREIRA-ALMEIDA, Alexander; LOTUFO NETO, Francisco; e KOENIG, Harold G. Envolvimento religioso e fatores sociodemográficos: resultados de um levantamento nacional no Brasil. Archives of Clinical Psychiatry, v. 37, n. 1, p. 12–15, 2010. DOI: 10.1590/S0101-60832010000100003.\n\n\nPEREIRA, Felipe Baeta Casula e PRADO, Daniel Pimenta de. Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte (MG): uma proposta metodológica para a análise espacial das religiões nas cidades. In: XXXV Congresso da Associação Latino-americana de Sociologia. Cidade do México: 2026.\n\n\nPOSIT SOFTWARE, PBC. Quarto: an open-source scientific and technical publishing system. 2026. Disponível em: https://quarto.org/.\n\n\nR CORE TEAM. R: a language and environment for statistical computing. Vienna: R Foundation for Statistical Computing, 2026. Disponível em: https://www.R-project.org/.\n\n\nVERONA, Ana Paula; RÉGNIER-LOILIER, Arnaud; e GOMES, Marília Miranda Forte. First conjugal union and religion: signs contrary to the Second Demographic Transition in Brazil? Demographic Research, v. 33, n. 34, p. 985–1014, 2015. DOI: 10.4054/DemRes.2015.33.34."
+    "text": "ALVES, José Eustáquio Diniz et al. Distribuição espacial da transição religiosa no Brasil. Tempo Social, v. 29, n. 2, p. 215–242, 2017. DOI: 10.11606/0103-2070.ts.2017.112180.\n\n\nARDILA-PINTO, A. M. et al. Configuração espacial das práticas de movimento da população idosa de Belo Horizonte/Brasil: uma análise das centralidades urbanas. EURE, v. 51, n. 152, 2025. Disponível em: https://doi.org/10.7764/eure.51.152.09. DOI: 10.7764/eure.51.152.09.\n\n\nCASULA, Felipe Baeta e PRADO, Daniel Pimenta de. Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte (MG): uma proposta metodológica para a análise espacial das religiões nas cidades. In: XXXV Congresso da Associação Latino-americana de Sociologia. Cidade do México: 2026.\n\n\nCHANG, Winston et al. Shiny: web application framework for R. 2026. Disponível em: https://shiny.posit.co/.\n\n\nINSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. Cadastro Nacional de Endereços para Fins Estatísticos: Censo Demográfico 2022. Rio de Janeiro: IBGE, 2024. Disponível em: https://www.ibge.gov.br/estatisticas/sociais/populacao/38734-cadastro-nacional-de-enderecos-para-fins-estatisticos.html. Acesso em: 29 jul. 2026.\n\n\nINSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. Censo Demográfico 2022. Rio de Janeiro: IBGE, 2025. Disponível em: https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html. Acesso em: 29 jul. 2026.\n\n\nMACHADO, Maria das Dores Campos. Representações e relações de gênero nos grupos pentecostais. Revista Estudos Feministas, v. 13, n. 2, p. 387–396, 2005. DOI: 10.1590/S0104-026X2005000200011.\n\n\nMOREIRA-ALMEIDA, Alexander; LOTUFO NETO, Francisco; e KOENIG, Harold G. Envolvimento religioso e fatores sociodemográficos: resultados de um levantamento nacional no Brasil. Archives of Clinical Psychiatry, v. 37, n. 1, p. 12–15, 2010. DOI: 10.1590/S0101-60832010000100003.\n\n\nPOSIT SOFTWARE, PBC. Quarto: an open-source scientific and technical publishing system. 2026. Disponível em: https://quarto.org/.\n\n\nR CORE TEAM. R: a language and environment for statistical computing. Vienna: R Foundation for Statistical Computing, 2026. Disponível em: https://www.R-project.org/.\n\n\nVERONA, Ana Paula; RÉGNIER-LOILIER, Arnaud; e GOMES, Marília Miranda Forte. First conjugal union and religion: signs contrary to the Second Demographic Transition in Brazil? Demographic Research, v. 33, n. 34, p. 985–1014, 2015. DOI: 10.4054/DemRes.2015.33.34."
   },
   {
     "objectID": "introducao.html",
@@ -100,30 +100,30 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Religião, mobilidade e cobertura urbana",
+    "title": "Espaço, religião e mobilidade em Belo Horizonte",
     "section": "",
-    "text": "Este projeto integra mobilidade de pessoas idosas, filiação religiosa e distribuição espacial de equipamentos religiosos em Belo Horizonte. O objetivo é transformar uma apresentação acadêmica em um produto científico aberto, auditável e bilíngue, além de criar a base metodológica para uma futura generalização municipal.\nExplorar o estudo Abrir resultados Abrir o ICR interativo"
+    "text": "Este projeto integra mobilidade da população idosa, filiação religiosa e distribuição espacial de equipamentos religiosos em Belo Horizonte. O site reúne os resultados do trabalho acadêmico, a apresentação bilíngue, a documentação metodológica e o painel interativo do Índice de Cobertura Religiosa.\nExplorar o estudo Ver resultados Abrir o ICR interativo\n\nFelipe Baeta Casula felipe.baeta.pereira@gmail.com Daniel Pimenta de Prado danielpimentadeprado@gmail.com"
   },
   {
     "objectID": "index.html#pergunta-central",
     "href": "index.html#pergunta-central",
-    "title": "Religião, mobilidade e cobertura urbana",
+    "title": "Espaço, religião e mobilidade em Belo Horizonte",
     "section": "1.1 Pergunta central",
-    "text": "1.1 Pergunta central\nComo as práticas de deslocamento religioso da população idosa podem informar uma medida espacial de acesso aos equipamentos religiosos urbanos?"
+    "text": "1.1 Pergunta central\nComo as práticas de mobilidade religiosa da população idosa podem informar uma medida espacial de acesso aos equipamentos religiosos urbanos?"
   },
   {
     "objectID": "index.html#navegação-recomendada",
     "href": "index.html#navegação-recomendada",
-    "title": "Religião, mobilidade e cobertura urbana",
+    "title": "Espaço, religião e mobilidade em Belo Horizonte",
     "section": "1.2 Navegação recomendada",
-    "text": "1.2 Navegação recomendada\n\nEstudo: contexto, problema, métodos e principais decisões analíticas.\nResultados: deslocamentos, filiação religiosa, mapas de kernel e mapas de cobertura.\nICR interativo: painel Shiny para recalcular cenários de cobertura.\nApresentações: versões Reveal.js em português e espanhol."
+    "text": "1.2 Navegação recomendada\n\nEstudo: problema, contexto, métodos e decisões analíticas;\nResultados: frequências, modelos, mapas de kernel e cobertura;\nICR interativo: painel Shiny para recalcular cenários;\nApresentações: versões em português e espanhol;\nReproduzir: arquitetura, dados necessários e comandos do projeto."
   },
   {
     "objectID": "index.html#produtos",
     "href": "index.html#produtos",
-    "title": "Religião, mobilidade e cobertura urbana",
+    "title": "Espaço, religião e mobilidade em Belo Horizonte",
     "section": "1.3 Produtos",
-    "text": "1.3 Produtos\n\nsite científico em português e espanhol;\napresentações Reveal.js nos dois idiomas;\npainel Shiny para recalcular o raio e o Índice de Cobertura Religiosa;\npipeline {targets} e testes automatizados;\ndocumentação da arquitetura prevista para futura replicação municipal;\ntrilha explícita de auditoria metodológica.\n\nO trabalho foi preparado para o XXXV Congresso da Associação Latino-americana de Sociologia (Pereira e Prado, 2026)."
+    "text": "1.3 Produtos\n\nsite científico em português e espanhol;\napresentações Reveal.js nos dois idiomas;\npainel Shiny para recalcular o raio e o Índice de Cobertura Religiosa;\npipeline {targets} e testes automatizados;\ndocumentação da arquitetura de reprodução;\ntrilha explícita de auditoria metodológica.\n\nO trabalho foi preparado para o XXXV Congresso da Associação Latino-americana de Sociologia (Casula e Prado, 2026)."
   },
   {
     "objectID": "es/resumen.html",
@@ -137,35 +137,35 @@
     "href": "es/resultados-equipamientos.html",
     "title": "Resultados: equipamientos religiosos",
     "section": "",
-    "text": "Los establecimientos religiosos fueron identificados en el CNEFE/IBGE. La clasificación por grupos confesionales no estaba lista en la base original y, por ello, requirió un trabajo previo de categorización manual de los registros."
+    "text": "Los establecimientos religiosos fueron identificados en el Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE 2022/IBGE). Como la descripción original no proporciona una clasificación confesional totalmente normalizada, la preparación combinó búsqueda por palabras clave y revisión manual.\nDespués de la clasificación inicial, 622 establecimientos fueron corregidos manualmente. La categoría genérica “IGREJA”, con 483 registros imposibles de atribuir con seguridad a una confesión, fue censurada. El universo final contiene 3.848 puntos."
   },
   {
     "objectID": "es/resultados-equipamientos.html#origen-de-los-datos-y-clasificación",
     "href": "es/resultados-equipamientos.html#origen-de-los-datos-y-clasificación",
     "title": "Resultados: equipamientos religiosos",
     "section": "",
-    "text": "Los establecimientos religiosos fueron identificados en el CNEFE/IBGE. La clasificación por grupos confesionales no estaba lista en la base original y, por ello, requirió un trabajo previo de categorización manual de los registros."
+    "text": "Los establecimientos religiosos fueron identificados en el Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE 2022/IBGE). Como la descripción original no proporciona una clasificación confesional totalmente normalizada, la preparación combinó búsqueda por palabras clave y revisión manual.\nDespués de la clasificación inicial, 622 establecimientos fueron corregidos manualmente. La categoría genérica “IGREJA”, con 483 registros imposibles de atribuir con seguridad a una confesión, fue censurada. El universo final contiene 3.848 puntos."
   },
   {
-    "objectID": "es/resultados-equipamientos.html#cobertura-publicada",
-    "href": "es/resultados-equipamientos.html#cobertura-publicada",
+    "objectID": "es/resultados-equipamientos.html#distribución-y-cobertura-publicadas",
+    "href": "es/resultados-equipamientos.html#distribución-y-cobertura-publicadas",
     "title": "Resultados: equipamientos religiosos",
-    "section": "2 Cobertura publicada",
-    "text": "2 Cobertura publicada\n\n\n\nConfesión\nEstablecimientos\nICR publicado\n\n\n\n\nProtestante/Evangélica\n3.326\n98,4%\n\n\nCatólica\n296\n77,5%\n\n\nEspírita\n154\n42,1%\n\n\nAfro-brasileña\n17\n8,5%"
+    "section": "2 Distribución y cobertura publicadas",
+    "text": "2 Distribución y cobertura publicadas\n\n\n\n\n\n\n\n\n\n\nConfesión\nEstablecimientos\nParticipación\nCobertura poblacional\nICR\n\n\n\n\nProtestante/Evangélica\n3.326\n86,4%\n2.277.951\n98,4%\n\n\nCatólica\n296\n7,7%\n1.793.976\n77,5%\n\n\nEspírita\n154\n4,0%\n974.622\n42,1%\n\n\nAfrobrasileña\n17\n0,4%\n198.386\n8,5%\n\n\nOtra\n55\n1,4%\n—\n—"
   },
   {
     "objectID": "es/resultados-equipamientos.html#concentración-espacial-kernel",
     "href": "es/resultados-equipamientos.html#concentración-espacial-kernel",
     "title": "Resultados: equipamientos religiosos",
-    "section": "3 Concentración espacial (kernel)",
-    "text": "3 Concentración espacial (kernel)"
+    "section": "3 Concentración espacial — kernel",
+    "text": "3 Concentración espacial — kernel"
   },
   {
-    "objectID": "es/resultados-equipamientos.html#grado-de-cobertura-por-confesión",
-    "href": "es/resultados-equipamientos.html#grado-de-cobertura-por-confesión",
+    "objectID": "es/resultados-equipamientos.html#área-de-cobertura-por-confesión",
+    "href": "es/resultados-equipamientos.html#área-de-cobertura-por-confesión",
     "title": "Resultados: equipamientos religiosos",
-    "section": "4 Grado de cobertura por confesión",
-    "text": "4 Grado de cobertura por confesión\n\nPublicación completa"
+    "section": "4 Área de cobertura por confesión",
+    "text": "4 Área de cobertura por confesión\n\nPublicación completa"
   },
   {
     "objectID": "es/resultados-afiliacion.html",
@@ -179,28 +179,35 @@
     "href": "es/presentacion-es.html#pregunta",
     "title": "De las prácticas al análisis de los equipamientos religiosos de Belo Horizonte",
     "section": "Pregunta",
-    "text": "Pregunta\n¿Cómo pueden las movilidades religiosas de las personas mayores informar el análisis espacial de la cobertura de los lugares de culto?"
+    "text": "Pregunta\n\n\nPregunta\n\n\n¿Cómo pueden las prácticas de movilidad religiosa de las personas mayores informar un análisis espacial de la cobertura de los equipamientos de culto?"
   },
   {
     "objectID": "es/presentacion-es.html#estrategia-metodológica",
     "href": "es/presentacion-es.html#estrategia-metodológica",
     "title": "De las prácticas al análisis de los equipamientos religiosos de Belo Horizonte",
     "section": "Estrategia metodológica",
-    "text": "Estrategia metodológica\n\nDescripción de 86 desplazamientos religiosos.\nModelos logísticos acumulativos.\nClasificación de 3.848 establecimientos religiosos.\nEstimación de cobertura y publicación de un tablero interactivo."
+    "text": "Estrategia metodológica\n\n\n1. Describir\nDescribir el patrón observado de los desplazamientos por motivos religiosos en Belo Horizonte.\n\n\n2. Modelar\nAplicar modelos de regresión logística para identificar y medir patrones sociodemográficos.\n\n\n4. Publicar\nPublicar un panel interactivo para auditar los parámetros espaciales.\n\n\n3. Clasificar\nClasificar 3.848 equipamientos religiosos y estimar la cobertura poblacional por confesión."
   },
   {
-    "objectID": "es/presentacion-es.html#hallazgos-principales",
-    "href": "es/presentacion-es.html#hallazgos-principales",
+    "objectID": "es/presentacion-es.html#el-patrón-estudiado",
+    "href": "es/presentacion-es.html#el-patrón-estudiado",
     "title": "De las prácticas al análisis de los equipamientos religiosos de Belo Horizonte",
-    "section": "Hallazgos principales",
-    "text": "Hallazgos principales\n\n51,16% de los desplazamientos los domingos;\n66,28% a pie;\n9,7 minutos de caminata media;\n76% dentro del barrio de residencia."
+    "section": "El patrón estudiado",
+    "text": "El patrón estudiado\n\n\n\n\n51,16% de los desplazamientos ocurrieron los domingos;\n66,28% se realizaron a pie;\n9,7 minutos fue el tiempo medio de los desplazamientos a pie;\n76% tuvieron como destino un equipamiento situado en el barrio de residencia."
   },
   {
-    "objectID": "es/presentacion-es.html#modos-de-transporte",
-    "href": "es/presentacion-es.html#modos-de-transporte",
+    "objectID": "es/presentacion-es.html#medios-de-transporte",
+    "href": "es/presentacion-es.html#medios-de-transporte",
     "title": "De las prácticas al análisis de los equipamientos religiosos de Belo Horizonte",
-    "section": "Modos de transporte",
-    "text": "Modos de transporte"
+    "section": "Medios de transporte",
+    "text": "Medios de transporte"
+  },
+  {
+    "objectID": "es/presentacion-es.html#días-de-la-semana",
+    "href": "es/presentacion-es.html#días-de-la-semana",
+    "title": "De las prácticas al análisis de los equipamientos religiosos de Belo Horizonte",
+    "section": "Días de la semana",
+    "text": "Días de la semana"
   },
   {
     "objectID": "es/presentacion-es.html#compañía",
@@ -210,53 +217,67 @@
     "text": "Compañía"
   },
   {
-    "objectID": "es/presentacion-es.html#índice",
-    "href": "es/presentacion-es.html#índice",
+    "objectID": "es/presentacion-es.html#barrio-de-residencia",
+    "href": "es/presentacion-es.html#barrio-de-residencia",
     "title": "De las prácticas al análisis de los equipamientos religiosos de Belo Horizonte",
-    "section": "Índice",
-    "text": "Índice\n[ ICR_c= ]\nEl índice estima cobertura potencial por confesión, sin doble conteo dentro de la misma confesión."
+    "section": "Barrio de residencia",
+    "text": "Barrio de residencia"
   },
   {
-    "objectID": "es/presentacion-es.html#auditoría",
-    "href": "es/presentacion-es.html#auditoría",
+    "objectID": "es/presentacion-es.html#modelos",
+    "href": "es/presentacion-es.html#modelos",
     "title": "De las prácticas al análisis de los equipamientos religiosos de Belo Horizonte",
-    "section": "Auditoría",
-    "text": "Auditoría\nCon 4 km/h y 9,7 minutos, el radio consistente es 646,67 m. El proyecto conserva los valores históricos para comparación y adopta el cálculo consistente como predeterminado."
+    "section": "Modelos",
+    "text": "Modelos\n\n\n\n\nEn el modelo general de Belo Horizonte, las mujeres presentaron una razón de posibilidades aproximadamente 3,9 veces mayor de realizar al menos un desplazamiento religioso durante la semana.\nLas personas con movilidad reducida presentaron una razón de posibilidades aproximadamente 74% menor para el mismo desenlace (OR ≈ 0,26).\nLos resultados expresan asociaciones condicionales a los modelos, no efectos causales."
   },
   {
-    "objectID": "es/presentacion-es.html#concentración-de-equipamientos-kernel",
-    "href": "es/presentacion-es.html#concentración-de-equipamientos-kernel",
+    "objectID": "es/presentacion-es.html#de-la-práctica-al-parámetro",
+    "href": "es/presentacion-es.html#de-la-práctica-al-parámetro",
     "title": "De las prácticas al análisis de los equipamientos religiosos de Belo Horizonte",
-    "section": "Concentración de equipamientos (kernel)",
-    "text": "Concentración de equipamientos (kernel)\nEl mapa de kernel muestra dónde la presencia de establecimientos es más intensa por confesión."
+    "section": "De la práctica al parámetro",
+    "text": "De la práctica al parámetro\n\n\n\nPara definir el radio de accesibilidad, adoptamos el patrón peatonal más frecuente observado:\n\ntiempo medio: 9,7 minutos;\nvelocidad media: 4 km/h;\nradio de accesibilidad: 646,67 metros."
   },
   {
-    "objectID": "es/presentacion-es.html#grado-de-cobertura-por-confesión",
-    "href": "es/presentacion-es.html#grado-de-cobertura-por-confesión",
+    "objectID": "es/presentacion-es.html#fe-de-erratas-y-auditoría",
+    "href": "es/presentacion-es.html#fe-de-erratas-y-auditoría",
     "title": "De las prácticas al análisis de los equipamientos religiosos de Belo Horizonte",
-    "section": "Grado de cobertura por confesión",
-    "text": "Grado de cobertura por confesión\nEl mapa de cobertura muestra el alcance potencial de la red religiosa según la parametrización peatonal adoptada."
+    "section": "Fe de erratas y auditoría",
+    "text": "Fe de erratas y auditoría\n\n\n\nEl texto presentado registró 853,33 m, mientras que la leyenda cartográfica original utilizó aproximadamente 649,33 m. La versión reproducible conserva esos perfiles históricos para auditoría, pero adopta como referencia el cálculo consistente de 646,67 m."
   },
   {
-    "objectID": "es/presentacion-es.html#tablero-interactivo",
-    "href": "es/presentacion-es.html#tablero-interactivo",
+    "objectID": "es/presentacion-es.html#índice-de-cobertura-religiosa-icr",
+    "href": "es/presentacion-es.html#índice-de-cobertura-religiosa-icr",
     "title": "De las prácticas al análisis de los equipamientos religiosos de Belo Horizonte",
-    "section": "Tablero interactivo",
-    "text": "Tablero interactivo\nAbrir el tablero del ICR"
+    "section": "Índice de Cobertura Religiosa — ICR",
+    "text": "Índice de Cobertura Religiosa — ICR\n\n\n\n\nunión de los buffers de los establecimientos por confesión;\nintersección con los sectores censales;\nestimación de la población cubierta proporcionalmente al área de cada sector;\nausencia de doble conteo dentro de una misma confesión.\n\n[ ICR_c= ]"
   },
   {
-    "objectID": "es/presentacion-es.html#producto-abierto",
-    "href": "es/presentacion-es.html#producto-abierto",
+    "objectID": "es/presentacion-es.html#concentración-de-los-equipamientos-kernel",
+    "href": "es/presentacion-es.html#concentración-de-los-equipamientos-kernel",
     "title": "De las prácticas al análisis de los equipamientos religiosos de Belo Horizonte",
-    "section": "Producto abierto",
-    "text": "Producto abierto\nSitio bilingüe · presentación Reveal.js · tablero Shiny · código R · pipeline · pruebas · guía de réplica.\nTablero: https://fecasula.shinyapps.io/religiao-mobilidade-bh/\nSitio: https://fecasula.github.io/espa-o-religiao-bh/\nCódigo: https://github.com/fecasula/espa-o-religiao-bh"
+    "section": "Concentración de los equipamientos — kernel",
+    "text": "Concentración de los equipamientos — kernel"
   },
   {
-    "objectID": "es/presentacion-es.html#navegación-rápida",
-    "href": "es/presentacion-es.html#navegación-rápida",
+    "objectID": "es/presentacion-es.html#cobertura-por-confesión-religiosa",
+    "href": "es/presentacion-es.html#cobertura-por-confesión-religiosa",
     "title": "De las prácticas al análisis de los equipamientos religiosos de Belo Horizonte",
-    "section": "Navegación rápida",
-    "text": "Navegación rápida\nVolver al sitio Versão em português Resultados en el sitio"
+    "section": "Cobertura por confesión religiosa",
+    "text": "Cobertura por confesión religiosa"
+  },
+  {
+    "objectID": "es/presentacion-es.html#resultados-publicados",
+    "href": "es/presentacion-es.html#resultados-publicados",
+    "title": "De las prácticas al análisis de los equipamientos religiosos de Belo Horizonte",
+    "section": "Resultados publicados",
+    "text": "Resultados publicados\n\n\n\n\nConfesión\nEstablecimientos\nICR\n\n\n\n\nProtestante/Evangélica\n3.326\n98,4%\n\n\nCatólica\n296\n77,5%\n\n\nEspírita\n154\n42,1%\n\n\nAfrobrasileña\n17\n8,5%\n\n\n\n\nLa comparación indica que cantidad absoluta, concentración espacial y cobertura poblacional son dimensiones relacionadas, pero no equivalentes."
+  },
+  {
+    "objectID": "es/presentacion-es.html#panel-interactivo",
+    "href": "es/presentacion-es.html#panel-interactivo",
+    "title": "De las prácticas al análisis de los equipamientos religiosos de Belo Horizonte",
+    "section": "Panel interactivo",
+    "text": "Panel interactivo\nEl panel permite modificar el tiempo y la velocidad de caminata y recalcular el radio, la población potencialmente cubierta y el ICR de cada confesión.\n\nAbrir el panel del ICR Volver al sitio Versão em português Repositorio\n\n\nFelipe Baeta Casula — felipe.baeta.pereira@gmail.com\nDaniel Pimenta de Prado — danielpimentadeprado@gmail.com\nSitio: https://fecasula.github.io/espaco-religiao-bh"
   },
   {
     "objectID": "es/introduccion.html",
@@ -312,35 +333,35 @@
     "href": "apresentacao-pt.html#pergunta",
     "title": "Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte",
     "section": "Pergunta",
-    "text": "Pergunta\nComo práticas de mobilidade religiosa da população idosa podem informar uma análise espacial da cobertura dos equipamentos de culto?"
+    "text": "Pergunta\n\n\nPergunta\n\n\nComo práticas de mobilidade religiosa da população idosa podem informar uma análise espacial da cobertura dos equipamentos de culto?"
   },
   {
     "objectID": "apresentacao-pt.html#estratégia-metodológica",
     "href": "apresentacao-pt.html#estratégia-metodológica",
     "title": "Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte",
     "section": "Estratégia metodológica",
-    "text": "Estratégia metodológica\n\nDescrever 86 deslocamentos religiosos entre 2.164 viagens de residentes em Belo Horizonte.\nModelar dois desfechos cumulativos por regressão logística.\nClassificar 3.848 equipamentos religiosos e estimar cobertura populacional por confissão.\nPublicar um painel interativo para auditar os parâmetros espaciais."
+    "text": "Estratégia metodológica\n\n\n1. Descrever\nDescrever o padrão observado para os deslocamentos com motivação religiosa em Belo Horizonte.\n\n\n2. Modelar\nAplicar modelos de regressão logística para identificar e mensurar padrões sociodemográficos.\n\n\n4. Publicar\nPublicar um painel interativo para auditar os parâmetros espaciais.\n\n\n3. Classificar\nClassificar 3.848 equipamentos religiosos e estimar a cobertura populacional por confissão."
   },
   {
-    "objectID": "apresentacao-pt.html#um-padrão-territorialmente-próximo",
-    "href": "apresentacao-pt.html#um-padrão-territorialmente-próximo",
+    "objectID": "apresentacao-pt.html#o-padrão-estudado",
+    "href": "apresentacao-pt.html#o-padrão-estudado",
     "title": "Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte",
-    "section": "Um padrão territorialmente próximo",
-    "text": "Um padrão territorialmente próximo\n\n51,16% dos deslocamentos aos domingos;\n66,28% a pé;\n9,7 minutos de caminhada média;\n76% dentro do bairro de residência."
+    "section": "O padrão estudado",
+    "text": "O padrão estudado\n\n\n\n\n51,16% dos deslocamentos ocorreram aos domingos;\n66,28% foram realizados a pé;\n9,7 minutos foi o tempo médio dos deslocamentos a pé;\n76% tiveram como destino um equipamento situado no bairro de residência."
   },
   {
-    "objectID": "apresentacao-pt.html#modos-de-transporte",
-    "href": "apresentacao-pt.html#modos-de-transporte",
+    "objectID": "apresentacao-pt.html#meios-de-transporte",
+    "href": "apresentacao-pt.html#meios-de-transporte",
     "title": "Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte",
-    "section": "Modos de transporte",
-    "text": "Modos de transporte"
+    "section": "Meios de transporte",
+    "text": "Meios de transporte"
   },
   {
-    "objectID": "apresentacao-pt.html#dia-da-semana",
-    "href": "apresentacao-pt.html#dia-da-semana",
+    "objectID": "apresentacao-pt.html#dias-da-semana",
+    "href": "apresentacao-pt.html#dias-da-semana",
     "title": "Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte",
-    "section": "Dia da semana",
-    "text": "Dia da semana"
+    "section": "Dias da semana",
+    "text": "Dias da semana"
   },
   {
     "objectID": "apresentacao-pt.html#companhia",
@@ -361,77 +382,56 @@
     "href": "apresentacao-pt.html#modelos",
     "title": "Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte",
     "section": "Modelos",
-    "text": "Modelos\n\nMulheres: OR ≈ 3,9 para pelo menos um deslocamento no modelo geral de BH.\nMobilidade reduzida: OR ≈ 0,26.\nInterpretação associativa, não causal."
+    "text": "Modelos\n\n\n\n\nNo modelo geral de Belo Horizonte, mulheres apresentaram razão de chances cerca de 3,9 vezes maior para realizar ao menos um deslocamento religioso na semana.\nPessoas com mobilidade reduzida apresentaram razão de chances aproximadamente 74% menor para o mesmo desfecho (OR ≈ 0,26).\nOs resultados expressam associações condicionais aos modelos, e não efeitos causais."
   },
   {
     "objectID": "apresentacao-pt.html#da-prática-ao-parâmetro",
     "href": "apresentacao-pt.html#da-prática-ao-parâmetro",
     "title": "Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte",
     "section": "Da prática ao parâmetro",
-    "text": "Da prática ao parâmetro\n[ d=v ]\nCom 4 km/h e 9,7 minutos, (d=646{,}67) m."
+    "text": "Da prática ao parâmetro\n\n\n\nPara definir o raio de acessibilidade, adotamos o padrão pedonal mais frequente observado:\n\ntempo médio: 9,7 minutos;\nvelocidade média: 4 km/h;\nraio de acessibilidade: 646,67 metros."
   },
   {
-    "objectID": "apresentacao-pt.html#auditoria-metodológica",
-    "href": "apresentacao-pt.html#auditoria-metodológica",
+    "objectID": "apresentacao-pt.html#errata-e-auditoria",
+    "href": "apresentacao-pt.html#errata-e-auditoria",
     "title": "Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte",
-    "section": "Auditoria metodológica",
-    "text": "Auditoria metodológica\nO texto registrou 853,33 m; o mapa, cerca de 649,33 m. A versão reprodutível preserva os perfis históricos, mas adota o cálculo consistente como padrão."
+    "section": "Errata e auditoria",
+    "text": "Errata e auditoria\n\n\n\nO texto submetido registrou 853,33 m, enquanto a legenda cartográfica original utilizou aproximadamente 649,33 m. A versão reprodutível preserva esses perfis históricos para auditoria, mas adota como padrão o cálculo consistente de 646,67 m."
   },
   {
-    "objectID": "apresentacao-pt.html#icr",
-    "href": "apresentacao-pt.html#icr",
+    "objectID": "apresentacao-pt.html#índice-de-cobertura-religiosa-icr",
+    "href": "apresentacao-pt.html#índice-de-cobertura-religiosa-icr",
     "title": "Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte",
-    "section": "ICR",
-    "text": "ICR\n[ ICR_c= ]\n\nunião dos buffers por confissão;\ninterseção com setores;\npopulação proporcional à área coberta;\nsem dupla contagem intraconfessional."
+    "section": "Índice de Cobertura Religiosa — ICR",
+    "text": "Índice de Cobertura Religiosa — ICR\n\n\n\n\nunião dos buffers dos estabelecimentos por confissão;\ninterseção com os setores censitários;\nestimativa da população coberta proporcionalmente à área de cada setor;\nausência de dupla contagem dentro de uma mesma confissão.\n\n[ ICR_c= ]"
   },
   {
     "objectID": "apresentacao-pt.html#concentração-dos-equipamentos-kernel",
     "href": "apresentacao-pt.html#concentração-dos-equipamentos-kernel",
     "title": "Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte",
-    "section": "Concentração dos equipamentos (kernel)",
-    "text": "Concentração dos equipamentos (kernel)\nO mapa de kernel explicita onde os estabelecimentos se concentram por confissão. Ele informa intensidade espacial, não cobertura populacional."
+    "section": "Concentração dos equipamentos — kernel",
+    "text": "Concentração dos equipamentos — kernel"
   },
   {
-    "objectID": "apresentacao-pt.html#grau-de-cobertura-por-confissão",
-    "href": "apresentacao-pt.html#grau-de-cobertura-por-confissão",
+    "objectID": "apresentacao-pt.html#cobertura-por-confissão-religiosa",
+    "href": "apresentacao-pt.html#cobertura-por-confissão-religiosa",
     "title": "Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte",
-    "section": "Grau de cobertura por confissão",
-    "text": "Grau de cobertura por confissão\nO mapa de cobertura traduz o alcance potencial da rede religiosa, articulando localização dos estabelecimentos, raio de acesso e população por setor censitário."
+    "section": "Cobertura por confissão religiosa",
+    "text": "Cobertura por confissão religiosa"
   },
   {
     "objectID": "apresentacao-pt.html#resultados-publicados",
     "href": "apresentacao-pt.html#resultados-publicados",
     "title": "Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte",
     "section": "Resultados publicados",
-    "text": "Resultados publicados\n\n\n\nConfissão\nEstabelecimentos\nICR\n\n\n\n\nProtestante/Evangélica\n3.326\n98,4%\n\n\nCatólica\n296\n77,5%\n\n\nEspírita\n154\n42,1%\n\n\nAfro-brasileira\n17\n8,5%"
+    "text": "Resultados publicados\n\n\n\n\nConfissão\nEstabelecimentos\nICR\n\n\n\n\nProtestante/Evangélica\n3.326\n98,4%\n\n\nCatólica\n296\n77,5%\n\n\nEspírita\n154\n42,1%\n\n\nAfro-brasileira\n17\n8,5%\n\n\n\n\nA comparação indica que quantidade absoluta, concentração espacial e cobertura populacional são dimensões relacionadas, mas não equivalentes."
   },
   {
     "objectID": "apresentacao-pt.html#painel-interativo",
     "href": "apresentacao-pt.html#painel-interativo",
     "title": "Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte",
     "section": "Painel interativo",
-    "text": "Painel interativo\nO painel permite alterar velocidade e tempo de caminhada, recalculando raio, população coberta e ICR por confissão.\nAbrir o painel do ICR"
-  },
-  {
-    "objectID": "apresentacao-pt.html#contribuições-e-limites",
-    "href": "apresentacao-pt.html#contribuições-e-limites",
-    "title": "Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte",
-    "section": "Contribuições e limites",
-    "text": "Contribuições e limites\n\nintegra sociologia urbana, mobilidade e religião;\ntorna hipóteses paramétricas manipuláveis;\npreserva rastreabilidade e versões;\nnão substitui análise de rede, capacidade, qualidade ou uso efetivo."
-  },
-  {
-    "objectID": "apresentacao-pt.html#produto-aberto",
-    "href": "apresentacao-pt.html#produto-aberto",
-    "title": "Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte",
-    "section": "Produto aberto",
-    "text": "Produto aberto\nSite bilíngue · apresentação Reveal.js · painel Shiny · código R · pipeline · testes · guia de replicação · citação e licença.\nPainel: https://fecasula.shinyapps.io/religiao-mobilidade-bh/\nSite: https://fecasula.github.io/espa-o-religiao-bh/\nCódigo: https://github.com/fecasula/espa-o-religiao-bh"
-  },
-  {
-    "objectID": "apresentacao-pt.html#navegação-rápida",
-    "href": "apresentacao-pt.html#navegação-rápida",
-    "title": "Do estudo das práticas à análise dos equipamentos religiosos de Belo Horizonte",
-    "section": "Navegação rápida",
-    "text": "Navegação rápida\nVoltar ao site Versão em espanhol Resultados no site"
+    "text": "Painel interativo\nO painel permite alterar o tempo e a velocidade de caminhada e recalcular o raio, a população potencialmente coberta e o ICR de cada confissão.\n\nAbrir o painel do ICR Voltar ao site Versão em espanhol Repositório\n\n\nFelipe Baeta Casula — felipe.baeta.pereira@gmail.com\nDaniel Pimenta de Prado — danielpimentadeprado@gmail.com\nSite: https://fecasula.github.io/espaco-religiao-bh"
   },
   {
     "objectID": "es/index.html",
@@ -487,49 +487,42 @@
     "href": "es/resultados.html",
     "title": "Resultados",
     "section": "",
-    "text": "Los desplazamientos religiosos muestran un ritmo semanal propio, con fuerte concentración dominical, predominio de viajes a pie y marcada escala barrial.\n\n51,16% de los desplazamientos ocurrieron los domingos;\n66,28% se realizaron a pie;\nel tiempo medio de caminata fue de aproximadamente 9,7 minutos;\n76% tuvieron destino en el propio barrio de residencia."
+    "text": "Entre los 86 desplazamientos por motivos religiosos observados para residentes de Belo Horizonte, predominan los viajes realizados los domingos, a pie, frecuentemente sin compañía y con destino localizado en el propio barrio de residencia.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotaAbrir tablas detalladas de frecuencia\n\n\n\n\n\n\n\n\n\n\nDía\nn\nProporción\nIC 95%\n\n\n\n\nLunes\n3\n3,49%\n0,00%–7,37%\n\n\nMartes\n9\n10,47%\n3,99%–16,94%\n\n\nMiércoles\n8\n9,30%\n3,16%–15,44%\n\n\nJueves\n5\n5,81%\n0,86%–10,77%\n\n\nViernes\n5\n5,81%\n0,86%–10,77%\n\n\nSábado\n12\n13,95%\n6,63%–21,28%\n\n\nDomingo\n44\n51,16%\n40,60%–61,73%\n\n\n\n\n\n\n\n\n\nTipo de compañía\nn\nProporción\nIC 95%\n\n\n\n\nSolo(a)\n47\n54,65%\n44,13%–65,17%\n\n\nFamiliar corresidente\n22\n25,58%\n16,36%–34,80%\n\n\nOtro\n11\n12,79%\n5,73%–19,85%\n\n\nFamiliar no corresidente\n6\n6,98%\n1,60%–12,35%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModo\nn\nProporción\nIC 95%\nTiempo medio (min)\nIC 95% del tiempo\n\n\n\n\nA pie\n57\n66,28%\n56,29%–76,27%\n9,7\n8,2–11,3\n\n\nAutomóvil propio\n13\n15,12%\n7,54%–22,69%\n8,6\n5,64–11,58\n\n\nAutomóvil compartido\n8\n9,30%\n3,16%–15,44%\n—\n—\n\n\nBRT/Autobús\n7\n8,14%\n2,36%–13,92%\n—\n—\n\n\nTransporte público\n1\n1,16%\n0,00%–3,44%\n—\n—\n\n\n\nEl tiempo medio considerando todos los modos fue de 12,8 minutos (IC 95%: 10,4–15,2).\n\n\n\n\n\n\nLocalización\nn\nProporción\nIC 95%\n\n\n\n\nBarrio de residencia\n65\n75,58%\n66,50%–84,70%\n\n\nFuera del barrio de residencia\n21\n24,42%\n15,30%–33,50%"
   },
   {
-    "objectID": "es/resultados.html#desplazamientos-religiosos",
-    "href": "es/resultados.html#desplazamientos-religiosos",
+    "objectID": "es/resultados.html#síntesis-de-los-desplazamientos-religiosos",
+    "href": "es/resultados.html#síntesis-de-los-desplazamientos-religiosos",
     "title": "Resultados",
     "section": "",
-    "text": "Los desplazamientos religiosos muestran un ritmo semanal propio, con fuerte concentración dominical, predominio de viajes a pie y marcada escala barrial.\n\n51,16% de los desplazamientos ocurrieron los domingos;\n66,28% se realizaron a pie;\nel tiempo medio de caminata fue de aproximadamente 9,7 minutos;\n76% tuvieron destino en el propio barrio de residencia."
+    "text": "Entre los 86 desplazamientos por motivos religiosos observados para residentes de Belo Horizonte, predominan los viajes realizados los domingos, a pie, frecuentemente sin compañía y con destino localizado en el propio barrio de residencia.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotaAbrir tablas detalladas de frecuencia\n\n\n\n\n\n\n\n\n\n\nDía\nn\nProporción\nIC 95%\n\n\n\n\nLunes\n3\n3,49%\n0,00%–7,37%\n\n\nMartes\n9\n10,47%\n3,99%–16,94%\n\n\nMiércoles\n8\n9,30%\n3,16%–15,44%\n\n\nJueves\n5\n5,81%\n0,86%–10,77%\n\n\nViernes\n5\n5,81%\n0,86%–10,77%\n\n\nSábado\n12\n13,95%\n6,63%–21,28%\n\n\nDomingo\n44\n51,16%\n40,60%–61,73%\n\n\n\n\n\n\n\n\n\nTipo de compañía\nn\nProporción\nIC 95%\n\n\n\n\nSolo(a)\n47\n54,65%\n44,13%–65,17%\n\n\nFamiliar corresidente\n22\n25,58%\n16,36%–34,80%\n\n\nOtro\n11\n12,79%\n5,73%–19,85%\n\n\nFamiliar no corresidente\n6\n6,98%\n1,60%–12,35%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModo\nn\nProporción\nIC 95%\nTiempo medio (min)\nIC 95% del tiempo\n\n\n\n\nA pie\n57\n66,28%\n56,29%–76,27%\n9,7\n8,2–11,3\n\n\nAutomóvil propio\n13\n15,12%\n7,54%–22,69%\n8,6\n5,64–11,58\n\n\nAutomóvil compartido\n8\n9,30%\n3,16%–15,44%\n—\n—\n\n\nBRT/Autobús\n7\n8,14%\n2,36%–13,92%\n—\n—\n\n\nTransporte público\n1\n1,16%\n0,00%–3,44%\n—\n—\n\n\n\nEl tiempo medio considerando todos los modos fue de 12,8 minutos (IC 95%: 10,4–15,2).\n\n\n\n\n\n\nLocalización\nn\nProporción\nIC 95%\n\n\n\n\nBarrio de residencia\n65\n75,58%\n66,50%–84,70%\n\n\nFuera del barrio de residencia\n21\n24,42%\n15,30%–33,50%"
   },
   {
-    "objectID": "es/resultados.html#afiliación-religiosa-y-modelos",
-    "href": "es/resultados.html#afiliación-religiosa-y-modelos",
+    "objectID": "es/resultados.html#modelos-de-regresión-logística",
+    "href": "es/resultados.html#modelos-de-regresión-logística",
     "title": "Resultados",
-    "section": "2 Afiliación religiosa y modelos",
-    "text": "2 Afiliación religiosa y modelos\nEn los modelos generales de Belo Horizonte, el sexo femenino se asoció positivamente con la realización de desplazamientos religiosos, mientras que la dificultad para caminar presentó asociación negativa."
+    "section": "2 Modelos de regresión logística",
+    "text": "2 Modelos de regresión logística\nEn los modelos para Belo Horizonte, el sexo femenino presentó asociación positiva con los desplazamientos religiosos. En el modelo general para al menos un desplazamiento, las mujeres presentaron OR de 3,914 (IC 95%: 1,685–9,837). La movilidad reducida presentó OR de 0,256 (IC 95%: 0,091–0,642).\n\n\n\n\n\n\nNotaAbrir resultados detallados de las regresiones — Belo Horizonte\n\n\n\n\n\nLos valores son razones de posibilidades; los intervalos de confianza de 95% aparecen entre corchetes. + p &lt; 0,1; * p &lt; 0,05; ** p &lt; 0,01; *** p &lt; 0,001.\n\n2.1 Al menos un desplazamiento religioso durante la semana\n\n\n\n\n\n\n\n\n\n\nVariable\nDemográfico\nSociodemográfico\nGeneral\n\n\n\n\nIntercepto\n1,044 [0,018–64,040]\n0,765 [0,010–62,205]\n1,114 [0,014–103,386]\n\n\nEdad\n0,966 [0,913–1,018]\n0,972 [0,917–1,027]\n0,975 [0,918–1,032]\n\n\nSexo femenino\n3,527** [1,602–8,336]\n3,512** [1,557–8,546]\n3,914** [1,685–9,837]\n\n\nRaza: negros\n1,780 [0,831–3,987]\n1,600 [0,706–3,783]\n1,623 [0,694–3,963]\n\n\nEstado civil: separado(a)\n0,473 [0,082–2,357]\n0,424 [0,073–2,119]\n0,417 [0,070–2,149]\n\n\nEstado civil: casado(a)\n1,027 [0,333–3,602]\n1,036 [0,335–3,638]\n0,949 [0,290–3,472]\n\n\nEstado civil: viudo(a)\n1,479 [0,444–5,507]\n1,440 [0,427–5,419]\n1,573 [0,441–6,284]\n\n\nIngreso: R$ 1.620–2.600\n—\n0,835 [0,275–2,377]\n0,589 [0,181–1,775]\n\n\nIngreso: R$ 2.300–4.600\n—\n1,303 [0,469–3,578]\n0,866 [0,288–2,540]\n\n\nIngreso: más de R$ 4.600\n—\n0,579 [0,179–1,714]\n0,392 [0,113–1,239]\n\n\nMovilidad reducida\n—\n—\n0,256** [0,091–0,642]\n\n\n\n\n\n\n2.2 Dos o más desplazamientos religiosos durante la semana\n\n\n\n\n\n\n\n\n\n\nVariable\nDemográfico\nSociodemográfico\nGeneral\n\n\n\n\nIntercepto\n0,012 [0,000–3,751]\n0,061 [0,000–32,316]\n0,122 [0,000–88,267]\n\n\nEdad\n0,995 [0,923–1,069]\n0,980 [0,905–1,057]\n0,979 [0,898–1,061]\n\n\nSexo femenino\n3,671* [1,197–13,867]\n3,350+ [1,045–13,184]\n3,482+ [1,029–14,336]\n\n\nRaza: negros\n2,901+ [0,959–10,863]\n2,764 [0,814–11,498]\n2,823 [0,781–12,383]\n\n\nEstado civil: separado(a)\n1,100 [0,040–30,313]\n1,188 [0,041–34,609]\n1,411 [0,047–43,178]\n\n\nEstado civil: casado(a)\n2,991 [0,491–58,109]\n2,609 [0,402–51,978]\n2,310 [0,323–47,752]\n\n\nEstado civil: viudo(a)\n3,508 [0,538–69,430]\n3,311 [0,489–66,523]\n4,178 [0,551–89,789]\n\n\nIngreso: R$ 1.620–2.600\n—\n0,193 [0,010–1,138]\n0,126+ [0,006–0,802]\n\n\nIngreso: R$ 2.300–4.600\n—\n0,404 [0,057–1,842]\n0,243 [0,032–1,203]\n\n\nIngreso: más de R$ 4.600\n—\n0,896 [0,205–3,501]\n0,586 [0,123–2,470]\n\n\nMovilidad reducida\n—\n—\n0,178* [0,035–0,664]\n\n\n\n\n\n\n2.3 Indicadores de ajuste\n\n\n\n\n\n\n\n\n\n\n\nDesenlace\nModelo\nn\nAIC\nLog-verosimilitud\nPseudo-R² de McFadden\n\n\n\n\n≥1 desplazamiento\nDemográfico\n182\n191,5\n−88,763\n0,086\n\n\n≥1 desplazamiento\nSociodemográfico\n182\n195,6\n−87,814\n0,096\n\n\n≥1 desplazamiento\nGeneral\n182\n188,9\n−83,428\n0,141\n\n\n≥2 desplazamientos\nDemográfico\n182\n120,2\n−53,120\n0,095\n\n\n≥2 desplazamientos\nSociodemográfico\n182\n122,3\n−51,137\n0,129\n\n\n≥2 desplazamientos\nGeneral\n182\n117,4\n−47,679\n0,188"
   },
   {
-    "objectID": "es/resultados.html#equipamientos-religiosos-origen-de-los-datos",
-    "href": "es/resultados.html#equipamientos-religiosos-origen-de-los-datos",
+    "objectID": "es/resultados.html#equipamientos-religiosos-y-cobertura",
+    "href": "es/resultados.html#equipamientos-religiosos-y-cobertura",
     "title": "Resultados",
-    "section": "3 Equipamientos religiosos: origen de los datos",
-    "text": "3 Equipamientos religiosos: origen de los datos\nLos resultados espaciales se basan en establecimientos identificados en el CNEFE 2022 y clasificados manualmente por confesión. Esa categorización previa fue necesaria porque la fuente original no trae una denominación religiosa totalmente normalizada.\n\n\n\nConfesión\nEstablecimientos\nICR publicado\n\n\n\n\nProtestante/Evangélica\n3.326\n98,4%\n\n\nCatólica\n296\n77,5%\n\n\nEspírita\n154\n42,1%\n\n\nAfro-brasileña\n17\n8,5%"
+    "section": "3 Equipamientos religiosos y cobertura",
+    "text": "3 Equipamientos religiosos y cobertura\nLos establecimientos fueron identificados en el CNEFE 2022. Después de la clasificación inicial, 622 registros fueron revisados manualmente. Los 483 registros descritos solamente como “IGREJA” fueron censurados, resultando en 3.848 puntos clasificados.\n\n\n\n\n\n\n\n\n\n\nConfesión\nEstablecimientos\nParticipación\nCobertura poblacional\nICR\n\n\n\n\nProtestante/Evangélica\n3.326\n86,4%\n2.277.951\n98,4%\n\n\nCatólica\n296\n7,7%\n1.793.976\n77,5%\n\n\nEspírita\n154\n4,0%\n974.622\n42,1%\n\n\nAfrobrasileña\n17\n0,4%\n198.386\n8,5%\n\n\nOtra\n55\n1,4%\n—\n—"
   },
   {
-    "objectID": "es/resultados.html#concentración-espacial-de-los-establecimientos-kernel",
-    "href": "es/resultados.html#concentración-espacial-de-los-establecimientos-kernel",
+    "objectID": "es/resultados.html#concentración-espacial-de-los-equipamientos-kernel",
+    "href": "es/resultados.html#concentración-espacial-de-los-equipamientos-kernel",
     "title": "Resultados",
-    "section": "4 Concentración espacial de los establecimientos (kernel)",
-    "text": "4 Concentración espacial de los establecimientos (kernel)\nEl mapa de kernel evidencia la concentración diferencial de los establecimientos por confesión. Muestra dónde la presencia relativa de los equipamientos es más intensa, sin traducir directamente cobertura poblacional."
+    "section": "4 Concentración espacial de los equipamientos — kernel",
+    "text": "4 Concentración espacial de los equipamientos — kernel"
   },
   {
-    "objectID": "es/resultados.html#grado-de-cobertura-por-confesión",
-    "href": "es/resultados.html#grado-de-cobertura-por-confesión",
+    "objectID": "es/resultados.html#área-de-cobertura-por-confesión",
+    "href": "es/resultados.html#área-de-cobertura-por-confesión",
     "title": "Resultados",
-    "section": "5 Grado de cobertura por confesión",
-    "text": "5 Grado de cobertura por confesión\nEl mapa de cobertura representa el resultado de la parametrización peatonal del ICR, articulando localización de los establecimientos, radio de acceso y población residente por sector censal.\n\n\n\n\n\n\n\nNotaLectura conjunta de los mapas\n\n\n\nEl contraste entre el mapa de kernel y el mapa de cobertura es central: concentración espacial y cobertura potencial son dimensiones relacionadas, pero no equivalentes."
-  },
-  {
-    "objectID": "es/resultados.html#próximos-pasos",
-    "href": "es/resultados.html#próximos-pasos",
-    "title": "Resultados",
-    "section": "6 Próximos pasos",
-    "text": "6 Próximos pasos\nAbrir el ICR interactivo Ver presentación en español"
+    "section": "5 Área de cobertura por confesión",
+    "text": "5 Área de cobertura por confesión\n\nAbrir el ICR interactivo Ver presentación en español"
   },
   {
     "objectID": "estudo.html",
@@ -746,83 +739,76 @@
     "href": "resultados-equipamentos.html",
     "title": "Resultados: equipamentos religiosos",
     "section": "",
-    "text": "Os estabelecimentos religiosos foram identificados no Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE/IBGE). A classificação em grupos confessionais não estava pronta na base original e, por isso, exigiu um trabalho prévio de categorização manual dos registros.\nEssa etapa foi essencial para diferenciar categorias como Católica, Protestante/Evangélica, Espírita e Afro-brasileira antes do cálculo do Índice de Cobertura Religiosa."
+    "text": "Os estabelecimentos religiosos foram identificados no Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE 2022/IBGE). A descrição cadastral não fornece uma categoria confessional plenamente padronizada. Por isso, a preparação da base combinou busca por palavras-chave e revisão manual.\nApós a classificação inicial, 622 estabelecimentos foram corrigidos manualmente. A categoria genérica “IGREJA”, com 483 registros impossíveis de atribuir com segurança a uma confissão, foi censurada. O universo final contém 3.848 pontos."
   },
   {
     "objectID": "resultados-equipamentos.html#origem-dos-dados-e-classificação",
     "href": "resultados-equipamentos.html#origem-dos-dados-e-classificação",
     "title": "Resultados: equipamentos religiosos",
     "section": "",
-    "text": "Os estabelecimentos religiosos foram identificados no Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE/IBGE). A classificação em grupos confessionais não estava pronta na base original e, por isso, exigiu um trabalho prévio de categorização manual dos registros.\nEssa etapa foi essencial para diferenciar categorias como Católica, Protestante/Evangélica, Espírita e Afro-brasileira antes do cálculo do Índice de Cobertura Religiosa."
+    "text": "Os estabelecimentos religiosos foram identificados no Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE 2022/IBGE). A descrição cadastral não fornece uma categoria confessional plenamente padronizada. Por isso, a preparação da base combinou busca por palavras-chave e revisão manual.\nApós a classificação inicial, 622 estabelecimentos foram corrigidos manualmente. A categoria genérica “IGREJA”, com 483 registros impossíveis de atribuir com segurança a uma confissão, foi censurada. O universo final contém 3.848 pontos."
   },
   {
-    "objectID": "resultados-equipamentos.html#cobertura-publicada",
-    "href": "resultados-equipamentos.html#cobertura-publicada",
+    "objectID": "resultados-equipamentos.html#distribuição-e-cobertura-publicadas",
+    "href": "resultados-equipamentos.html#distribuição-e-cobertura-publicadas",
     "title": "Resultados: equipamentos religiosos",
-    "section": "2 Cobertura publicada",
-    "text": "2 Cobertura publicada\n\n\n\nConfissão\nEstabelecimentos\nICR publicado\n\n\n\n\nProtestante/Evangélica\n3.326\n98,4%\n\n\nCatólica\n296\n77,5%\n\n\nEspírita\n154\n42,1%\n\n\nAfro-brasileira\n17\n8,5%"
+    "section": "2 Distribuição e cobertura publicadas",
+    "text": "2 Distribuição e cobertura publicadas\n\n\n\n\n\n\n\n\n\n\nConfissão\nEstabelecimentos\nParticipação\nCobertura populacional\nICR\n\n\n\n\nProtestante/Evangélica\n3.326\n86,4%\n2.277.951\n98,4%\n\n\nCatólica\n296\n7,7%\n1.793.976\n77,5%\n\n\nEspírita\n154\n4,0%\n974.622\n42,1%\n\n\nAfro-brasileira\n17\n0,4%\n198.386\n8,5%\n\n\nOutra\n55\n1,4%\n—\n—"
   },
   {
     "objectID": "resultados-equipamentos.html#concentração-espacial-kernel",
     "href": "resultados-equipamentos.html#concentração-espacial-kernel",
     "title": "Resultados: equipamentos religiosos",
-    "section": "3 Concentração espacial (kernel)",
-    "text": "3 Concentração espacial (kernel)"
+    "section": "3 Concentração espacial — kernel",
+    "text": "3 Concentração espacial — kernel"
   },
   {
-    "objectID": "resultados-equipamentos.html#grau-de-cobertura-por-confissão",
-    "href": "resultados-equipamentos.html#grau-de-cobertura-por-confissão",
+    "objectID": "resultados-equipamentos.html#área-de-cobertura-por-confissão",
+    "href": "resultados-equipamentos.html#área-de-cobertura-por-confissão",
     "title": "Resultados: equipamentos religiosos",
-    "section": "4 Grau de cobertura por confissão",
-    "text": "4 Grau de cobertura por confissão\n\n\n\n\n\n\n\nNota\n\n\n\nO mapa de kernel destaca áreas de concentração dos estabelecimentos. O mapa de cobertura, por sua vez, traduz o alcance potencial da rede religiosa sob o cenário pedonal adotado. Eles respondem a perguntas diferentes e devem ser lidos em conjunto.\n\n\nConsultar a publicação completa"
+    "section": "4 Área de cobertura por confissão",
+    "text": "4 Área de cobertura por confissão\n\n\n\n\n\n\n\nNota\n\n\n\nO mapa de kernel evidencia áreas de concentração dos estabelecimentos. O mapa de cobertura representa seu alcance potencial sob o cenário pedonal adotado. Os dois mapas respondem a perguntas diferentes e devem ser interpretados em conjunto.\n\n\nConsultar a publicação completa"
   },
   {
     "objectID": "resultados.html",
     "href": "resultados.html",
     "title": "Resultados",
     "section": "",
-    "text": "Os deslocamentos religiosos apresentam um ritmo semanal próprio, concentrado aos domingos, com forte peso das viagens a pé e da escala do bairro.\n\n51,16% dos deslocamentos ocorreram aos domingos;\n66,28% foram realizados a pé;\no tempo médio de caminhada foi de cerca de 9,7 minutos;\n76% tiveram destino no próprio bairro de residência."
+    "text": "Entre os 86 deslocamentos com motivação religiosa observados para residentes de Belo Horizonte, predominam as viagens realizadas aos domingos, a pé, frequentemente sem companhia e com destino localizado no próprio bairro de residência.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotaAbrir tabelas detalhadas de frequência\n\n\n\n\n\n\n\n\n\n\nDia\nn\nProporção\nIC 95%\n\n\n\n\nSegunda-feira\n3\n3,49%\n0,00%–7,37%\n\n\nTerça-feira\n9\n10,47%\n3,99%–16,94%\n\n\nQuarta-feira\n8\n9,30%\n3,16%–15,44%\n\n\nQuinta-feira\n5\n5,81%\n0,86%–10,77%\n\n\nSexta-feira\n5\n5,81%\n0,86%–10,77%\n\n\nSábado\n12\n13,95%\n6,63%–21,28%\n\n\nDomingo\n44\n51,16%\n40,60%–61,73%\n\n\n\n\n\n\n\n\n\nTipo de companhia\nn\nProporção\nIC 95%\n\n\n\n\nSozinho\n47\n54,65%\n44,13%–65,17%\n\n\nFamiliar corresidente\n22\n25,58%\n16,36%–34,80%\n\n\nOutro\n11\n12,79%\n5,73%–19,85%\n\n\nFamiliar não corresidente\n6\n6,98%\n1,60%–12,35%\n\n\n\n\n\n\n\n\n\nModo\nn\nProporção\nIC 95%\nTempo médio (min)\nIC 95% do tempo\n\n\n\n\nA pé\n57\n66,28%\n56,29%–76,27%\n9,7\n8,2–11,3\n\n\nCarro próprio\n13\n15,12%\n7,54%–22,69%\n8,6\n5,64–11,58\n\n\nCarro de carona\n8\n9,30%\n3,16%–15,44%\n—\n—\n\n\nBRT/Ônibus\n7\n8,14%\n2,36%–13,92%\n—\n—\n\n\nTransporte público\n1\n1,16%\n0,00%–3,44%\n—\n—\n\n\n\nO tempo médio considerando todos os modos foi de 12,8 minutos (IC 95%: 10,4–15,2).\n\n\n\n\n\n\nLocalização\nn\nProporção\nIC 95%\n\n\n\n\nBairro de residência\n65\n75,58%\n66,50%–84,70%\n\n\nFora do bairro de residência\n21\n24,42%\n15,30%–33,50%\n\n\n\nNenhum deslocamento de residente de Belo Horizonte teve outro município como destino."
   },
   {
-    "objectID": "resultados.html#deslocamentos-religiosos",
-    "href": "resultados.html#deslocamentos-religiosos",
+    "objectID": "resultados.html#síntese-dos-deslocamentos-religiosos",
+    "href": "resultados.html#síntese-dos-deslocamentos-religiosos",
     "title": "Resultados",
     "section": "",
-    "text": "Os deslocamentos religiosos apresentam um ritmo semanal próprio, concentrado aos domingos, com forte peso das viagens a pé e da escala do bairro.\n\n51,16% dos deslocamentos ocorreram aos domingos;\n66,28% foram realizados a pé;\no tempo médio de caminhada foi de cerca de 9,7 minutos;\n76% tiveram destino no próprio bairro de residência."
+    "text": "Entre os 86 deslocamentos com motivação religiosa observados para residentes de Belo Horizonte, predominam as viagens realizadas aos domingos, a pé, frequentemente sem companhia e com destino localizado no próprio bairro de residência.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotaAbrir tabelas detalhadas de frequência\n\n\n\n\n\n\n\n\n\n\nDia\nn\nProporção\nIC 95%\n\n\n\n\nSegunda-feira\n3\n3,49%\n0,00%–7,37%\n\n\nTerça-feira\n9\n10,47%\n3,99%–16,94%\n\n\nQuarta-feira\n8\n9,30%\n3,16%–15,44%\n\n\nQuinta-feira\n5\n5,81%\n0,86%–10,77%\n\n\nSexta-feira\n5\n5,81%\n0,86%–10,77%\n\n\nSábado\n12\n13,95%\n6,63%–21,28%\n\n\nDomingo\n44\n51,16%\n40,60%–61,73%\n\n\n\n\n\n\n\n\n\nTipo de companhia\nn\nProporção\nIC 95%\n\n\n\n\nSozinho\n47\n54,65%\n44,13%–65,17%\n\n\nFamiliar corresidente\n22\n25,58%\n16,36%–34,80%\n\n\nOutro\n11\n12,79%\n5,73%–19,85%\n\n\nFamiliar não corresidente\n6\n6,98%\n1,60%–12,35%\n\n\n\n\n\n\n\n\n\nModo\nn\nProporção\nIC 95%\nTempo médio (min)\nIC 95% do tempo\n\n\n\n\nA pé\n57\n66,28%\n56,29%–76,27%\n9,7\n8,2–11,3\n\n\nCarro próprio\n13\n15,12%\n7,54%–22,69%\n8,6\n5,64–11,58\n\n\nCarro de carona\n8\n9,30%\n3,16%–15,44%\n—\n—\n\n\nBRT/Ônibus\n7\n8,14%\n2,36%–13,92%\n—\n—\n\n\nTransporte público\n1\n1,16%\n0,00%–3,44%\n—\n—\n\n\n\nO tempo médio considerando todos os modos foi de 12,8 minutos (IC 95%: 10,4–15,2).\n\n\n\n\n\n\nLocalização\nn\nProporção\nIC 95%\n\n\n\n\nBairro de residência\n65\n75,58%\n66,50%–84,70%\n\n\nFora do bairro de residência\n21\n24,42%\n15,30%–33,50%\n\n\n\nNenhum deslocamento de residente de Belo Horizonte teve outro município como destino."
   },
   {
-    "objectID": "resultados.html#filiação-religiosa-e-modelos",
-    "href": "resultados.html#filiação-religiosa-e-modelos",
+    "objectID": "resultados.html#modelos-de-regressão-logística",
+    "href": "resultados.html#modelos-de-regressão-logística",
     "title": "Resultados",
-    "section": "2 Filiação religiosa e modelos",
-    "text": "2 Filiação religiosa e modelos\nNos modelos gerais de Belo Horizonte, o sexo feminino associou-se positivamente à realização de deslocamentos religiosos, enquanto a dificuldade para andar apresentou associação negativa. Esses resultados devem ser interpretados como associações condicionais, não como efeitos causais."
+    "section": "2 Modelos de regressão logística",
+    "text": "2 Modelos de regressão logística\nNos modelos estimados para Belo Horizonte, o sexo feminino apresentou associação positiva com a realização de deslocamentos religiosos. No modelo geral para pelo menos um deslocamento, mulheres apresentaram OR de 3,914 (IC 95%: 1,685–9,837). A mobilidade reduzida apresentou associação negativa, com OR de 0,256 (IC 95%: 0,091–0,642).\n\n\n\n\n\n\nNotaAbrir resultados detalhados das regressões — Belo Horizonte\n\n\n\n\n\nOs valores são razões de chances; intervalos de confiança de 95% aparecem entre colchetes. + p &lt; 0,1; * p &lt; 0,05; ** p &lt; 0,01; *** p &lt; 0,001.\n\n2.1 Pelo menos um deslocamento religioso na semana\n\n\n\n\n\n\n\n\n\n\nVariável\nDemográfico\nSociodemográfico\nGeral\n\n\n\n\nIntercepto\n1,044 [0,018–64,040]\n0,765 [0,010–62,205]\n1,114 [0,014–103,386]\n\n\nIdade\n0,966 [0,913–1,018]\n0,972 [0,917–1,027]\n0,975 [0,918–1,032]\n\n\nSexo feminino\n3,527** [1,602–8,336]\n3,512** [1,557–8,546]\n3,914** [1,685–9,837]\n\n\nRaça: negros\n1,780 [0,831–3,987]\n1,600 [0,706–3,783]\n1,623 [0,694–3,963]\n\n\nEstado civil: separado(a)\n0,473 [0,082–2,357]\n0,424 [0,073–2,119]\n0,417 [0,070–2,149]\n\n\nEstado civil: casado(a)\n1,027 [0,333–3,602]\n1,036 [0,335–3,638]\n0,949 [0,290–3,472]\n\n\nEstado civil: viúvo(a)\n1,479 [0,444–5,507]\n1,440 [0,427–5,419]\n1,573 [0,441–6,284]\n\n\nRenda: R$ 1.620–2.600\n—\n0,835 [0,275–2,377]\n0,589 [0,181–1,775]\n\n\nRenda: R$ 2.300–4.600\n—\n1,303 [0,469–3,578]\n0,866 [0,288–2,540]\n\n\nRenda: acima de R$ 4.600\n—\n0,579 [0,179–1,714]\n0,392 [0,113–1,239]\n\n\nMobilidade reduzida\n—\n—\n0,256** [0,091–0,642]\n\n\n\n\n\n\n2.2 Dois ou mais deslocamentos religiosos na semana\n\n\n\n\n\n\n\n\n\n\nVariável\nDemográfico\nSociodemográfico\nGeral\n\n\n\n\nIntercepto\n0,012 [0,000–3,751]\n0,061 [0,000–32,316]\n0,122 [0,000–88,267]\n\n\nIdade\n0,995 [0,923–1,069]\n0,980 [0,905–1,057]\n0,979 [0,898–1,061]\n\n\nSexo feminino\n3,671* [1,197–13,867]\n3,350+ [1,045–13,184]\n3,482+ [1,029–14,336]\n\n\nRaça: negros\n2,901+ [0,959–10,863]\n2,764 [0,814–11,498]\n2,823 [0,781–12,383]\n\n\nEstado civil: separado(a)\n1,100 [0,040–30,313]\n1,188 [0,041–34,609]\n1,411 [0,047–43,178]\n\n\nEstado civil: casado(a)\n2,991 [0,491–58,109]\n2,609 [0,402–51,978]\n2,310 [0,323–47,752]\n\n\nEstado civil: viúvo(a)\n3,508 [0,538–69,430]\n3,311 [0,489–66,523]\n4,178 [0,551–89,789]\n\n\nRenda: R$ 1.620–2.600\n—\n0,193 [0,010–1,138]\n0,126+ [0,006–0,802]\n\n\nRenda: R$ 2.300–4.600\n—\n0,404 [0,057–1,842]\n0,243 [0,032–1,203]\n\n\nRenda: acima de R$ 4.600\n—\n0,896 [0,205–3,501]\n0,586 [0,123–2,470]\n\n\nMobilidade reduzida\n—\n—\n0,178* [0,035–0,664]\n\n\n\n\n\n\n2.3 Indicadores de ajuste\n\n\n\n\n\n\n\n\n\n\n\nDesfecho\nModelo\nn\nAIC\nLog-verossimilhança\nPseudo-R² de McFadden\n\n\n\n\n≥1 deslocamento\nDemográfico\n182\n191,5\n−88,763\n0,086\n\n\n≥1 deslocamento\nSociodemográfico\n182\n195,6\n−87,814\n0,096\n\n\n≥1 deslocamento\nGeral\n182\n188,9\n−83,428\n0,141\n\n\n≥2 deslocamentos\nDemográfico\n182\n120,2\n−53,120\n0,095\n\n\n≥2 deslocamentos\nSociodemográfico\n182\n122,3\n−51,137\n0,129\n\n\n≥2 deslocamentos\nGeral\n182\n117,4\n−47,679\n0,188\n\n\n\n\n\n\n\n\n\n\n\n\n\nAviso\n\n\n\nOs modelos utilizam casos completos e possuem finalidade associativa/exploratória. As razões de chances não devem ser interpretadas como efeitos causais."
   },
   {
-    "objectID": "resultados.html#equipamentos-religiosos-origem-dos-dados",
-    "href": "resultados.html#equipamentos-religiosos-origem-dos-dados",
+    "objectID": "resultados.html#equipamentos-religiosos-e-cobertura",
+    "href": "resultados.html#equipamentos-religiosos-e-cobertura",
     "title": "Resultados",
-    "section": "3 Equipamentos religiosos: origem dos dados",
-    "text": "3 Equipamentos religiosos: origem dos dados\nOs resultados espaciais baseiam-se em estabelecimentos identificados no CNEFE 2022 e classificados manualmente por confissão. Essa categorização prévia foi necessária porque a denominação religiosa não está pronta de forma padronizada na fonte original.\n\n\n\nConfissão\nEstabelecimentos\nICR publicado\n\n\n\n\nProtestante/Evangélica\n3.326\n98,4%\n\n\nCatólica\n296\n77,5%\n\n\nEspírita\n154\n42,1%\n\n\nAfro-brasileira\n17\n8,5%"
+    "section": "3 Equipamentos religiosos e cobertura",
+    "text": "3 Equipamentos religiosos e cobertura\nOs estabelecimentos foram identificados no CNEFE 2022. Após uma classificação inicial por palavras-chave, 622 registros foram revistos manualmente. Os 483 registros descritos apenas como “IGREJA” foram censurados por não permitirem atribuição confessional, resultando em 3.848 pontos classificados.\n\n\n\n\n\n\n\n\n\n\nConfissão\nEstabelecimentos\nParticipação\nCobertura populacional\nICR\n\n\n\n\nProtestante/Evangélica\n3.326\n86,4%\n2.277.951\n98,4%\n\n\nCatólica\n296\n7,7%\n1.793.976\n77,5%\n\n\nEspírita\n154\n4,0%\n974.622\n42,1%\n\n\nAfro-brasileira\n17\n0,4%\n198.386\n8,5%\n\n\nOutra\n55\n1,4%\n—\n—"
   },
   {
-    "objectID": "resultados.html#concentração-espacial-dos-estabelecimentos-kernel",
-    "href": "resultados.html#concentração-espacial-dos-estabelecimentos-kernel",
+    "objectID": "resultados.html#concentração-espacial-dos-equipamentos-kernel",
+    "href": "resultados.html#concentração-espacial-dos-equipamentos-kernel",
     "title": "Resultados",
-    "section": "4 Concentração espacial dos estabelecimentos (kernel)",
-    "text": "4 Concentração espacial dos estabelecimentos (kernel)\nO mapa de kernel evidencia a concentração diferencial dos estabelecimentos por confissão. Em termos substantivos, ele mostra onde a presença relativa dos equipamentos é mais intensa, sem traduzir diretamente cobertura populacional."
+    "section": "4 Concentração espacial dos equipamentos — kernel",
+    "text": "4 Concentração espacial dos equipamentos — kernel\nO mapa de kernel representa a intensidade espacial da presença de estabelecimentos. Ele identifica áreas de concentração, mas não mede diretamente a população potencialmente coberta."
   },
   {
-    "objectID": "resultados.html#grau-de-cobertura-por-confissão",
-    "href": "resultados.html#grau-de-cobertura-por-confissão",
+    "objectID": "resultados.html#área-de-cobertura-por-confissão",
+    "href": "resultados.html#área-de-cobertura-por-confissão",
     "title": "Resultados",
-    "section": "5 Grau de cobertura por confissão",
-    "text": "5 Grau de cobertura por confissão\nJá o mapa de cobertura representa o resultado da parametrização pedonal do ICR, articulando localização dos estabelecimentos, raio de acesso e população residente por setor censitário. Aqui, a comparação entre confissões deixa de refletir apenas quantidade de pontos e passa a incorporar sua distribuição territorial.\n\n\n\n\n\n\n\nNotaLeitura conjunta dos mapas\n\n\n\nO contraste entre o mapa de kernel e o mapa de cobertura é central para a interpretação do estudo: concentração espacial e cobertura potencial são dimensões relacionadas, mas não equivalentes. Um grupo pode ter muitos estabelecimentos concentrados em poucos trechos da cidade e, ainda assim, oferecer cobertura menos capilar que outro grupo territorialmente mais disperso."
-  },
-  {
-    "objectID": "resultados.html#próximos-passos",
-    "href": "resultados.html#próximos-passos",
-    "title": "Resultados",
-    "section": "6 Próximos passos",
-    "text": "6 Próximos passos\nAbrir o ICR interativo Ver apresentação em português"
+    "section": "5 Área de cobertura por confissão",
+    "text": "5 Área de cobertura por confissão\nO mapa de cobertura articula localização dos estabelecimentos, raio pedonal e população por setor censitário. A leitura conjunta dos dois mapas mostra que quantidade, concentração e cobertura são dimensões relacionadas, mas não equivalentes.\n\nAbrir o ICR interativo Ver apresentação em português"
   }
 ]

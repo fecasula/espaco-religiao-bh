@@ -1,5 +1,5 @@
 ---
-title: "Religião, mobilidade e cobertura urbana"
+title: "Espaço, religião e mobilidade em Belo Horizonte"
 subtitle: "Uma infraestrutura reprodutível para analisar práticas religiosas e equipamentos urbanos"
 page-layout: full
 toc: false
@@ -8,11 +8,18 @@ toc: false
 ::: {.hero-academic}
 # Do estudo das práticas à análise dos equipamentos
 
-Este projeto integra **mobilidade de pessoas idosas**, **filiação religiosa** e **distribuição espacial de equipamentos religiosos** em Belo Horizonte. O objetivo é transformar uma apresentação acadêmica em um produto científico aberto, auditável e bilíngue, além de criar a base metodológica para uma futura generalização municipal.
+Este projeto integra **mobilidade da população idosa**, **filiação religiosa** e **distribuição espacial de equipamentos religiosos** em Belo Horizonte. O site reúne os resultados do trabalho acadêmico, a apresentação bilíngue, a documentação metodológica e o painel interativo do Índice de Cobertura Religiosa.
 
 [Explorar o estudo](estudo.qmd){.btn .btn-light .btn-lg}
-[Abrir resultados](resultados.qmd){.btn .btn-outline-light .btn-lg}
+[Ver resultados](resultados.qmd){.btn .btn-outline-light .btn-lg}
 [Abrir o ICR interativo](indice-cobertura.qmd){.btn .btn-outline-light .btn-lg}
+
+::: {.contact-strip}
+<span>**Felipe Baeta Casula**</span>
+<a href="mailto:felipe.baeta.pereira@gmail.com">felipe.baeta.pereira@gmail.com</a>
+<span>**Daniel Pimenta de Prado**</span>
+<a href="mailto:danielpimentadeprado@gmail.com">danielpimentadeprado@gmail.com</a>
+:::
 :::
 
 <div class="kpi-grid">
@@ -30,14 +37,15 @@ O cálculo do Índice de Cobertura Religiosa e o painel cartográfico funcionam 
 
 ## Pergunta central
 
-Como as práticas de deslocamento religioso da população idosa podem informar uma medida espacial de acesso aos equipamentos religiosos urbanos?
+Como as práticas de mobilidade religiosa da população idosa podem informar uma medida espacial de acesso aos equipamentos religiosos urbanos?
 
 ## Navegação recomendada
 
-- **Estudo**: contexto, problema, métodos e principais decisões analíticas.
-- **Resultados**: deslocamentos, filiação religiosa, mapas de kernel e mapas de cobertura.
-- **ICR interativo**: painel Shiny para recalcular cenários de cobertura.
-- **Apresentações**: versões Reveal.js em português e espanhol.
+- **Estudo**: problema, contexto, métodos e decisões analíticas;
+- **Resultados**: frequências, modelos, mapas de kernel e cobertura;
+- **ICR interativo**: painel Shiny para recalcular cenários;
+- **Apresentações**: versões em português e espanhol;
+- **Reproduzir**: arquitetura, dados necessários e comandos do projeto.
 
 ## Produtos
 
@@ -45,7 +53,7 @@ Como as práticas de deslocamento religioso da população idosa podem informar 
 - apresentações Reveal.js nos dois idiomas;
 - painel Shiny para recalcular o raio e o Índice de Cobertura Religiosa;
 - pipeline `{targets}` e testes automatizados;
-- documentação da arquitetura prevista para futura replicação municipal;
+- documentação da arquitetura de reprodução;
 - trilha explícita de auditoria metodológica.
 
 O trabalho foi preparado para o XXXV Congresso da Associação Latino-americana de Sociologia [@pereira_prado_2026].

@@ -2,8 +2,8 @@ Package: religiaoMobilidadeBH
 Title: Religião, Mobilidade e Cobertura Urbana em Belo Horizonte
 Version: 0.1.12
 Authors@R: c(
-    person("Felipe Baeta Casula", "Pereira", role = c("aut", "cre")),
-    person("Daniel Pimenta de", "Prado", role = "aut")
+    person("Felipe Baeta", "Casula", email = "felipe.baeta.pereira@gmail.com", role = c("aut", "cre")),
+    person("Daniel Pimenta de", "Prado", email = "danielpimentadeprado@gmail.com", role = "aut")
   )
 Description: Projeto Quarto e Shiny reprodutível para análise de deslocamentos
     com motivação religiosa, filiação religiosa e cobertura espacial de

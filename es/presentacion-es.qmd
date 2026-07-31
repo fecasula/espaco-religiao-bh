@@ -1,7 +1,7 @@
 ---
 title: "De las prácticas al análisis de los equipamientos religiosos de Belo Horizonte"
 author:
-  - "Felipe Baeta Casula Pereira — FAFICH/UFMG"
+  - "Felipe Baeta Casula — FAFICH/UFMG"
   - "Daniel Pimenta de Prado — IGC/UFMG"
 date: "XXXV Congreso de ALAS · 26–31 jul. 2026"
 format:
@@ -14,78 +14,159 @@ format:
     width: 1600
     height: 900
     preview-links: auto
+    title-slide-attributes:
+      data-background-color: "#304495"
 bibliography: ../bibliography/references.bib
 csl: ../bibliography/abnt.csl
 ---
 
-[Volver al sitio](index.qmd){.btn .btn-primary}
-[Versão em português](../apresentacao-pt.qmd){.btn .btn-outline-primary}
-[Abrir el tablero ICR](https://fecasula.shinyapps.io/religiao-mobilidade-bh/){.btn .btn-outline-primary target="_blank"}
-
 ## Pregunta
 
-¿Cómo pueden las movilidades religiosas de las personas mayores informar el análisis espacial de la cobertura de los lugares de culto?
+::: {.ppt-question}
+::: {.label}
+Pregunta
+:::
+::: {.text}
+¿Cómo pueden las prácticas de movilidad religiosa de las personas mayores informar un análisis espacial de la cobertura de los equipamientos de culto?
+:::
+:::
 
 ## Estrategia metodológica
 
-1. Descripción de 86 desplazamientos religiosos.
-2. Modelos logísticos acumulativos.
-3. Clasificación de 3.848 establecimientos religiosos.
-4. Estimación de cobertura y publicación de un tablero interactivo.
+::: {.ppt-method-grid}
+::: {.ppt-method-card .tall}
+### 1. Describir
 
-## Hallazgos principales
+Describir el patrón observado de los desplazamientos por motivos religiosos en Belo Horizonte.
+:::
 
-- 51,16% de los desplazamientos los domingos;
-- 66,28% a pie;
-- 9,7 minutos de caminata media;
-- 76% dentro del barrio de residencia.
+::: {.ppt-method-card .center-top}
+### 2. Modelar
 
-## Modos de transporte
+Aplicar modelos de regresión logística para identificar y medir patrones sociodemográficos.
+:::
 
-![](../assets/img/figura1_modos_transporte.png){fig-alt="Distribución por modo de transporte" height=580}
+::: {.ppt-method-card .center-bottom}
+### 4. Publicar
+
+Publicar un panel interactivo para auditar los parámetros espaciales.
+:::
+
+::: {.ppt-method-card .right}
+### 3. Clasificar
+
+Clasificar 3.848 equipamientos religiosos y estimar la cobertura poblacional por confesión.
+:::
+:::
+
+## El patrón estudiado
+
+<div class="ppt-band"></div>
+
+- 51,16% de los desplazamientos ocurrieron los domingos;
+- 66,28% se realizaron a pie;
+- 9,7 minutos fue el tiempo medio de los desplazamientos a pie;
+- 76% tuvieron como destino un equipamiento situado en el barrio de residencia.
+
+## Medios de transporte
+
+::: {.ppt-chart-slide}
+![](../assets/img/figura1_modos_transporte.png){fig-alt="Gráfico original en portugués: distribución por modo de transporte"}
+:::
+
+## Días de la semana
+
+::: {.ppt-chart-slide}
+![](../assets/img/figura2_dias_semana.png){fig-alt="Gráfico original en portugués: distribución por día de la semana"}
+:::
 
 ## Compañía
 
-![](../assets/img/figura3_companhia.png){fig-alt="Distribución por compañía" height=580}
+::: {.ppt-chart-slide}
+![](../assets/img/figura3_companhia.png){fig-alt="Gráfico original en portugués: distribución por tipo de compañía"}
+:::
 
-## Índice
+## Barrio de residencia
+
+::: {.ppt-chart-slide}
+![](../assets/img/figura4_bairro.png){fig-alt="Gráfico original en portugués: desplazamientos dentro y fuera del barrio"}
+:::
+
+## Modelos
+
+<div class="ppt-band"></div>
+
+- En el modelo general de Belo Horizonte, las mujeres presentaron una razón de posibilidades aproximadamente 3,9 veces mayor de realizar al menos un desplazamiento religioso durante la semana.
+- Las personas con movilidad reducida presentaron una razón de posibilidades aproximadamente 74% menor para el mismo desenlace (OR ≈ 0,26).
+- Los resultados expresan asociaciones condicionales a los modelos, no efectos causales.
+
+## De la práctica al parámetro
+
+<div class="ppt-band"></div>
+
+Para definir el **radio de accesibilidad**, adoptamos el patrón peatonal más frecuente observado:
+
+- tiempo medio: **9,7 minutos**;
+- velocidad media: **4 km/h**;
+- radio de accesibilidad: **646,67 metros**.
+
+## Fe de erratas y auditoría
+
+<div class="ppt-band"></div>
+
+El texto presentado registró 853,33 m, mientras que la leyenda cartográfica original utilizó aproximadamente 649,33 m. La versión reproducible conserva esos perfiles históricos para auditoría, pero adopta como referencia el cálculo consistente de **646,67 m**.
+
+## Índice de Cobertura Religiosa — ICR
+
+<div class="ppt-band"></div>
+
+- unión de los buffers de los establecimientos por confesión;
+- intersección con los sectores censales;
+- estimación de la población cubierta proporcionalmente al área de cada sector;
+- ausencia de doble conteo dentro de una misma confesión.
 
 \[
 ICR_c=\frac{\sum_s P_s(A_{sc}/A_s)}{\sum_s P_s}
 \]
 
-El índice estima cobertura potencial por confesión, sin doble conteo dentro de la misma confesión.
+## Concentración de los equipamientos — kernel
 
-## Auditoría
+::: {.ppt-map-slide}
+![](../assets/img/maps/kernel_horizontal.png){fig-alt="Mapa original en portugués: kernel de los establecimientos religiosos por confesión"}
+:::
 
-Con 4 km/h y 9,7 minutos, el radio consistente es 646,67 m. El proyecto conserva los valores históricos para comparación y adopta el cálculo consistente como predeterminado.
+## Cobertura por confesión religiosa
 
-## Concentración de equipamientos (kernel)
+::: {.ppt-map-slide}
+![](../assets/img/maps/cobertura_horizontal.png){fig-alt="Mapa original en portugués: área de cobertura por confesión religiosa"}
+:::
 
-El mapa de kernel muestra dónde la presencia de establecimientos es más intensa por confesión.
+## Resultados publicados
 
-![](../assets/img/maps/mapa_kernel_confissoes_bh.png){fig-alt="Mapa de kernel por confesión religiosa en Belo Horizonte" height=700}
+::: {.ppt-results-table}
+| Confesión | Establecimientos | ICR |
+|---|---:|---:|
+| Protestante/Evangélica | 3.326 | 98,4% |
+| Católica | 296 | 77,5% |
+| Espírita | 154 | 42,1% |
+| Afrobrasileña | 17 | 8,5% |
+:::
 
-## Grado de cobertura por confesión
+La comparación indica que cantidad absoluta, concentración espacial y cobertura poblacional son dimensiones relacionadas, pero no equivalentes.
 
-El mapa de cobertura muestra el alcance potencial de la red religiosa según la parametrización peatonal adoptada.
+## Panel interactivo
 
-![](../assets/img/maps/mapa_cobertura_confissoes_bh.png){fig-alt="Mapa del grado de cobertura por confesión religiosa en Belo Horizonte" height=700}
+El panel permite modificar el tiempo y la velocidad de caminata y recalcular el radio, la población potencialmente cubierta y el ICR de cada confesión.
 
-## Tablero interactivo
+::: {.ppt-actions}
+[Abrir el panel del ICR](https://fecasula.shinyapps.io/religiao-mobilidade-bh/){.primary target="_blank"}
+[Volver al sitio](index.qmd)
+[Versão em português](../apresentacao-pt.qmd)
+[Repositorio](https://github.com/fecasula/espaco-religiao-bh){target="_blank"}
+:::
 
-[Abrir el tablero del ICR](https://fecasula.shinyapps.io/religiao-mobilidade-bh/){.btn .btn-primary .btn-lg target="_blank"}
-
-## Producto abierto
-
-Sitio bilingüe · presentación Reveal.js · tablero Shiny · código R · pipeline · pruebas · guía de réplica.
-
-**Tablero:** <https://fecasula.shinyapps.io/religiao-mobilidade-bh/>  
-**Sitio:** <https://fecasula.github.io/espa-o-religiao-bh/>  
-**Código:** <https://github.com/fecasula/espa-o-religiao-bh>
-
-## Navegación rápida
-
-[Volver al sitio](index.qmd){.btn .btn-primary}
-[Versão em português](../apresentacao-pt.qmd){.btn .btn-outline-primary}
-[Resultados en el sitio](resultados.qmd){.btn .btn-outline-primary}
+::: {.ppt-contact}
+**Felipe Baeta Casula** — felipe.baeta.pereira@gmail.com  
+**Daniel Pimenta de Prado** — danielpimentadeprado@gmail.com  
+**Sitio:** <https://fecasula.github.io/espaco-religiao-bh>
+:::

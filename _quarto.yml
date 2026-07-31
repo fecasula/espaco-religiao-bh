@@ -9,9 +9,9 @@ project:
     - assets/img/**
 
 website:
-  title: "Religião, mobilidade e cobertura urbana"
-  site-url: "https://fecasula.github.io/espa-o-religiao-bh/"
-  repo-url: "https://github.com/fecasula/espa-o-religiao-bh"
+  title: "Espaço, religião e mobilidade em Belo Horizonte"
+  site-url: "https://fecasula.github.io/espaco-religiao-bh"
+  repo-url: "https://github.com/fecasula/espaco-religiao-bh"
   page-navigation: true
   reader-mode: true
   navbar:
@@ -28,7 +28,7 @@ website:
       - href: reprodutibilidade.qmd
         text: Reproduzir
       - href: apresentacao-pt.qmd
-        text: Apresentação
+        text: Apresentação PT
       - href: es/presentacion-es.qmd
         text: Presentación ES
       - href: referencias.qmd
@@ -39,10 +39,11 @@ website:
       - href: es/index.qmd
         text: ES
       - icon: github
-        href: "https://github.com/fecasula/espa-o-religiao-bh"
+        href: "https://github.com/fecasula/espaco-religiao-bh"
         aria-label: "Repositório no GitHub"
   page-footer:
-    left: "© 2026 Pereira e Prado — código sob licença MIT."
+    left: "© 2026 Casula e Prado — código sob licença MIT."
+    center: "Contato: felipe.baeta.pereira@gmail.com · danielpimentadeprado@gmail.com"
     right: "Painel interativo: <https://fecasula.shinyapps.io/religiao-mobilidade-bh/>"
 
 bibliography: bibliography/references.bib

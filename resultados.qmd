@@ -2,63 +2,155 @@
 title: "Resultados"
 ---
 
-## Deslocamentos religiosos
+## Síntese dos deslocamentos religiosos
 
-Os deslocamentos religiosos apresentam um ritmo semanal próprio, concentrado aos domingos, com forte peso das viagens a pé e da escala do bairro.
+Entre os 86 deslocamentos com motivação religiosa observados para residentes de Belo Horizonte, predominam as viagens realizadas **aos domingos**, **a pé**, frequentemente **sem companhia** e com destino localizado **no próprio bairro de residência**.
 
-- 51,16% dos deslocamentos ocorreram aos domingos;
-- 66,28% foram realizados a pé;
-- o tempo médio de caminhada foi de cerca de 9,7 minutos;
-- 76% tiveram destino no próprio bairro de residência.
+<div class="results-grid">
+<figure>
+<img src="assets/img/figura1_modos_transporte.png" alt="Distribuição dos deslocamentos por modo de transporte">
+</figure>
+<figure>
+<img src="assets/img/figura2_dias_semana.png" alt="Distribuição dos deslocamentos por dia da semana">
+</figure>
+<figure>
+<img src="assets/img/figura3_companhia.png" alt="Distribuição dos deslocamentos por tipo de companhia">
+</figure>
+<figure>
+<img src="assets/img/figura4_bairro.png" alt="Deslocamentos dentro e fora do bairro de residência">
+</figure>
+</div>
 
-::: {.columns}
-::: {.column width="33%"}
-![](assets/img/figura1_modos_transporte.png){fig-alt="Distribuição por modo de transporte"}
+::: {.callout-note collapse="true"}
+## Abrir tabelas detalhadas de frequência
+
+### Dia da semana
+
+| Dia | n | Proporção | IC 95% |
+|---|---:|---:|---:|
+| Segunda-feira | 3 | 3,49% | 0,00%–7,37% |
+| Terça-feira | 9 | 10,47% | 3,99%–16,94% |
+| Quarta-feira | 8 | 9,30% | 3,16%–15,44% |
+| Quinta-feira | 5 | 5,81% | 0,86%–10,77% |
+| Sexta-feira | 5 | 5,81% | 0,86%–10,77% |
+| Sábado | 12 | 13,95% | 6,63%–21,28% |
+| Domingo | 44 | 51,16% | 40,60%–61,73% |
+
+### Companhia
+
+| Tipo de companhia | n | Proporção | IC 95% |
+|---|---:|---:|---:|
+| Sozinho | 47 | 54,65% | 44,13%–65,17% |
+| Familiar corresidente | 22 | 25,58% | 16,36%–34,80% |
+| Outro | 11 | 12,79% | 5,73%–19,85% |
+| Familiar não corresidente | 6 | 6,98% | 1,60%–12,35% |
+
+### Modo e tempo de deslocamento
+
+| Modo | n | Proporção | IC 95% | Tempo médio (min) | IC 95% do tempo |
+|---|---:|---:|---:|---:|---:|
+| A pé | 57 | 66,28% | 56,29%–76,27% | 9,7 | 8,2–11,3 |
+| Carro próprio | 13 | 15,12% | 7,54%–22,69% | 8,6 | 5,64–11,58 |
+| Carro de carona | 8 | 9,30% | 3,16%–15,44% | — | — |
+| BRT/Ônibus | 7 | 8,14% | 2,36%–13,92% | — | — |
+| Transporte público | 1 | 1,16% | 0,00%–3,44% | — | — |
+
+O tempo médio considerando todos os modos foi de **12,8 minutos** (IC 95%: 10,4–15,2).
+
+### Localização do destino
+
+| Localização | n | Proporção | IC 95% |
+|---|---:|---:|---:|
+| Bairro de residência | 65 | 75,58% | 66,50%–84,70% |
+| Fora do bairro de residência | 21 | 24,42% | 15,30%–33,50% |
+
+Nenhum deslocamento de residente de Belo Horizonte teve outro município como destino.
 :::
-::: {.column width="33%"}
-![](assets/img/figura3_companhia.png){fig-alt="Companhia nos deslocamentos religiosos"}
-:::
-::: {.column width="33%"}
-![](assets/img/figura4_bairro.png){fig-alt="Deslocamentos religiosos dentro e fora do bairro"}
-:::
-:::
 
-## Filiação religiosa e modelos
+## Modelos de regressão logística
 
-Nos modelos gerais de Belo Horizonte, o sexo feminino associou-se positivamente à realização de deslocamentos religiosos, enquanto a dificuldade para andar apresentou associação negativa. Esses resultados devem ser interpretados como associações condicionais, não como efeitos causais.
+Nos modelos estimados para Belo Horizonte, o sexo feminino apresentou associação positiva com a realização de deslocamentos religiosos. No modelo geral para pelo menos um deslocamento, mulheres apresentaram OR de **3,914** (IC 95%: 1,685–9,837). A mobilidade reduzida apresentou associação negativa, com OR de **0,256** (IC 95%: 0,091–0,642).
 
-![](assets/img/evolucao_reli.png){fig-alt="Evolução da composição religiosa da população idosa" height=460}
+::: {.callout-note collapse="true"}
+## Abrir resultados detalhados das regressões — Belo Horizonte
 
-## Equipamentos religiosos: origem dos dados
+Os valores são razões de chances; intervalos de confiança de 95% aparecem entre colchetes. `+ p < 0,1`; `* p < 0,05`; `** p < 0,01`; `*** p < 0,001`.
 
-Os resultados espaciais baseiam-se em estabelecimentos identificados no **CNEFE 2022** e classificados manualmente por confissão. Essa categorização prévia foi necessária porque a denominação religiosa não está pronta de forma padronizada na fonte original.
+### Pelo menos um deslocamento religioso na semana
 
-| Confissão | Estabelecimentos | ICR publicado |
-|---|---:|---:|
-| Protestante/Evangélica | 3.326 | 98,4% |
-| Católica | 296 | 77,5% |
-| Espírita | 154 | 42,1% |
-| Afro-brasileira | 17 | 8,5% |
-
-## Concentração espacial dos estabelecimentos (kernel)
-
-O mapa de kernel evidencia a concentração diferencial dos estabelecimentos por confissão. Em termos substantivos, ele mostra onde a presença relativa dos equipamentos é mais intensa, sem traduzir diretamente cobertura populacional.
-
-![](assets/img/maps/mapa_kernel_confissoes_bh.png){fig-alt="Mapa de kernel por confissão religiosa em Belo Horizonte"}
-
-## Grau de cobertura por confissão
-
-Já o mapa de cobertura representa o resultado da parametrização pedonal do ICR, articulando localização dos estabelecimentos, raio de acesso e população residente por setor censitário. Aqui, a comparação entre confissões deixa de refletir apenas quantidade de pontos e passa a incorporar sua distribuição territorial.
-
-![](assets/img/maps/mapa_cobertura_confissoes_bh.png){fig-alt="Mapa do grau de cobertura por confissão religiosa em Belo Horizonte"}
-
-::: {.callout-note}
-## Leitura conjunta dos mapas
-
-O contraste entre o mapa de kernel e o mapa de cobertura é central para a interpretação do estudo: **concentração espacial** e **cobertura potencial** são dimensões relacionadas, mas não equivalentes. Um grupo pode ter muitos estabelecimentos concentrados em poucos trechos da cidade e, ainda assim, oferecer cobertura menos capilar que outro grupo territorialmente mais disperso.
+::: {.table-scroll .table-compact}
+| Variável | Demográfico | Sociodemográfico | Geral |
+|---|---:|---:|---:|
+| Intercepto | 1,044 [0,018–64,040] | 0,765 [0,010–62,205] | 1,114 [0,014–103,386] |
+| Idade | 0,966 [0,913–1,018] | 0,972 [0,917–1,027] | 0,975 [0,918–1,032] |
+| Sexo feminino | 3,527** [1,602–8,336] | 3,512** [1,557–8,546] | 3,914** [1,685–9,837] |
+| Raça: negros | 1,780 [0,831–3,987] | 1,600 [0,706–3,783] | 1,623 [0,694–3,963] |
+| Estado civil: separado(a) | 0,473 [0,082–2,357] | 0,424 [0,073–2,119] | 0,417 [0,070–2,149] |
+| Estado civil: casado(a) | 1,027 [0,333–3,602] | 1,036 [0,335–3,638] | 0,949 [0,290–3,472] |
+| Estado civil: viúvo(a) | 1,479 [0,444–5,507] | 1,440 [0,427–5,419] | 1,573 [0,441–6,284] |
+| Renda: R$ 1.620–2.600 | — | 0,835 [0,275–2,377] | 0,589 [0,181–1,775] |
+| Renda: R$ 2.300–4.600 | — | 1,303 [0,469–3,578] | 0,866 [0,288–2,540] |
+| Renda: acima de R$ 4.600 | — | 0,579 [0,179–1,714] | 0,392 [0,113–1,239] |
+| Mobilidade reduzida | — | — | 0,256** [0,091–0,642] |
 :::
 
-## Próximos passos
+### Dois ou mais deslocamentos religiosos na semana
+
+::: {.table-scroll .table-compact}
+| Variável | Demográfico | Sociodemográfico | Geral |
+|---|---:|---:|---:|
+| Intercepto | 0,012 [0,000–3,751] | 0,061 [0,000–32,316] | 0,122 [0,000–88,267] |
+| Idade | 0,995 [0,923–1,069] | 0,980 [0,905–1,057] | 0,979 [0,898–1,061] |
+| Sexo feminino | 3,671* [1,197–13,867] | 3,350+ [1,045–13,184] | 3,482+ [1,029–14,336] |
+| Raça: negros | 2,901+ [0,959–10,863] | 2,764 [0,814–11,498] | 2,823 [0,781–12,383] |
+| Estado civil: separado(a) | 1,100 [0,040–30,313] | 1,188 [0,041–34,609] | 1,411 [0,047–43,178] |
+| Estado civil: casado(a) | 2,991 [0,491–58,109] | 2,609 [0,402–51,978] | 2,310 [0,323–47,752] |
+| Estado civil: viúvo(a) | 3,508 [0,538–69,430] | 3,311 [0,489–66,523] | 4,178 [0,551–89,789] |
+| Renda: R$ 1.620–2.600 | — | 0,193 [0,010–1,138] | 0,126+ [0,006–0,802] |
+| Renda: R$ 2.300–4.600 | — | 0,404 [0,057–1,842] | 0,243 [0,032–1,203] |
+| Renda: acima de R$ 4.600 | — | 0,896 [0,205–3,501] | 0,586 [0,123–2,470] |
+| Mobilidade reduzida | — | — | 0,178* [0,035–0,664] |
+:::
+
+### Indicadores de ajuste
+
+| Desfecho | Modelo | n | AIC | Log-verossimilhança | Pseudo-R² de McFadden |
+|---|---|---:|---:|---:|---:|
+| ≥1 deslocamento | Demográfico | 182 | 191,5 | −88,763 | 0,086 |
+| ≥1 deslocamento | Sociodemográfico | 182 | 195,6 | −87,814 | 0,096 |
+| ≥1 deslocamento | Geral | 182 | 188,9 | −83,428 | 0,141 |
+| ≥2 deslocamentos | Demográfico | 182 | 120,2 | −53,120 | 0,095 |
+| ≥2 deslocamentos | Sociodemográfico | 182 | 122,3 | −51,137 | 0,129 |
+| ≥2 deslocamentos | Geral | 182 | 117,4 | −47,679 | 0,188 |
+:::
+
+::: {.callout-warning}
+Os modelos utilizam casos completos e possuem finalidade associativa/exploratória. As razões de chances não devem ser interpretadas como efeitos causais.
+:::
+
+## Equipamentos religiosos e cobertura
+
+Os estabelecimentos foram identificados no CNEFE 2022. Após uma classificação inicial por palavras-chave, **622 registros foram revistos manualmente**. Os 483 registros descritos apenas como “IGREJA” foram censurados por não permitirem atribuição confessional, resultando em 3.848 pontos classificados.
+
+| Confissão | Estabelecimentos | Participação | Cobertura populacional | ICR |
+|---|---:|---:|---:|---:|
+| Protestante/Evangélica | 3.326 | 86,4% | 2.277.951 | 98,4% |
+| Católica | 296 | 7,7% | 1.793.976 | 77,5% |
+| Espírita | 154 | 4,0% | 974.622 | 42,1% |
+| Afro-brasileira | 17 | 0,4% | 198.386 | 8,5% |
+| Outra | 55 | 1,4% | — | — |
+
+## Concentração espacial dos equipamentos — kernel
+
+O mapa de kernel representa a intensidade espacial da presença de estabelecimentos. Ele identifica áreas de concentração, mas não mede diretamente a população potencialmente coberta.
+
+![](assets/img/maps/kernel_horizontal.png){fig-alt="Mapa horizontal de kernel dos estabelecimentos religiosos por confissão em Belo Horizonte"}
+
+## Área de cobertura por confissão
+
+O mapa de cobertura articula localização dos estabelecimentos, raio pedonal e população por setor censitário. A leitura conjunta dos dois mapas mostra que **quantidade**, **concentração** e **cobertura** são dimensões relacionadas, mas não equivalentes.
+
+![](assets/img/maps/cobertura_horizontal.png){fig-alt="Mapa horizontal da área de cobertura por confissão religiosa em Belo Horizonte"}
 
 [Abrir o ICR interativo](indice-cobertura.qmd){.btn .btn-primary}
 [Ver apresentação em português](apresentacao-pt.qmd){.btn .btn-outline-primary}
