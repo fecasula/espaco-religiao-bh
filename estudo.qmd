@@ -2,71 +2,82 @@
 title: "Estudo"
 ---
 
-## Resumo
+## Pergunta de pesquisa
 
-O estudo possui dois objetivos articulados. O primeiro é descrever e modelar as práticas de mobilidade com motivação religiosa da população com 60 anos ou mais residente em Belo Horizonte. O segundo é propor um **Índice de Cobertura Religiosa (ICR)**, entendido como uma aproximação da acessibilidade pedonal aos equipamentos de diferentes confissões.
-
-## Contexto
-
-O envelhecimento populacional altera as necessidades de deslocamento, a demanda por serviços e a relação cotidiana com o território. Ao mesmo tempo, a transição religiosa brasileira modifica a composição das filiações, a organização institucional e a geografia dos locais de culto [@alves2017; @verona2015].
-
-A literatura associa religiosidade a atributos demográficos e sociais, com destaque para idade e sexo, além do papel das comunidades religiosas como espaços de suporte, pertencimento e construção de vínculos [@machado2005; @moreira_almeida2010]. O trabalho também dialoga com a discussão sobre espacialidade do envelhecimento urbano apresentada por Ardila-Pinto e colaboradores [@ardila_pinto2025].
-
-## Problema de pesquisa
-
-O projeto investiga a interseção entre três fenômenos:
-
-1. a capacidade individual de realizar deslocamentos;
-2. a frequência e a localização das práticas religiosas;
-3. a disposição territorial dos equipamentos de culto.
-
-A proposta não reduz acessibilidade à proximidade geométrica. O ICR é apresentado como **proxy exploratória**, dependente de hipóteses sobre velocidade, tempo, distribuição intrassetorial da população e qualidade cadastral.
+Qual padrão pode ser observado nas práticas de deslocamento com motivação religiosa e na disposição espacial dos equipamentos?
 
 ## Estratégia metodológica
 
-### 1. Deslocamentos
+A investigação foi organizada em três etapas complementares.
 
-A base de origem-destino da pesquisa *Mobilidade de Idosos*, conduzida pelo CEURB/UFMG, registra os deslocamentos realizados na semana anterior à entrevista. Para Belo Horizonte, a análise utiliza 202 participantes e 2.164 deslocamentos, dos quais 86 foram classificados com motivação religiosa.
+### 1. Análise descritiva
 
-### 2. Modelos logísticos
+Realizar uma análise descritiva dos aspectos relacionados aos deslocamentos motivados por religião, considerando:
 
-Dois desfechos binários cumulativos são analisados:
+- meio de transporte;
+- companhia;
+- tempo médio;
+- dias da semana.
 
-- realização de pelo menos um deslocamento com motivação religiosa na semana;
-- realização de mais de um deslocamento com motivação religiosa na semana.
+### 2. Análise multivariada
 
-### 3. Equipamentos religiosos
+Aplicar modelos de regressão logística para identificar e mensurar padrões sociodemográficos e de saúde relacionados às práticas estudadas.
 
-Os estabelecimentos foram identificados no **CNEFE 2022** por descrições como *capela*, *igreja*, *templo*, *terreiro*, *casa de oração*, *centro espírita*, *salão do reino*, *catedral*, *mesquita* e *sinagoga* [@ibge_cnefe2022].
+### 3. Análise espacial
 
-::: {.callout-note}
-## Origem e classificação dos estabelecimentos
+Classificar os equipamentos religiosos segundo a confissão e estimar o **grau de cobertura**, embasando os parâmetros escolhidos nas análises anteriores.
 
-A base de estabelecimentos religiosos deriva do **Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE/IBGE)**. A atribuição às categorias **Católica**, **Protestante/Evangélica**, **Espírita**, **Afro-brasileira** e demais grupos demandou um **trabalho prévio de categorização manual**, baseado nos nomes e descrições dos registros. Essa etapa é substantiva da metodologia e antecede o cálculo do ICR.
-:::
+## Da prática ao parâmetro
 
-### 4. Base populacional e cartográfica
+Para definir o **raio de acessibilidade**, utilizamos como parâmetro o padrão frequentemente mais observado:
 
-A população e a geometria dos setores são obtidas da **malha com atributos definitiva do Censo 2022 do IBGE**. Para Belo Horizonte, o produto é validado em 5.166 códigos de setor distintos e população total de 2.315.560 habitantes.
+- tempo médio: **9,7 minutos**;
+- velocidade média: **4 km/h**;
+- raio de acessibilidade: **646,67 metros**.
 
-### 5. Índice de Cobertura Religiosa
+Esse raio é aplicado ao redor de cada estabelecimento religioso como aproximação da área potencialmente alcançável a pé no intervalo observado.
 
-Para uma confissão \(c\), os buffers dos estabelecimentos são dissolvidos para evitar dupla contagem. A superfície resultante é intersectada com os setores censitários. Sob a hipótese de distribuição uniforme da população dentro de cada setor:
+## Índice de Cobertura Religiosa — ICR
 
-\[
-\widehat{P}_{sc}=P_s\frac{A_{sc}}{A_s}
-\]
+O cálculo do ICR segue quatro procedimentos:
 
-em que \(P_s\) é a população do setor, \(A_s\) é sua área e \(A_{sc}\) é a área coberta pela confissão. O índice é:
+1. união dos buffers por confissão;
+2. interseção das áreas resultantes com os setores censitários;
+3. cálculo da densidade populacional por setor;
+4. prevenção de dupla contagem interconfessional.
 
-\[
-ICR_c=\frac{\sum_s \widehat{P}_{sc}}{\sum_s P_s}.
-\]
+O índice expressa o grau de cobertura potencial produzido pela distribuição espacial dos equipamentos religiosos, considerando a população residente nos setores censitários alcançados.
 
-## Auditoria metodológica
+## O padrão estudado
 
-A fórmula com 4 km/h e 9,7 minutos produz **646,67 m**. O manuscrito registrou 853,33 m e a legenda cartográfica original utiliza aproximadamente 649,33 m. O projeto preserva esses perfis históricos para auditoria, mas adota o cálculo consistente como padrão.
+- 51,16% dos deslocamentos ocorreram aos domingos;
+- 66,28% foram realizados a pé;
+- o tempo médio de caminhada foi de 9,7 minutos;
+- 76% ocorreram dentro do bairro de residência.
 
-## Próximo passo
+## Modelos
+
+No modelo geral de Belo Horizonte:
+
+- mulheres apresentaram razão de chances próxima de 3,9 para pelo menos um deslocamento;
+- pessoas com mobilidade reduzida apresentaram razão de chances próxima de 0,26;
+- os resultados devem ser interpretados como associações, não como efeitos causais.
+
+## Estabelecimentos religiosos
+
+Os estabelecimentos foram identificados no **Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE 2022/IBGE)**.
+
+A atribuição às categorias **Católica**, **Protestante/Evangélica**, **Espírita**, **Afro-brasileira** e demais grupos foi realizada manualmente a partir dos nomes e descrições dos registros. Essa categorização prévia foi necessária antes da análise espacial.
+
+## Errata
+
+O texto registrou 853,33 m; o mapa, cerca de 649,33 m. A versão reprodutível preserva os perfis históricos, mas adota o cálculo consistente como padrão.
+
+## Limitações
+
+- a distância em linha reta não representa declividade, barreiras urbanas ou conectividade da rede viária;
+- a população é aproximada a partir das informações disponíveis por setor censitário;
+- o CNEFE pode incluir estabelecimentos inativos ou omitir mudanças recentes;
+- o ICR mede cobertura potencial, não utilização efetiva.
 
 [Ver resultados consolidados](resultados.qmd){.btn .btn-primary}

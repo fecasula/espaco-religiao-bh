@@ -14,136 +14,112 @@ format:
     width: 1600
     height: 900
     preview-links: auto
+    slide-level: 2
     title-slide-attributes:
       data-background-color: "#304495"
 bibliography: bibliography/references.bib
 csl: bibliography/abnt.csl
 ---
 
+## Acesso ao site do projeto
+
+Escaneie o QR Code abaixo para acessar o site do projeto:
+
+![](assets/img/site_qrcode.png){fig-alt="QR Code para acesso ao site do projeto" height=620}
+
+<small>https://fecasula.github.io/espaco-religiao-bh</small>
+
+
 ## Pergunta
 
-::: {.ppt-question}
-::: {.label}
-Pergunta
-:::
-::: {.text}
-Como práticas de mobilidade religiosa da população idosa podem informar uma análise espacial da cobertura dos equipamentos de culto?
-:::
-:::
+Qual padrão pode ser observado nas práticas de deslocamento com motivação religiosa e na disposição espacial dos equipamentos?
 
 ## Estratégia metodológica
 
-::: {.ppt-method-grid}
-::: {.ppt-method-card .tall}
-### 1. Descrever
+::: {.columns}
+::: {.column width="33%"}
+**1. Análise descritiva**
 
-Descrever o padrão observado para os deslocamentos com motivação religiosa em Belo Horizonte.
+Realizar uma análise descritiva dos aspectos relacionados aos deslocamentos motivados por religião:
+
+- meio de transporte;
+- companhia;
+- tempo médio;
+- dias da semana.
 :::
 
-::: {.ppt-method-card .center-top}
-### 2. Modelar
+::: {.column width="33%"}
+**2. Análise multivariada**
 
-Aplicar modelos de regressão logística para identificar e mensurar padrões sociodemográficos.
+Aplicar modelos de regressão logística para identificar e mensurar padrões sociodemográficos e de saúde relacionados às práticas estudadas.
 :::
 
-::: {.ppt-method-card .center-bottom}
-### 4. Publicar
+::: {.column width="33%"}
+**3. Análise espacial**
 
-Publicar um painel interativo para auditar os parâmetros espaciais.
-:::
-
-::: {.ppt-method-card .right}
-### 3. Classificar
-
-Classificar 3.848 equipamentos religiosos e estimar a cobertura populacional por confissão.
+Classificar os equipamentos religiosos segundo a confissão e estimar o **grau de cobertura**, embasando os parâmetros escolhidos nas análises anteriores.
 :::
 :::
-
-## O padrão estudado
-
-<div class="ppt-band"></div>
-
-- 51,16% dos deslocamentos ocorreram aos domingos;
-- 66,28% foram realizados a pé;
-- 9,7 minutos foi o tempo médio dos deslocamentos a pé;
-- 76% tiveram como destino um equipamento situado no bairro de residência.
-
-## Meios de transporte
-
-::: {.ppt-chart-slide}
-![](assets/img/figura1_modos_transporte.png){fig-alt="Distribuição dos deslocamentos por modo de transporte"}
-:::
-
-## Dias da semana
-
-::: {.ppt-chart-slide}
-![](assets/img/figura2_dias_semana.png){fig-alt="Distribuição dos deslocamentos por dia da semana"}
-:::
-
-## Companhia
-
-::: {.ppt-chart-slide}
-![](assets/img/figura3_companhia.png){fig-alt="Distribuição dos deslocamentos por tipo de companhia"}
-:::
-
-## Bairro de residência
-
-::: {.ppt-chart-slide}
-![](assets/img/figura4_bairro.png){fig-alt="Deslocamentos dentro e fora do bairro de residência"}
-:::
-
-## Modelos
-
-<div class="ppt-band"></div>
-
-- No modelo geral de Belo Horizonte, mulheres apresentaram razão de chances cerca de 3,9 vezes maior para realizar ao menos um deslocamento religioso na semana.
-- Pessoas com mobilidade reduzida apresentaram razão de chances aproximadamente 74% menor para o mesmo desfecho (OR ≈ 0,26).
-- Os resultados expressam associações condicionais aos modelos, e não efeitos causais.
 
 ## Da prática ao parâmetro
 
-<div class="ppt-band"></div>
+Para o **raio de acessibilidade**, utilizamos como parâmetro o padrão frequentemente mais observado:
 
-Para definir o **raio de acessibilidade**, adotamos o padrão pedonal mais frequente observado:
-
-- tempo médio: **9,7 minutos**;
-- velocidade média: **4 km/h**;
-- raio de acessibilidade: **646,67 metros**.
-
-## Errata e auditoria
-
-<div class="ppt-band"></div>
-
-O texto submetido registrou 853,33 m, enquanto a legenda cartográfica original utilizou aproximadamente 649,33 m. A versão reprodutível preserva esses perfis históricos para auditoria, mas adota como padrão o cálculo consistente de **646,67 m**.
+- tempo médio = **9,7 minutos**;
+- velocidade média = **4 km/h**;
+- raio de acessibilidade = **646,67 metros**.
 
 ## Índice de Cobertura Religiosa — ICR
 
-<div class="ppt-band"></div>
+- união dos buffers por confissão;
+- interseção com setores censitários;
+- cálculo de densidade populacional por setor;
+- sem dupla contagem interconfessional.
 
-- união dos buffers dos estabelecimentos por confissão;
-- interseção com os setores censitários;
-- estimativa da população coberta proporcionalmente à área de cada setor;
-- ausência de dupla contagem dentro de uma mesma confissão.
+## O padrão estudado
 
-\[
-ICR_c=\frac{\sum_s P_s(A_{sc}/A_s)}{\sum_s P_s}
-\]
+- 51,16% dos deslocamentos aos domingos;
+- 66,28% a pé;
+- 9,7 minutos de caminhada média;
+- 76% dentro do bairro de residência.
+
+## Meios de transporte
+
+![](assets/img/figura1_modos_transporte.png){fig-alt="Distribuição dos deslocamentos por modo de transporte" height=680}
+
+## Dias da semana
+
+![](assets/img/figura2_dias_semana.png){fig-alt="Distribuição dos deslocamentos por dia da semana" height=680}
+
+## Companhia
+
+![](assets/img/figura3_companhia.png){fig-alt="Distribuição dos deslocamentos por tipo de companhia" height=680}
+
+## Bairro de residência
+
+![](assets/img/figura4_bairro.png){fig-alt="Deslocamentos dentro e fora do bairro de residência" height=680}
+
+## Modelos
+
+- Mulheres: OR ≈ 3,9 para pelo menos um deslocamento no modelo geral de Belo Horizonte.
+- Mobilidade reduzida: OR ≈ 0,26.
+- Interpretação associativa, não causal.
+
+## Errata
+
+O texto registrou 853,33 m; o mapa, cerca de 649,33 m. A versão reprodutível preserva os perfis históricos, mas adota o cálculo consistente como padrão.
 
 ## Concentração dos equipamentos — kernel
 
-::: {.ppt-map-slide}
-![](assets/img/maps/kernel_horizontal.png){fig-alt="Mapa de kernel dos estabelecimentos religiosos por confissão em Belo Horizonte"}
-:::
+![](assets/img/maps/kernel_horizontal.png){fig-alt="Mapa de kernel dos estabelecimentos religiosos por confissão em Belo Horizonte" height=760}
 
 ## Cobertura por confissão religiosa
 
-::: {.ppt-map-slide}
-![](assets/img/maps/cobertura_horizontal.png){fig-alt="Mapa da área de cobertura por confissão religiosa em Belo Horizonte"}
-:::
+![](assets/img/maps/cobertura_horizontal.png){fig-alt="Mapa da área de cobertura por confissão religiosa em Belo Horizonte" height=760}
 
-## Resultados publicados
+## Visão geral dos equipamentos
 
-::: {.ppt-results-table}
+::: {.overview-table}
 | Confissão | Estabelecimentos | ICR |
 |---|---:|---:|
 | Protestante/Evangélica | 3.326 | 98,4% |
@@ -152,21 +128,27 @@ ICR_c=\frac{\sum_s P_s(A_{sc}/A_s)}{\sum_s P_s}
 | Afro-brasileira | 17 | 8,5% |
 :::
 
-A comparação indica que quantidade absoluta, concentração espacial e cobertura populacional são dimensões relacionadas, mas não equivalentes.
+<style>
+.reveal .overview-table {
+  width: 82%;
+  margin: 1.2em auto 0;
+}
+.reveal .overview-table table {
+  width: 100%;
+  font-size: 1.35em;
+  line-height: 1.35;
+}
+.reveal .overview-table th,
+.reveal .overview-table td {
+  padding: 0.45em 0.55em;
+}
+</style>
 
 ## Painel interativo
 
-O painel permite alterar o tempo e a velocidade de caminhada e recalcular o raio, a população potencialmente coberta e o ICR de cada confissão.
+[Abrir o painel do ICR](https://fecasula.shinyapps.io/religiao-mobilidade-bh/){.btn .btn-primary .btn-lg target="_blank"}
 
-::: {.ppt-actions}
-[Abrir o painel do ICR](https://fecasula.shinyapps.io/religiao-mobilidade-bh/){.primary target="_blank"}
-[Voltar ao site](index.qmd)
-[Versão em espanhol](es/presentacion-es.qmd)
-[Repositório](https://github.com/fecasula/espaco-religiao-bh){target="_blank"}
-:::
+[Voltar ao site](index.qmd) · [Versão em espanhol](es/presentacion-es.qmd) · [Repositório](https://github.com/fecasula/espaco-religiao-bh)
 
-::: {.ppt-contact}
-**Felipe Baeta Casula** — felipe.baeta.pereira@gmail.com  
-**Daniel Pimenta de Prado** — danielpimentadeprado@gmail.com  
-**Site:** <https://fecasula.github.io/espaco-religiao-bh>
-:::
+**Contato:** felipe.baeta.pereira@gmail.com · danielpimentadeprado@gmail.com
+
